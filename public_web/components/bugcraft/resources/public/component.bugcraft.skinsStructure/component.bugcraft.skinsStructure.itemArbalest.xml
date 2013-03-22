@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin><name><![CDATA[itemArbalest]]></name><frames><stance name="walk" framesAmount="5"/><stance name="idle" framesAmount="1"/><stance name="attackMelee" framesAmount="5"/></frames><events/></skin>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="ro-RO">
+	
+	<component name="rssFeedFront">
+		<field name="leftText">Recent:</field>
+	</component>
+	
+	<component name="headerMeta">
+		<field name="title">Administrare Site</field>
+		<field name="description">Citrus fruit wholesaler.</field>
+	</component>
+	
+<component name="footerCopyright">
+		<custom>
+			<field name="copyright"><![CDATA[Copyright (c) 2009 eMotion Concept. Toate drepturile rezervate.]]></field>
+		</custom>
+		<menu>
+			<entry id="1"><![CDATA[termeni de utilizare]]></entry>
+			<entry id="2"><![CDATA[politica de confidentialitate]]></entry>
+			<entry id="3"><![CDATA[powered by Ascent]]></entry>
+		</menu>
+	</component><component name="componentsListFront">
+		<pages>
+			<page name="contentManagement"><![CDATA[Continut Static]]></page>
+			<page name="courses"><![CDATA[Cursuri]]></page>
+			<page name="news"><![CDATA[Stiri]]></page>
+			<page name="newsletter"><![CDATA[Newsletter]]></page>
+			<page name="recruitment"><![CDATA[Recrutare]]></page>
+			<page name="translationEditor"><![CDATA[Traduceri]]></page>
+		</pages>
+	</component></translation>

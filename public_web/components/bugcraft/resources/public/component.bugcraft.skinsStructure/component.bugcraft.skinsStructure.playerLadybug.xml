@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin><name><![CDATA[playerLadybug]]></name><frames><stance name="walk" framesAmount="4"/><stance name="idle" framesAmount="4"/><stance name="attackMelee" framesAmount="4"/></frames><events/></skin>

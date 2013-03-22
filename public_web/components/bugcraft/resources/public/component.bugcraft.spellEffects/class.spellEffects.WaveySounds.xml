@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spellEffect name="WaveySounds" type="imageFramesLoopWithSoundLoop"><frames maxFrames="7"/><sound maxDelay="4" minDelay="2" soundName="27151__roscoetoon__water-drip-echo2.wav"/></spellEffect>

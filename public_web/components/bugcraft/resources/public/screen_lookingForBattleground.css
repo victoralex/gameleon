@@ -1,0 +1,401 @@
+
+	/*
+		Looking for battleground
+	*/
+	
+	@font-face
+	{
+		font-family: Tahoma;
+		src: url('/ttf/tahoma.ttf');
+	}
+	
+	@font-face
+	{
+		font-family: Georgia;
+		src: url('/ttf/georgia.ttf');
+	}
+	
+	@font-face
+	{
+		font-family: OldEnglishText;
+		src: url('/ttf/oldEnglishText.ttf');
+	}
+	
+	.component.bugcraft .lookingForBattleground
+	{
+		background-image:url('/img/backgroundScroll.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:656px;
+		#width:689px;
+		height:678px;
+		display:block;
+		margin-top:120px;
+		padding-left:33px;
+		text-align:left;
+		position:absolute;
+		margin-left:35px;
+		-moz-transform-origin: top left;
+		-webkit-transform-origin: top left;
+		-o-transform-origin: top left;
+		-ms-transform-origin: top left;
+		transform-origin: top left;
+	}
+	
+	.component.bugcraft .lookingForBattleground .closeButton
+	{
+		background-image:url('/img/lookingForBattleground/close.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:16px;
+		height:16px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		margin-left:595px;
+		margin-top:64px;
+	}
+	
+	.component.bugcraft .lookingForBattleground .closeButton:hover
+	{
+		background-position:left bottom;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundsListContainer
+	{
+		background-image:url('/img/lookingForBattleground/top_shadows_dirt.png'), url('/img/lookingForBattleground/bg_queue_artwork.png');
+		background-repeat:no-repeat;
+		background-position:left top, left top;
+		height:161px;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundsListContainer .battlegroundsListItemsContainer
+	{
+		display:inline-block;
+		#display:inline;
+		width:560px;
+		height:150px;
+		overflow:hidden;
+		vertical-align:top;
+		position:relative;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundsListContainer .battlegroundsListItemsContainer .battlegroundListItems
+	{
+		vertical-align:top;
+		position:absolute;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundsListContainer .battlegroundsListItemsContainer .battlegroundListItems .battlegroundListItem
+	{
+		margin-left:20px;
+		font-family:Georgia;
+		font-size:14px;
+		padding-top:10px;
+		padding-bottom:10px;
+		color:#52331e;
+		padding-left:15px;
+		padding-right:15px;
+		margin-top:5px;
+		margin-bottom:5px;
+		width:480px;
+		letter-spacing:1px;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundsListContainer .battlegroundsListItemsContainer .battlegroundListItems .battlegroundListItem:hover
+	{
+		background-color:#f3da8a;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		color:#bf1208;
+		opacity:0.5;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundsListContainer .battlegroundsListItemsContainer .battlegroundListItems .battlegroundListItemSelected
+	{
+		margin-left:20px;
+		font-family:Georgia;
+		font-size:14px;
+		padding-top:10px;
+		padding-bottom:10px;
+		color:#bf1208;
+		opacity:0.5;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		padding-left:15px;
+		padding-right:15px;
+		margin-top:5px;
+		margin-bottom:5px;
+		width:480px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		letter-spacing:1px;
+		background-color:#f3da8a;
+		border-bottom:1px solid #f1d291;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundsListContainer .battlegroundsListControls
+	{
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundsListContainer .battlegroundsListControls .battlegroundsListControlUp
+	{
+		margin-top:10px;
+		background-image:url('/img/lookingForBattleground/top_arrow.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:15px;
+		height:19px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundsListContainer .battlegroundsListControls .battlegroundsListControlDown
+	{
+		margin-top:105px;
+		background-image:url('/img/lookingForBattleground/bot_arrow.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:15px;
+		height:19px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundInformation
+	{
+		background-image:url('/img/lookingForBattleground/bot_shadows_dirt.png');
+		background-repeat:no-repeat;
+		background-position:left bottom;
+		width:592px;
+		#width:617px;
+		height:230px;
+		text-align:left;
+		padding-top:15px;
+		padding-bottom:15px;
+		padding-left:25px;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundInformation .battlegroundData
+	{
+		display:inline-block;
+		#display:inline;
+		width:320px;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundInformation .battlegroundData .battlegroundName
+	{
+		font-family:Georgia;
+		font-size:18px;
+		color:#52331e;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundInformation .battlegroundData .battlegroundDescription
+	{
+		margin-top:10px;
+		font-family:Georgia;
+		font-size:12px;
+		color:#52331e;
+		line-height:20px;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundInformation .battlegroundSpoils
+	{
+		margin-left:30px;
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundInformation .battlegroundSpoils .battlegroundWin
+	{
+		display:inline-block;
+		#display:inline;
+		width:112px;
+		border-right:1px solid #f1d291;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundInformation .battlegroundSpoils .battlegroundWin .spoilTitle
+	{
+		font-family:Georgia;
+		font-size:16px;
+		width:112px;
+		text-align:center;
+		padding-bottom:10px;
+		color:#52331e;
+		border-bottom:1px solid #f1d291;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundInformation .battlegroundSpoils .battlegroundWin .spoilDetail
+	{
+		background-image:url('/img/lookingForBattleground/win_bg.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:112px;
+		height:88px;
+		#height:98px;
+		padding-top:10px;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundInformation .battlegroundSpoils .battlegroundWin .spoilDetail .spoilGlory
+	{
+		background-image:url('/img/lookingForBattleground/glory.png');
+		background-repeat:no-repeat;
+		background-position:60px 0px;
+		height:33px;
+		#height:40px;
+		font-size:16px;
+		color:#52331e;
+		padding-top:7px;
+		padding-right:58px;
+		text-align:right;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundInformation .battlegroundSpoils .battlegroundWin .spoilDetail .spoilPolen
+	{
+		background-image:url('/img/lookingForBattleground/polenwithbag.png');
+		background-repeat:no-repeat;
+		background-position:60px 0px;
+		height:33px;
+		#height:40px;
+		font-size:16px;
+		color:#52331e;
+		padding-top:7px;
+		padding-right:58px;
+		text-align:right;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundInformation .battlegroundSpoils .battlegroundLoss
+	{
+		display:inline-block;
+		#display:inline;
+		width:112px;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundInformation .battlegroundSpoils .battlegroundLoss .spoilTitle
+	{
+		font-family:Georgia;
+		font-size:16px;
+		width:112px;
+		text-align:center;
+		padding-bottom:10px;
+		color:#52331e;
+		border-bottom:1px solid #f1d291;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundInformation .battlegroundSpoils .battlegroundLoss .spoilDetail
+	{
+		background-image:url('/img/lookingForBattleground/loss_bg.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:112px;
+		height:88px;
+		#height:98px;
+		padding-top:10px;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundInformation .battlegroundSpoils .battlegroundLoss .spoilDetail .spoilGlory
+	{
+		background-image:url('/img/lookingForBattleground/glory.png');
+		background-repeat:no-repeat;
+		background-position:60px 0px;
+		height:33px;
+		#height:40px;
+		font-size:16px;
+		color:#52331e;
+		padding-top:7px;
+		padding-right:58px;
+		text-align:right;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundInformation .battlegroundSpoils .battlegroundLoss .spoilDetail .spoilPolen
+	{
+		background-image:url('/img/lookingForBattleground/polenwithbag.png');
+		background-repeat:no-repeat;
+		background-position:60px 0px;
+		height:33px;
+		#height:40px;
+		font-size:16px;
+		color:#52331e;
+		padding-top:7px;
+		padding-right:58px;
+		text-align:right;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundOptions
+	{
+		margin-top:-45px;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundOptions .battlegroundEnqueue
+	{
+		margin-left:235px;
+		display:inline-block;
+		#display:inline;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		width:149px;
+		height:23px;
+		#height:30px;
+		background-image: url('/img/lookingForBattleground/btn.png');
+		background-repeat: no-repeat;
+		background-position: left top;
+		text-align:center;
+		padding-top:7px;
+		font-size:14px;
+		color:#dfdfdf;
+	}
+	
+	.component.bugcraft .lookingForBattleground .battlegroundOptions .battlegroundEnqueue:hover
+	{
+		color:#ffffff;
+	}
+	
+	.component.bugcraft .lookingForBattleground .windowTitle
+	{
+		margin-top:67px;
+		display:inline-block;
+		#display:inline;
+		font-family:OldEnglishText;
+		font-size:20px;
+		width:320px;
+		text-align:center;
+		margin-left:150px;
+		color:#5f4221;
+		text-shadow:#E5BF7D 1px 1px 1px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

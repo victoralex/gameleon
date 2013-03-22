@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="ro-RO">
+	
+	<component name="helperInclude">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component>
+	
+</translation>

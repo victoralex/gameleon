@@ -1,0 +1,1 @@
+		//	// Alchemist's Fray	//		var log = require( "../class.log" ),			realmConfig = require( "../../config.realm" );		exports.script = function( instanceObject )	{		instanceObject.events._add( "addObjects", function()		{					});	}																														

@@ -1,0 +1,33 @@
+
+	/*
+		serverError CSS Screen Template
+	*/
+	
+	.component.serverError
+	{
+		text-align:right;
+	}
+	
+	.component.serverError .shatter1
+	{
+		background-image:url('/img/404/shatter1.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:674px;
+		height:549px;
+		position:absolute;
+		left:-10px;
+		top:0px;
+	}
+	
+	.component.serverError .shatter2
+	{
+		background-image:url('/img/404/shatter2.gif');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:262px;
+		height:285px;
+		position:absolute;
+		right:0px;
+		top:500px;
+	}

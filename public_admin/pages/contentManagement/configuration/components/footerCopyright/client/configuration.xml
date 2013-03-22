@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<menu id="root">
+		<entry id="1" page="content" contentID="9" />
+		<entry id="2" page="content" contentID="10" />
+		<entry id="3" type="external" url="http://www.emotionconcept.eu" />
+	</menu>
+	
+</configuration>

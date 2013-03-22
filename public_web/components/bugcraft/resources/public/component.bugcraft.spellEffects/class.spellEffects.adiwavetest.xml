@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spellEffect name="adiwavetest" type="imageFramesLoopWithSoundLoop"><frames maxFrames="1"/><sound maxDelay="2" minDelay="3" soundName="_funny4.wav"/></spellEffect>

@@ -1,0 +1,3 @@
+- Fix object enlightning
+- Check SVG renderer (shadings seems not to work any longer)
+- Implement animations

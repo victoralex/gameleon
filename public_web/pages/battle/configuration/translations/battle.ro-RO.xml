@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="ro-RO">
+	
+	<component name="headerMeta">
+		<field name="pageName"><![CDATA[Ascent - Dezvoltare Web]]></field>
+		<field name="description"><![CDATA[Site description]]></field>
+		<field name="keywords"><![CDATA[keyword1, keyword2, keyword3]]></field>
+		<field name="contentType"><![CDATA[content type]]></field>
+		<field name="author"><![CDATA[eMotion Concept]]></field>
+	</component>
+	<component name="newsletter">
+		<field name="formItem1"><![CDATA[Email]]></field>
+		<field name="formItem2"><![CDATA[Ma abonez]]></field>
+		<field name="invalidMail"><![CDATA[Adresa de eMail pe care ati introdus-o nu e valida.]]></field>
+		<field name="duplicateMail"><![CDATA[Adresa de eMail pe care ati introdus-o este deja inregistrata in baza de date.]]></field>
+		<field name="formItem3"><![CDATA[Aceasta adresa exista deja in baza noastra de date]]></field>
+		<field name="addedOK"><![CDATA[Va multumim pentru timpul acordat. O sa primiti in curand newsletterul nostru.]]></field>
+		<field name="formItem5"><![CDATA[adresa eMail]]></field>
+		<field name="formItem6"><![CDATA[Primiti pe adresa de eMail toate informatiile legate de formarile Cefora]]></field>
+	</component>
+	
+<component name="customerLogo">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component><component name="pictureRotator">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component><component name="siteMenu">
+		<entry id="1"><![CDATA[Despre]]></entry>
+		<entry id="2"><![CDATA[Produse]]></entry>
+		<entry id="3"><![CDATA[Portofoliu]]></entry>
+		<entry id="4"><![CDATA[TechSpecs]]></entry>
+		<entry id="5"><![CDATA[Cariere]]></entry>
+		<entry id="6"><![CDATA[News]]></entry>
+		<entry id="7"><![CDATA[Contact]]></entry>
+	</component><component name="contact">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component><component name="news">
+		<field name="moreButton">more</field>
+	</component><component name="contactButton">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component><component name="footerMenu">
+		<custom>
+			<field name="address"><![CDATA[Tel/Fax: +4 021 5558435<br/>Str Carol nr 100, Building 1]]></field>
+		</custom>
+		<menu>
+			<entry id="1">Home</entry>
+			<menu id="catalogue">Catalog</menu>
+			<entry id="2">Management Concept</entry>
+			<entry id="3">Authorized Programs</entry>
+			<entry id="4">Our Expertise</entry>
+			<menu id="formations">Trainings</menu>
+			<entry id="5">Methodology</entry>
+			<entry id="6">References</entry>
+			<menu id="conseil">Consultance</menu>
+			<entry id="8">Competences Summary</entry>
+			<entry id="9">Training Plans Management</entry>
+			<entry id="10">Career Management</entry>
+			<entry id="11">Testimonials</entry>
+			<entry id="12">Contact</entry>
+			<menu id="careers">Careers</menu>
+			<entry id="13">Company Culture</entry>
+			<entry id="14">Jobs</entry>
+			<entry id="15">Apply Now</entry>
+		</menu>
+	</component><component name="footerCopyright">
+		<custom>
+			<field name="copyright"><![CDATA[Copyright (c) 2009 ODS. All rights reserved.]]></field>
+		</custom>
+		<menu>
+			<entry id="1">Termeni de Utilizare</entry>
+			<entry id="2">Politica de Confidentialitate</entry>
+			<entry id="3">designed by eMotion Concept</entry>
+		</menu>
+	</component><component name="newsShort">
+		
+		<newsList><news id="2"><title><![CDATA[ODS a serbat Ziua Copilului!]]></title><short_story><![CDATA[Inocenta, puritate, energie, caldura sufleteasca...pentru aceste lucruri iubim copiii, dar si pentru ca in ei privim melancolic o parte uitata din noi. Pentru ca nu vrem ca aceste lucruri sa se piarda prea repede, ODS a initiat o actiune umanitara cu numele “Coloreaza-le viata!” - pentru a aduce un pic de culoare in viata copiilor din orfelinate.]]></short_story></news></newsList>
+		
+		<field name="moreButton"><![CDATA[mai mult]]></field>
+		<field name="newsTitle"><![CDATA[cele mai recente stiri]]></field>
+		
+	</component><component name="content">
+		<field name="errorMessage"><![CDATA[Oops! Se pare ca am dat peste o mica problema in timp ce am citit date de la server. Am notat eroarea si o vom rezolva rapid.]]></field>
+	</component><component name="courses">
+		
+		<scenario for="coursesShowTraining">
+			<field name="item1"><![CDATA[pentru cine]]></field>
+			<field name="item2"><![CDATA[obiective]]></field>
+			<field name="item3"><![CDATA[program]]></field>
+			<field name="item4"><![CDATA[alte informatii]]></field>
+			<field name="item5"><![CDATA[numar de referinta]]></field>
+			<field name="item6"><![CDATA[durata]]></field>
+			<field name="item7"><![CDATA[urmatoarele sesiuni]]></field>
+			<field name="trainingsLink"><![CDATA[Formari]]></field>
+		</scenario>
+		
+		<scenario for="trainingsList">
+			<field name="trainingsLink"><![CDATA[Formari]]></field>
+		</scenario>
+		
+		<scenario for="categoriesList">
+			<field name="title"><![CDATA[Tematicile noastre]]></field>
+			<field name="formationsGroup"><![CDATA[Formari 2009]]></field>
+		</scenario>
+		
+	</component><component name="smallPicturesMenu">
+		<field name="pictureTitle" id="1"><![CDATA[Personalul nostru]]></field>
+		<field name="pictureTitle" id="2"><![CDATA[Echipamentele noastre]]></field>
+		<field name="pictureTitle" id="3"><![CDATA[How it's made]]></field>
+	</component><component name="mainPicture">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component><component name="siteTitle">
+		<field name="title"><![CDATA[Optical Disc Solutions]]></field>
+	</component><component name="misc2">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component><component name="questionnaire">
+		<scenario for="questionnaireStep1">
+			
+			<field name="text"><![CDATA[This is the page where you can get your Public Liability Insurance quote in just a couple of minutes. All you need do is answer the few quick questions below and we should be in a position to quote you.]]></field>
+			<field name="surname"><![CDATA[Surname]]></field>
+			<field name="firstName"><![CDATA[First Name]]></field>
+			<field name="company"><![CDATA[Company]]></field>
+			<field name="address"><![CDATA[Address]]></field>
+			<field name="county"><![CDATA[County]]></field>
+			<field name="phone"><![CDATA[Telephone Number]]></field>
+			<field name="email"><![CDATA[Email Address]]></field>
+			<field name="mainOccupation"><![CDATA[Main Occupation]]></field>
+			<field name="secondaryOccupation"><![CDATA[Secondary Occupation (if applicable)]]></field>
+			<field name="select"><![CDATA[Select an Occupation]]></field>
+			<field name="experience"><![CDATA[Number of Years in Business]]></field>
+			<field name="partners"><![CDATA[Number of Partners]]></field>
+			<field name="employees"><![CDATA[Number of Employees]]></field>
+			<field name="none"><![CDATA[None]]></field>
+			<field name="nextStep"><![CDATA[Next Step]]></field>
+			<field name="currentStep"><![CDATA[Step 1/6]]></field>
+			
+		</scenario>
+		
+		<scenario for="questionnaireStep2">
+		
+			<field name="text1"><![CDATA[Quotation - Summary Detail 
+Thanks for completing the detail on Publicliability.ie. Below is a summary of your quotation - the premium and the excess applicable.
+To view the Key facts applicable to this Public Liability Insurance click here.
+To view the policy wording applicable please click here.]]></field>
+			<field name="text2"><![CDATA[Quotation Detail - Public Liability Only]]></field>
+			<field name="text3"><![CDATA[Excess Applicable to either Option A or B - 350.00 ]]></field>
+			<field name="option1"><![CDATA[Option A - Limit of indemnity &euro; 2,600,000 - Premium - &euro;133.00 ]]></field>
+			<field name="option2"><![CDATA[Option B - Limit of indemnity &euro; 6,500,000 - Premium - &euro;185.00 ]]></field>
+			<field name="currentStep"><![CDATA[Step 2/6]]></field>
+			
+		</scenario>
+		<scenario for="questionnaireStep3">
+			
+			<field name="startDate"><![CDATA[Commencement Date of Insurance]]></field>
+			<field name="day"><![CDATA[Day]]></field>
+			<field name="month"><![CDATA[Month]]></field>
+			<field name="year"><![CDATA[Year]]></field>
+			<field name="insured"><![CDATA[Are You Currently Insured?]]></field>	
+			<field name="insurer"><![CDATA[Current Insurer]]></field>
+			<field name="tradingName"><![CDATA[Your Trading Name]]></field>
+			<field name="soleTrader1"><![CDATA[Name of Sole Trader]]></field>
+			<field name="soleTrader2"><![CDATA[Title]]></field>
+			<field name="soleTrader3"><![CDATA[Forename]]></field>
+			<field name="soleTrader4"><![CDATA[Surname]]></field>
+			<field name="communication"><![CDATA[Preferred method of Communication]]></field>
+			<field name="communication1"><![CDATA[Email]]></field>
+			<field name="communication2"><![CDATA[Post]]></field>
+			<field name="daytimeNumber"><![CDATA[Daytime Telephone Number]]></field>
+			<field name="username"><![CDATA[Email (used for Account Login)]]></field>
+			<field name="password1"><![CDATA[Account Password]]></field>
+			<field name="password2"><![CDATA[Verify Password]]></field>
+			<field name="formItem12">January</field>
+			<field name="formItem13">February</field>
+			<field name="formItem14">March</field>
+			<field name="formItem15">April</field>
+			<field name="formItem16">May</field>
+			<field name="formItem17">June</field>
+			<field name="formItem18">July</field>
+			<field name="formItem19">August</field>
+			<field name="formItem20">September</field>
+			<field name="formItem21">October</field>
+			<field name="formItem22">November</field>
+			<field name="formItem23">December</field>
+			
+			
+			<field name="currentStep"><![CDATA[Step 3/6]]></field>
+			
+		</scenario>
+	</component><component name="imageRotator">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component><component name="appJS"/><component name="helperInclude">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component><component name="bugcraft">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component></translation>

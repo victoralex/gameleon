@@ -1,0 +1,459 @@
+
+	/*
+		news CSS Screen Template
+	*/
+	
+	.news
+	{
+		margin-bottom:25px;
+	}
+	
+	.news .topArea
+	{
+		background-image:url('/components/news/resources/public/img/header.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:723px;
+		height:70px;
+		display:inline-block;
+	}
+	
+	.news .topArea .title
+	{
+		font-size:20px;
+		margin-top:22px;
+		text-align:left;
+		margin-left:40px;
+		width:300px;
+		color:#e2e2e2;
+		float:left;
+		text-transform:capitalize;
+	}
+	
+	.news .topArea .menu
+	{
+		display:inline-block;
+		width:363px;
+		height:62px;
+		text-align:right;
+		margin-right:20px;
+		float:left;
+		margin-top:8px;
+	}
+	
+	.news .topArea .menu .buttonOverBack
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/news/resources/public/img/back_hover.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.news .topArea .menu .buttonOutBack
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/news/resources/public/img/back_out.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.news .topArea .menu .buttonOverAdd
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/news/resources/public/img/add_hover.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.news .topArea .menu .buttonOutAdd
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/news/resources/public/img/add_out.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.news .topArea .menu .buttonOverList
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/news/resources/public/img/list_hover.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.news .topArea .menu .buttonOutList
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/news/resources/public/img/list_out.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	/*
+		Grid
+	*/
+	
+	.news .gridArea
+	{
+		text-align:left;
+		display:inline-block;
+		width:713px;
+	}
+	
+	.news .gridArea FORM
+	{
+		margin:0px;
+		padding:0px;
+	}
+	
+	.news .gridArea .filters
+	{
+		margin-top:20px;
+		text-align:right;
+		padding-right:20px;
+		padding-bottom:5px;
+	}
+	
+	.news .gridArea .filters .filter SPAN
+	{
+		color:#efefef;
+		padding:0px;
+		margin-right:5px;
+	}
+	
+	.news .gridArea .filters .filter SELECT
+	{
+		font-size:10px;
+		margin:0px;
+		padding:0px;
+	}
+	
+	.news .gridArea .filters .filter SELECT OPTION
+	{
+		font-size:10px;
+		margin:0px;
+		padding:0px;
+	}
+	
+	.news .gridArea .top
+	{
+		background-image:url('/components/news/resources/public/img/grid_top.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:713px;
+		height:17px;
+	}
+	
+	.news .gridArea .middle
+	{
+		border-left:1px solid #444444;
+		border-right:1px solid #444444;
+		background-color:#2e2e2e;
+		width:710px;
+	}
+	
+	.news .gridArea .middle .errorRow
+	{
+		padding-top:10px;
+		padding-bottom:20px;
+		padding-left:50px;
+		padding-right:50px;
+		color:#ffffff;
+		text-align:center;
+	}
+	
+	.news .gridArea .middle .row
+	{
+		border-bottom:1px solid #444444;
+		color:#ebe7e8;
+		padding-top:15px;
+		padding-bottom:10px;
+		width:710px;
+	}
+	
+	.news .gridArea .middle .row:hover
+	{
+		background-color:#151515;
+	}
+	
+	.news .gridArea .middle .row .options
+	{
+		width:22px;
+		margin-left:20px;
+		margin-right:35px;
+		display:inline-block;
+		#float:left;
+	}
+	
+	.news .gridArea .middle .row:hover .options
+	{
+		background-color:#151515;
+	}
+	
+	.news .gridArea .middle .row .options .buttonUnchecked
+	{
+		margin-top:20px;
+		background-image:url('/components/news/resources/public/img/unchecked.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:22px;
+		height:21px;
+		margin:0px;
+		display:inline-block;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.news .gridArea .middle .row .options .buttonChecked
+	{
+		margin-top:20px;
+		background-image:url('/components/news/resources/public/img/checked.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:22px;
+		height:21px;
+		margin:0px;
+		display:inline-block;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.news .gridArea .middle .row .content
+	{
+		display:inline-block;
+		#float:left;
+		vertical-align:top;
+	}
+	
+	.news .gridArea .middle .row .content .text
+	{
+		display:block;
+	}
+	
+	.news .gridArea .middle .row .content .text:hover
+	{
+		font-weight:bold;
+	}
+	
+	.news .gridArea .middle .row .content .meta
+	{
+		font-size:10px;
+		margin-right:5px;
+		color:#afafaf;
+	}
+	
+	.news .gridArea .middle .row .content .meta .label
+	{
+		font-weight:bold;
+		margin-right:5px;
+		text-transform:capitalize;
+	}
+	
+	.news .gridArea .middle .row .content A:link, .news .gridArea .middle .row .content A:visited
+	{
+		color:#ffffff;
+		text-decoration:none;
+	}
+	
+	.news .gridArea .middle .row .content A:hover
+	{
+		
+	}
+	
+	/*
+		Bottom Buttons
+	*/
+	
+	.news .gridArea .bottomButtons
+	{
+		background-image:url('/components/news/resources/public/img/grid_bottom.png');
+		background-repeat:no-repeat;
+		background-position:bottom left;
+		width:682px;
+		height:49px;
+		text-align:right;
+		text-transform:capitalize;
+		color:#ffffff;
+		padding-top:5px;
+		padding-left:10px;
+		padding-right:31px;
+		display:inline-block;
+	}
+	
+	.news .gridArea .bottomButtons .submitLink
+	{
+		display:inline-block;
+		float:right;
+		background-image:url('/components/news/resources/public/img/submit.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:130px;
+		height:33px;
+		text-align:center;
+		padding-top:8px;
+		margin-top:5px;
+		margin-right:10px;
+	}
+	
+	.news .gridArea .bottomButtons .submitLink A:link, .news .gridArea .bottomButtons .submitLink A:visited
+	{
+		text-decoration:none;
+		color:#afafaf;
+	}
+	
+	.news .gridArea .bottomButtons .submitLink A:hover
+	{
+		color:#ffffff;
+	}
+	
+	/*
+		Bottom General
+	*/
+	
+	.news .gridArea .bottom
+	{
+		background-image:url('/components/news/resources/public/img/grid_bottom.png');
+		background-repeat:no-repeat;
+		background-position:bottom left;
+		width:713px;
+		height:49px;
+		display:inline-block;
+		text-transform:capitalize;
+		color:#ffffff;
+		padding-top:5px;
+		padding-left:10px;
+		padding-right:10px;
+	}
+	
+	.news .gridArea .bottom .options
+	{
+		margin-top:10px;
+		width:22px;
+		margin-left:10px;
+		margin-right:35px;
+		display:inline-block;
+		#float:left;
+	}
+	
+	.news .gridArea .bottom .options .buttonUnchecked
+	{
+		margin-top:20px;
+		background-image:url('/components/news/resources/public/img/unchecked.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:22px;
+		height:21px;
+		margin:0px;
+		display:inline-block;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.news .gridArea .bottom .options .buttonChecked
+	{
+		margin-top:20px;
+		background-image:url('/components/news/resources/public/img/checked.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:22px;
+		height:21px;
+		margin:0px;
+		display:inline-block;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.news .gridArea .bottom .content
+	{
+		margin-top:15px;
+		display:inline-block;
+		#float:left;
+		vertical-align:top;
+	}
+	
+	.news .gridArea .bottom .content .linkContainer
+	{
+		width:200px;
+		margin-right:20px;
+		display:inline;
+	}
+	
+	.news .gridArea .bottom .content .linkContainer .delete
+	{
+		padding-left:18px;
+		background-image:url('/components/news/resources/public/img/delete_page.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+	}
+	
+	.news .gridArea .bottom .content .linkContainer .publish
+	{
+		padding-left:18px;
+		background-image:url('/components/news/resources/public/img/folder_accept.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+	}
+	
+	.news .gridArea .bottom .content .linkContainer .unpublish
+	{
+		padding-left:18px;
+		background-image:url('/components/news/resources/public/img/delete_folder.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+	}
+	
+	.news .gridArea .bottom .content A:link, .news .gridArea .bottom .content A:visited
+	{
+		color:#aaaaaa;
+		font-size:10px;
+	}
+	
+	.news .gridArea .bottom .content A:hover
+	{
+		text-decoration:none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

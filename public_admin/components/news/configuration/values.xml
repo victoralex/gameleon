@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="news">
+	
+	<field name="errorID" value="0" />
+	<field name="title"><![CDATA[]]></field>
+	<field name="shortStory"><![CDATA[]]></field>
+	<field name="fullStory"><![CDATA[]]></field>
+	<field name="published" value="" />
+
+</component>

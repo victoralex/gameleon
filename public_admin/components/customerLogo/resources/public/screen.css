@@ -1,0 +1,15 @@
+
+	/*
+		customerLogo CSS Screen Template
+	*/
+	
+	.customerLogo
+	{
+		display:inline-block;
+		height:93px;
+		float:left;
+		width:264px;
+		background-image:url('/components/customerLogo/resources/public/img/logo.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+	}

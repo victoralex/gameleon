@@ -1,0 +1,1 @@
+		//	// Fortress Assault	//		var log = require( "../class.log" );		exports.script = function( instanceObject )	{			}																														

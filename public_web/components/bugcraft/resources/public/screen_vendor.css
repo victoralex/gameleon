@@ -1,0 +1,502 @@
+
+	/*
+		bugcraft Vendor CSS Screen Template
+	*/
+	
+	.component.bugcraft .vendor
+	{
+		width:700px;
+		height:678px;
+		position:absolute;
+		margin-top:100px;
+		display:block;
+		#display:inline;
+		margin-left:35px;
+		-moz-transform-origin: top left;
+		-webkit-transform-origin: top left;
+		-o-transform-origin: top left;
+		-ms-transform-origin: top left;
+		transform-origin: top left;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer
+	{
+		position:relative;
+		background-image:url('/img/vendor/artwork.png'), url('/img/backgroundScroll.png');
+		background-repeat:no-repeat, no-repeat;
+		background-position:25px 60px, top left;
+		width:639px;
+		#width:689px;
+		height:578px;
+		#height:678px;
+		text-align:left;
+		vertical-align:top;
+		padding-top:95px;
+		padding-left:50px;
+		display:block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .closeButton
+	{
+		position:absolute;
+		background-image:url('/img/vendor/close.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:16px;
+		height:16px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		margin-top:-31px;
+		margin-left:576px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .closeButton:hover
+	{
+		background-position:left bottom;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific
+	{
+		width:600px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorDescription
+	{
+		vertical-align:top;
+		width:220px;
+		height:400px;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods
+	{
+		vertical-align:top;
+		display:inline-block;
+		#display:inline;
+		margin-left:10px;
+		width:370px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer
+	{
+		vertical-align:top;
+		display:inline-block;
+		#display:inline;
+		width:370px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotFull,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotEmpty,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/vendor/buffLarge.png'), url('/img/vendor/itemContainer.png');
+		background-repeat:no-repeat;
+		background-position:top left, top left;
+		width:185px;
+		height:50px;
+		margin-bottom:10px;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotEmpty
+	{
+		background-image:url('/img/vendor/buffLarge_empty3.png'), url('/img/vendor/itemContainer.png');
+		margin-bottom:7px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled
+	{
+		background-image:url('/img/vendor/buffLarge_forbidden.png'), url('/img/vendor/itemContainerForbidden.png');
+		margin-bottom:7px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotFull,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled
+	{
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotFull .slotItemIcon,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled .slotItemIcon
+	{
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:50px;
+		height:48px;
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotFull .slotItemIcon .slotItemAmount,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled .slotItemIcon .slotItemAmount
+	{
+		background-image:url('/img/vendor/itemsAmount.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:16px;
+		height:15px;
+		#height:16px;
+		padding-top:1px;
+		margin-left:36px;
+		margin-top:34px;
+		color:#ffffff;
+		text-align:center;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotFull .slotItemDescription,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled .slotItemDescription
+	{
+		vertical-align:top;
+		display:inline-block;
+		#display:inline;
+		height:50px;
+		padding-left:5px;
+		width:130px;
+		color:#2f2f2f;
+		text-shadow:#E5BF7D 1px 1px 1px;
+		font-weight:bold;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotFull .slotItemDescription .slotItemName,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled .slotItemDescription .slotItemName
+	{
+		height:24px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotFull .slotItemDescription .slotItemNamesuperior,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled .slotItemDescription .slotItemNamesuperior
+	{
+		height:24px;
+		color:#046ee6;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotFull .slotItemDescription .slotItemNamemasterwork,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled .slotItemDescription .slotItemNamemasterwork
+	{
+		height:24px;
+		color:#a200ff;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotFull .slotItemDescription .slotItemNamefair,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled .slotItemDescription .slotItemNamefair
+	{
+		height:24px;
+		color:#30fe00;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotFull .slotItemDescription .slotItemNamepoor,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled .slotItemDescription .slotItemNamepoor
+	{
+		height:24px;
+		color:#ffffff;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotFull .slotItemDescription .slotItemCost,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled .slotItemDescription .slotItemCost
+	{
+		margin-top:5px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotFull .slotItemDescription .slotItemCost .polenCrude,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled .slotItemDescription .slotItemCost .polenCrude
+	{
+		background-image:url('/img/vendor/polen_crude.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:20px;
+		padding-top:3px;
+		height:17px;
+		#height:20px;
+		display:inline-block;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotFull .slotItemDescription .slotItemCost .polenRegular,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled .slotItemDescription .slotItemCost .polenRegular
+	{
+		background-image:url('/img/vendor/polen_regular.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:20px;
+		padding-top:3px;
+		height:17px;
+		#height:20px;
+		display:inline-block;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotFull .slotItemDescription .slotItemCost .polenRefined,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled .slotItemDescription .slotItemCost .polenRefined
+	{
+		background-image:url('/img/vendor/polen_refined.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:20px;
+		padding-top:3px;
+		height:17px;
+		#height:20px;
+		display:inline-block;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotFull .slotItemDescription .slotItemCost .amber,
+		.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorSlotsContainer .slotDisabled .slotItemDescription .slotItemCost .amber
+	{
+		background-image:url('/img/vendor/amber2.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:20px;
+		padding-top:3px;
+		height:17px;
+		#height:20px;
+		display:inline-block;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorPlayerCurrency
+	{
+		display:inline-block;
+		#display:inline;
+		width:360px;
+		text-align:right;
+		font-size:14px;
+		margin-top:10px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorPlayerCurrency .polenCrude
+	{
+		background-image:url('/img/vendor/polen_crude.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:21px;
+		padding-top:1px;
+		height:17px;
+		#height:20px;
+		display:inline-block;
+		margin-left:5px;
+		text-shadow: #9f9f9f 1px 1px 1px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorPlayerCurrency .polenRegular
+	{
+		background-image:url('/img/vendor/polen_regular.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:21px;
+		padding-top:1px;
+		height:19px;
+		#height:20px;
+		display:inline-block;
+		margin-left:5px;
+		text-shadow: #9f9f9f 1px 1px 1px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorPlayerCurrency .polenRefined
+	{
+		background-image:url('/img/vendor/polen_refined.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:21px;
+		padding-top:1px;
+		height:19px;
+		#height:20px;
+		display:inline-block;
+		margin-left:5px;
+		text-shadow: #9f9f9f 1px 1px 1px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorSpecific .vendorGoods .vendorPlayerCurrency .amber
+	{
+		background-image:url('/img/vendor/amber2.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:21px;
+		padding-top:1px;
+		height:19px;
+		#height:20px;
+		display:inline-block;
+		margin-left:5px;
+		margin-right:10px;
+		text-shadow: #9f9f9f 1px 1px 1px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorBottomContainer
+	{
+		margin-left:100px;
+		margin-top:31px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorBottomContainer .leftArrow, .component.bugcraft .vendor .vendorContainer .vendorBottomContainer .leftArrowInvisible
+	{
+		background-image:url('/img/vendor/previous.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:20px;
+		height:17px;
+		display:inline-block;
+		#display:inline;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		vertical-align:top;
+		text-align:center;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorBottomContainer .leftArrow:hover
+	{
+		background-position:left bottom;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorBottomContainer .leftArrowInvisible
+	{
+		visibility:hidden;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorBottomContainer .windowTitle
+	{
+		padding-top:27px;
+		display:inline-block;
+		#display:inline;
+		font-family:OldEnglishText;
+		font-size:20px;
+		width:350px;
+		color:#5f4221;
+		text-align:center;
+		text-shadow:#E5BF7D 1px 1px 1px;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorBottomContainer .rightArrow, .component.bugcraft .vendor .vendorContainer .vendorBottomContainer .rightArrowInvisible
+	{
+		background-image:url('/img/vendor/next.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:20px;
+		height:17px;
+		display:inline-block;
+		#display:inline;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorBottomContainer .rightArrow:hover
+	{
+		background-position:left bottom;
+	}
+	
+	.component.bugcraft .vendor .vendorContainer .vendorBottomContainer .rightArrowInvisible
+	{
+		visibility:hidden;
+	}
+	
+	.component.bugcraft .vendor .vendorActionSelect
+	{
+		background-image:url('/img/vendor/leather.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:68px;
+		#width:105px;
+		height:207px;
+		margin-left:650px;
+		margin-top:-550px;
+		display:inline-block;
+		vertical-align:top;
+		padding-left:37px;
+	}
+	
+	.component.bugcraft .vendor .vendorActionSelect .itemsSoldButton,
+		.component.bugcraft .vendor .vendorActionSelect .itemsSoldButtonSelected
+	{
+		background-image:url('/img/vendor/buttonSold.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:52px;
+		height:52px;
+		margin-top:30px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .vendor .vendorActionSelect .itemsBuybackButton,
+		.component.bugcraft .vendor .vendorActionSelect .itemsBuybackButtonSelected
+	{
+		background-image:url('/img/vendor/buttonBuyback.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:52px;
+		height:52px;
+		margin-top:30px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .vendor .vendorActionSelect .itemsSoldButton .overlay,
+		.component.bugcraft .vendor .vendorActionSelect .itemsSoldButtonSelected .overlay,
+		.component.bugcraft .vendor .vendorActionSelect .itemsBuybackButton .overlay,
+		.component.bugcraft .vendor .vendorActionSelect .itemsBuybackButtonSelected .overlay
+	{
+		background-image:url('/img/vendor/vendorCategory.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:52px;
+		height:52px;
+	}
+	
+	.component.bugcraft .vendor .vendorActionSelect .itemsSoldButton:hover .overlay,
+		.component.bugcraft .vendor .vendorActionSelect .itemsSoldButtonSelected .overlay
+	{
+		background-position:bottom left;
+	}
+	
+	.component.bugcraft .vendor .vendorActionSelect .itemsBuybackButton:hover .overlay,
+		.component.bugcraft .vendor .vendorActionSelect .itemsBuybackButtonSelected .overlay
+	{
+		background-position:bottom left;
+	}
+	
+	/*
+		Floating purchased vendor item
+	*/
+	
+	body .vendorItemFloatingToBackpack
+	{
+		position:absolute;
+		background-position:center center;
+		background-repeat:no-repeat;
+		width:70px;
+		height:70px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		background-color:#1f1f1f;
+		-moz-transform-origin: top left;
+		-webkit-transform-origin: top left;
+		-o-transform-origin: top left;
+		-ms-transform-origin: top left;
+		transform-origin: top left;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

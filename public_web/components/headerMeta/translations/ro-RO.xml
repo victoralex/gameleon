@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="ro-RO">
+	
+	<component name="headerMeta">
+		<field name="pageName"><![CDATA[Ascent - Dezvoltare Web]]></field>
+		<field name="description"><![CDATA[Site description]]></field>
+		<field name="keywords"><![CDATA[keyword1, keyword2, keyword3]]></field>
+		<field name="contentType"><![CDATA[content type]]></field>
+		<field name="author"><![CDATA[eMotion Concept]]></field>
+	</component>
+	
+</translation>

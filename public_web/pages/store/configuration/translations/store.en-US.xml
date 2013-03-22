@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="en-US">
+	
+	<component name="headerMeta">
+		<field name="pageName"><![CDATA[BugTopia - The Epic Story]]></field>
+		<field name="description"><![CDATA[Harendar is a world rife with conflict, history and colorful characters. The struggle to harness natural resources to fuel their two empires has driven the Anterium and Hegemony to war. Read more about the story and lore in the world of BugTopia.]]></field>
+		<field name="keywords"><![CDATA[]]></field>
+		<field name="contentType"><![CDATA[]]></field>
+		<field name="author"><![CDATA[eMotion Concept]]></field>
+	</component>
+	<component name="newsletter">
+		<field name="formItem1"><![CDATA[Email]]></field>
+		<field name="formItem2"><![CDATA[Subscribe]]></field>
+		<field name="invalidMail"><![CDATA[Adresa pe care ati introdus-o nu e valida.]]></field>
+		<field name="formItem3"><![CDATA[This email is already subscribed]]></field>
+		<field name="formItem4"><![CDATA[Thank you for subscribing to our newsletter]]></field>
+		<field name="formItem5"><![CDATA[eMail Address]]></field>
+		<field name="formItem6"><![CDATA[Primiti pe adresa de eMail toate informatiile legate de formarile Cefora]]></field>
+	</component>
+	<component name="bugcraft">
+		<scenario for="profile">
+			
+			<field name="activeBarTitleText">Active Buffs</field>
+			<field name="passiveBarTitleText">Passive Buffs</field>
+			<field name="buffsContractorButtonClosed">Expand Area</field>
+			<field name="buffsContractorButtonOpen">Contract Area</field>
+			
+			<field name="menuItemProfile">Profile</field>
+			<field name="menuItemJourney">Journey</field>
+			<field name="menuItemMarket">Market</field>
+			<field name="menuItemVendors">Vendors</field>
+			<field name="menuItemBattle">Battle</field>
+			<field name="menuItemSwitch">Switch/Add Character</field>
+			<field name="menuItemSave">Save your character</field>
+			<field name="menuItemLink">Menu</field>
+			
+			<field name="profileMenuItemProfile">Profile</field>
+			<field name="profileMenuItemReputation">Reputation</field>
+			<field name="profileMenuItemTalents">Talents</field>
+			<field name="profileMenuItemAchievements">Achievements</field>
+			<field name="profileMenuItemStatistics">Statistics</field>
+			
+			<field name="profileMenuRecentActivityTitle">Recent Activity</field>
+			<field name="profileMenuInventoryTitle">Inventory</field>
+			
+		</scenario>
+		<scenario for="vendors">
+			<field name="pageVendorsPlayerInventoryTitle">Inventory</field>
+			
+			
+		</scenario>
+		<scenario for="settings">
+			
+			<field name="windowTitle">Main Menu</field>
+			<field name="videoSettingsButton">Video Options</field>
+			<field name="interfaceSettingsButton">Interface Options</field>
+			<field name="logoutButton">Logout</field>
+			<field name="returnToGameButton">Return to game</field>
+			
+			
+		</scenario>
+		<scenario for="market">
+			
+			<field name="pageMarketPlayerInventoryTitle">Inventory</field>
+			<field name="startingPrice">Starting price</field>
+			<field name="buyoutPrice">Buyout price</field>
+			<field name="timeDuration1">12hrs</field>
+			<field name="timeDuration2">24hrs</field>
+			<field name="timeDuration3">48hrs</field>
+			<field name="createAuction">Create auction</field>
+			
+			<field name="tableTitle1">Item</field>
+			<field name="tableTitle2">Time left</field>
+			<field name="tableTitle3">Highest bidder</field>
+			<field name="tableTitle4">Current bid</field>
+			<field name="tableTitle5">Options</field>
+			
+			<field name="option1">Place a bid</field>
+			<field name="option2">Buyout</field>
+			
+			
+		</scenario>
+		<scenario for="battle">
+			
+			
+			
+		</scenario>
+		<scenario for="selectCharacter">
+			
+			<field name="selectCharacterMenuItemCharacterList">My Characters</field>
+			<field name="selectCharacterMenuItemNew">New Character</field>
+			
+			<field name="faction1Title">Anterium</field>
+			<field name="faction2Title">Hegemony</field>
+			
+			<field name="member1Title">Ant</field>
+			<field name="member1Description">The wilds call out to the wild. Hard working and adventurous, the proud ants never let anything get in the way of progress.
+			Their noble spirit is what drove them to adapt to the land and learn its ways. Now, generations after the first ants stepped off their arks, the ants have triumphed in taming the wilderness.
+			In the battle that is to come, the land itself is their ally.</field>
+			<field name="member2Title">Fire Ant</field>
+			<field name="member2Description">"You should never play with fire unless you make others get burned." That lesson has been passed down amongst fire ants for ages.
+			Stubborn, hot headed and fiery of temper, the only thing that cools their energetic spirits is adventure and plenty of it. That's what makes them the best fighters the Anterium has ever had. How about it?
+			Think you have what it takes to play with fire?</field>
+			<field name="member3Title">Butterfly</field>
+			<field name="member3Description">Long ago, the butterflies looked down upon the arks that made it across the sea.
+			Always in pursuit of knowledge, the delicate looking natives earned the respect and trust of the newcomers to the extent that their wisdom is now part of the driving force behind the Anterium.
+			Wise and crafty, their minds are dangerous playgrounds for powers that demand respect for these noble citizens.</field>
+			<field name="member4Title">Bee</field>
+			<field name="member4Description">Noble and majestic, the bees are the rulling class behind the hegemony.
+			In the early days of colonisation, their shrewed cunning enabled them to take charge of what was to become one of the greatest nations in history.
+			Keepers of powerful magic and lore, the bees jealously guard their place as the Hegemony's elite.</field>
+			<field name="member5Title">Ladybug</field>
+			<field name="member5Description">Skilled scouts and marksmen, the ladybugs have proven their value again and again in the years leading up to the current troubled peace with the Anterium.
+			Despite the lack of conflict, these valiant adventurers have not allowed their skills to dull.
+			When a mission requires finess, then the Hegemony leadership knows exactly where to find its volunteers.</field>
+			<field name="member6Title">Mantis</field>
+			<field name="member6Description">Strong in will and body, the mantis is a skilled warrior and one of the few whose strength can truly match the resilience of a Fire Ant. Believing in balance above all else, the mantises dedicate years of their lives to the study of the Natural Equilibrium.
+			Their understanding and discipline makes them into the fierce warriors that welcomed and impressed their allies during the early days of colonisation.</field>
+			
+			<field name="attribute1">Attack</field>
+			<field name="attribute2">Damage</field>
+			<field name="attribute3">Defense</field>
+			<field name="attribute4">Armor</field>
+			
+			<field name="nameInput">Name:</field>
+			<field name="nameInputDefaultValue"><![CDATA[<Character Name>]]></field>
+			
+			<field name="goBackText">Change Realm</field>
+			<field name="newCharacterText">New Character</field>
+			<field name="loginCharacterText">Enter Realm</field>
+			<field name="deleteCharacterText">Delete Character</field>
+			
+			<field name="createCharacterText">Create Character</field>
+			
+		</scenario>
+		<scenario for="default">
+			
+			
+			
+		</scenario>
+	</component><component name="appJS">
+		<scenario for="incompatibleBrowser">
+			<field name="message"><p>OOps! Looks like the browser you're using is <b>too old</b> to see the bugs!</p><p>Please try one of the BugTopia friendly browsers below</p></field>
+			<field name="getFirefox">Get Mozilla Firefox</field>
+			<field name="getChrome">Get Google Chrome</field>
+		</scenario>
+	</component><component name="helperInclude">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component><component name="payment">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component></translation>

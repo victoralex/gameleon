@@ -1,0 +1,90 @@
+
+	spellEffects.auraColorsCyan = function( args )
+	{
+		this.ID = spellEffects.layer[1].push( this ) - 1;
+		this.characterSpellEffectID = args.targetCharacter._internal.spellEffects.push( this ) - 1;
+		this.alpha = 1;
+		this.offsetX = 20;
+		this.offsetY = 20;
+		this.deleteRange = 40;
+		this.previousX = args.targetCharacter.characterData.character_zone_x - this.offsetX;
+		this.previousY = args.targetCharacter.characterData.character_zone_y - this.offsetY;
+		this.duration = 5000 - Component.bugcraft.latency;
+		
+		var self = this;
+		
+		var auraColorsCyanImageObject = new Image();
+		auraColorsCyanImageObject.src = '/components/bugcraft/resources/public/component.bugcraft.spellEffects/images/aura/colors/cyan/cast_cyan0.png';
+		
+		var auraColorsCyanSound = soundManager.createSound({
+				id: 'auraColorsCyan' + ( ++spellEffects.soundIncrementor ),
+				url: '/components/bugcraft/resources/public/component.bugcraft.spellEffects/sounds/sound.mp3', 
+				volume: spellEffects.volumeByRange ( Component.bugcraft.currentCharacterObject.characterData.character_zone_x, Component.bugcraft.currentCharacterObject.characterData.character_zone_y, args.targetCharacter.characterData.character_zone_x, args.targetCharacter.characterData.character_zone_y, spellEffects.volumeRangeLong )
+		});
+		/*
+		this.spellEffectSoundID = args.targetCharacter._internal.soundEffects.push( auraColorsCyanSound ) - 1;
+		
+		soundManager.play( 'auraColorsCyan' + spellEffects.soundIncrementor, 
+										{
+											onfinish: function () 
+											{
+												delete args.targetCharacter._internal.soundEffects[ self.spellEffectSoundID ];	
+											}
+										});
+		*/
+		//draw the auraColorsCyan
+		this.draw = function()
+		{
+			Map.ctx.globalAlpha = self.alpha;
+			
+			Map.ctx.drawImage(
+							auraColorsCyanImageObject,
+							args.targetCharacter.characterData.character_zone_x + Map.viewPortX - self.offsetX,
+							args.targetCharacter.characterData.character_zone_y + Map.viewPortY - self.offsetX
+						);
+						
+			self.previousX = args.targetCharacter.characterData.character_zone_x - self.offsetX;
+			self.previousY = args.targetCharacter.characterData.character_zone_y - self.offsetY;
+						
+			Map.ctx.globalAlpha = 1;
+		}
+		
+		//remove the auraColorsCyan
+		this.remove = function()
+		{
+			spellEffects.layerCleaner.push( this );
+			spellEffects.layer[1][ this.ID ] = null;
+			delete args.targetCharacter._internal.spellEffects[ this.characterSpellEffectID ];
+		}
+		
+		var i = 0;
+		var _animate =  function()
+							{
+								auraColorsCyanImageObject.src = '/components/bugcraft/resources/public/component.bugcraft.spellEffects/images/aura/colors/cyan/cast_cyan' + ( i++ % 4 ) + '.png';
+								
+								setTimeout( _animate, 80 );
+							}
+							
+		_animate();
+							
+		setTimeout( function()
+							{
+								var _t = setInterval( function()
+													{
+														self.alpha -= 0.1;
+														
+														if( self.alpha > 0 )
+														{
+															return;
+														}
+														
+														self.remove();
+														
+														clearInterval( _t );
+														
+													}, 60 );
+						
+							}, self.duration );
+							
+	} //end auraColorsCyan
+	

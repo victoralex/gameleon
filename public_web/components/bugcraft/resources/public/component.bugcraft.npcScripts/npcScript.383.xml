@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc id="383"><events><event name="use"><effect><name><![CDATA[RummageJunk]]></name></effect></event></events></npc>

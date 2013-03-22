@@ -1,0 +1,542 @@
+
+	/*
+		translationEditor CSS Screen Template
+	*/
+	
+	.translationEditor
+	{
+		margin-bottom:25px;
+	}
+	
+	.translationEditor .topArea
+	{
+		background-image:url('/components/translationEditor/resources/public/img/header.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:723px;
+		height:70px;
+		display:inline-block;
+	}
+	
+	.translationEditor .topArea .title
+	{
+		font-size:20px;
+		margin-top:22px;
+		text-align:left;
+		margin-left:40px;
+		width:300px;
+		color:#e2e2e2;
+		float:left;
+		text-transform:capitalize;
+	}
+	
+	.translationEditor .topArea .menu
+	{
+		display:inline-block;
+		width:363px;
+		height:62px;
+		text-align:right;
+		margin-right:20px;
+		float:left;
+		margin-top:8px;
+	}
+	
+	.translationEditor .topArea .menu .buttonOverBack
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/translationEditor/resources/public/img/back_hover.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.translationEditor .topArea .menu .buttonOutBack
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/translationEditor/resources/public/img/back_out.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.translationEditor .topArea .menu .buttonOverAdd
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/translationEditor/resources/public/img/add_hover.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.translationEditor .topArea .menu .buttonOutAdd
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/translationEditor/resources/public/img/add_out.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.translationEditor .topArea .menu .buttonOverList
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/translationEditor/resources/public/img/list_hover.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.translationEditor .topArea .menu .buttonOutList
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/translationEditor/resources/public/img/list_out.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	/*
+		Grid
+	*/
+	
+	.translationEditor .gridArea
+	{
+		text-align:left;
+		display:inline-block;
+		width:713px;
+	}
+	
+	.translationEditor .gridArea FORM
+	{
+		margin:0px;
+		padding:0px;
+	}
+	
+	.translationEditor .gridArea .filters
+	{
+		margin-top:20px;
+		text-align:right;
+		padding-right:20px;
+		padding-bottom:5px;
+	}
+	
+	.translationEditor .gridArea .filters .filter
+	{
+		display:inline-block;
+		#display:inline;
+		margin-left:10px;
+	}
+	
+	.translationEditor .gridArea .filters .filter SPAN
+	{
+		color:#efefef;
+		padding:0px;
+		margin-right:5px;
+	}
+	
+	.translationEditor .gridArea .filters .filter SELECT
+	{
+		font-size:10px;
+		margin:0px;
+		padding:0px;
+	}
+	
+	.translationEditor .gridArea .filters .filter SELECT OPTION
+	{
+		font-size:10px;
+		margin:0px;
+		padding:0px;
+	}
+	
+	.translationEditor .gridArea .top
+	{
+		background-image:url('/components/translationEditor/resources/public/img/grid_top.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:713px;
+		height:17px;
+	}
+	
+	.translationEditor .gridArea .middle
+	{
+		border-left:1px solid #444444;
+		border-right:1px solid #444444;
+		background-color:#2e2e2e;
+		width:710px;
+	}
+	
+	.translationEditor .gridArea .middle .errorRow
+	{
+		padding-top:10px;
+		padding-bottom:20px;
+		padding-left:50px;
+		padding-right:50px;
+		color:#ffffff;
+		text-align:center;
+	}
+	
+	.translationEditor .gridArea .middle .row
+	{
+		border-bottom:1px solid #444444;
+		color:#ebe7e8;
+		padding-top:15px;
+		padding-bottom:10px;
+		width:710px;
+	}
+	
+	.translationEditor .gridArea .middle .row:hover
+	{
+		background-color:#151515;
+	}
+	
+	.translationEditor .gridArea .middle .row .options
+	{
+		width:22px;
+		margin-left:20px;
+		margin-right:35px;
+		display:inline-block;
+		#float:left;
+	}
+	
+	.translationEditor .gridArea .middle .row:hover .options
+	{
+		background-color:#151515;
+	}
+	
+	.translationEditor .gridArea .middle .row .options .buttonUnchecked
+	{
+		margin-top:20px;
+		background-image:url('/components/translationEditor/resources/public/img/unchecked.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:22px;
+		height:21px;
+		margin:0px;
+		display:inline-block;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.translationEditor .gridArea .middle .row .options .buttonChecked
+	{
+		margin-top:20px;
+		background-image:url('/components/translationEditor/resources/public/img/checked.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:22px;
+		height:21px;
+		margin:0px;
+		display:inline-block;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.translationEditor .gridArea .middle .row .content, .translationEditor .gridArea .middle .row .content_1, .translationEditor .gridArea .middle .row .content_2
+	{
+		display:inline-block;
+		#float:left;
+		vertical-align:top;
+	}
+	
+	.translationEditor .gridArea .middle .row .content .text, .translationEditor .gridArea .middle .row .content_1 .text, .translationEditor .gridArea .middle .row .content_2 .text
+	{
+		display:block;
+	}
+	
+	.translationEditor .gridArea .middle .row .content .text:hover, .translationEditor .gridArea .middle .row .content_1 .text:hover, .translationEditor .gridArea .middle .row .content_2 .text:hover
+	{
+		font-weight:bold;
+	}
+	
+	.translationEditor .gridArea .middle .row .content .meta, .translationEditor .gridArea .middle .row .content_1 .meta, .translationEditor .gridArea .middle .row .content_2 .meta
+	{
+		font-size:10px;
+		margin-right:5px;
+		color:#afafaf;
+	}
+	
+	.translationEditor .gridArea .middle .row .content .meta .label, .translationEditor .gridArea .middle .row .content_1 .meta .label, .translationEditor .gridArea .middle .row .content_2 .meta .label
+	{
+		font-weight:bold;
+		margin-right:5px;
+		text-transform:capitalize;
+	}
+	
+	.translationEditor .gridArea .middle .row .content A:link, .translationEditor .gridArea .middle .row .content A:visited, .translationEditor .gridArea .middle .row .content_1 A:link, .translationEditor .gridArea .middle .row .content_1 A:visited, .translationEditor .gridArea .middle .row .content_2 A:link, .translationEditor .gridArea .middle .row .content_2 A:visited
+	{
+		color:#ffffff;
+		text-decoration:none;
+	}
+	
+	.translationEditor .gridArea .middle .row .content A:hover, .translationEditor .gridArea .middle .row .content_1 A:hover, .translationEditor .gridArea .middle .row .content_2 A:hover
+	{
+		
+	}
+	
+	.translationEditor .gridArea .middle .row .content .contentOptions, .translationEditor .gridArea .middle .row .content_1 .contentOptions, .translationEditor .gridArea .middle .row .content_2 .contentOptions
+	{
+		margin-top:5px;
+	}
+	
+	.translationEditor .gridArea .middle .row .content .contentOptions A:link, .translationEditor .gridArea .middle .row .content .contentOptions A:visited, .translationEditor .gridArea .middle .row .content_1 .contentOptions A:link, .translationEditor .gridArea .middle .row .content_1 .contentOptions A:visited, .translationEditor .gridArea .middle .row .content_2 .contentOptions A:link, .translationEditor .gridArea .middle .row .content_2 .contentOptions A:visited
+	{
+		font-size:10px;
+	}
+	
+	.translationEditor .gridArea .middle .row .content .contentOptions .addLink, .translationEditor .gridArea .middle .row .content_1 .contentOptions .addLink, .translationEditor .gridArea .middle .row .content_2 .contentOptions .addLink
+	{
+		background-image:url('/components/translationEditor/resources/public/img/add.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		padding-left:16px;
+	}
+	
+	/* Nesting levels */
+	.translationEditor .gridArea .middle .row .content_1
+	{
+		margin-left:15px;
+	}
+	
+	.translationEditor .gridArea .middle .row .content_2
+	{
+		margin-left:30px;
+	}
+	
+	/*
+		Bottom Buttons
+	*/
+	
+	.translationEditor .gridArea .bottomButtons
+	{
+		background-image:url('/components/translationEditor/resources/public/img/grid_bottom.png');
+		background-repeat:no-repeat;
+		background-position:bottom left;
+		width:682px;
+		height:49px;
+		text-align:right;
+		text-transform:capitalize;
+		color:#ffffff;
+		padding-top:5px;
+		padding-left:10px;
+		padding-right:31px;
+		display:inline-block;
+	}
+	
+	.translationEditor .gridArea .bottomButtons .submitLink
+	{
+		display:inline-block;
+		float:right;
+		background-image:url('/components/translationEditor/resources/public/img/submit.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:130px;
+		height:33px;
+		text-align:center;
+		padding-top:8px;
+		margin-top:5px;
+		margin-right:10px;
+	}
+	
+	.translationEditor .gridArea .bottomButtons .submitLink A:link, .translationEditor .gridArea .bottomButtons .submitLink A:visited
+	{
+		text-decoration:none;
+		color:#afafaf;
+	}
+	
+	.translationEditor .gridArea .bottomButtons .submitLink A:hover
+	{
+		color:#ffffff;
+	}
+	
+	/*
+		Bottom General
+	*/
+	
+	.translationEditor .gridArea .bottom
+	{
+		background-image:url('/components/translationEditor/resources/public/img/grid_bottom.png');
+		background-repeat:no-repeat;
+		background-position:bottom left;
+		width:713px;
+		height:49px;
+		display:inline-block;
+		text-transform:capitalize;
+		color:#ffffff;
+		padding-top:5px;
+		padding-left:10px;
+		padding-right:10px;
+	}
+	
+	.translationEditor .gridArea .bottom .options
+	{
+		margin-top:10px;
+		width:22px;
+		margin-left:10px;
+		margin-right:35px;
+		display:inline-block;
+		#float:left;
+	}
+	
+	.translationEditor .gridArea .bottom .options .buttonUnchecked
+	{
+		margin-top:20px;
+		background-image:url('/components/translationEditor/resources/public/img/unchecked.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:22px;
+		height:21px;
+		margin:0px;
+		display:inline-block;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.translationEditor .gridArea .bottom .options .buttonChecked
+	{
+		margin-top:20px;
+		background-image:url('/components/translationEditor/resources/public/img/checked.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:22px;
+		height:21px;
+		margin:0px;
+		display:inline-block;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.translationEditor .gridArea .bottom .content
+	{
+		margin-top:15px;
+		display:inline-block;
+		#float:left;
+		vertical-align:top;
+	}
+	
+	.translationEditor .gridArea .bottom .content .linkContainer
+	{
+		width:200px;
+		margin-right:20px;
+		display:inline;
+	}
+	
+	.translationEditor .gridArea .bottom .content .linkContainer .delete
+	{
+		padding-left:18px;
+		background-image:url('/components/translationEditor/resources/public/img/delete_page.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+	}
+	
+	.translationEditor .gridArea .bottom .content .linkContainer .publish
+	{
+		padding-left:18px;
+		background-image:url('/components/translationEditor/resources/public/img/folder_accept.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+	}
+	
+	.translationEditor .gridArea .bottom .content .linkContainer .unpublish
+	{
+		padding-left:18px;
+		background-image:url('/components/translationEditor/resources/public/img/delete_folder.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+	}
+	
+	.translationEditor .gridArea .bottom .content A:link, .translationEditor .gridArea .bottom .content A:visited
+	{
+		color:#aaaaaa;
+		font-size:10px;
+	}
+	
+	.translationEditor .gridArea .bottom .content A:hover
+	{
+		text-decoration:none;
+	}
+	
+	/*
+		Error Block
+	*/
+	
+		.translationEditor .errorBlock
+	{
+		text-align:center;
+		display:inline-block;
+	}
+	
+	.translationEditor .errorBlock .top
+	{
+		background-image:url('/components/translationEditor/resources/public/img/sus-gir_03.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		#filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/components/translationEditor/resources/public/img/sus-gir_03.png',sizingMethod='crop');
+		#background-image:none;
+		width:493px;
+		height:22px;
+	}
+	
+	.translationEditor .errorBlock .middle
+	{
+		background-image:url('/components/translationEditor/resources/public/img/sus-gir_05.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		#filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/components/translationEditor/resources/public/img/sus-gir_05.png',sizingMethod='crop');
+		#background-image:none;
+		width:473px;
+		color:#555555;
+		font-size:12px;
+		padding-left:10px;
+		padding-right:10px;
+		font-weight:bold;
+	}
+	
+	.translationEditor .errorBlock .bottom
+	{
+		background-image:url('/components/translationEditor/resources/public/img/sus-gir_06.png');
+		background-repeat:no-repeat;
+		background-position:bottom left;
+		#filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/components/translationEditor/resources/public/img/sus-gir_06.png',sizingMethod='crop');
+		#background-image:none;
+		width:493px;
+		height:22px;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

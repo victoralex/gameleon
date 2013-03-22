@@ -1,0 +1,395 @@
+
+	/*
+		Item Tooltip
+	*/
+	
+	body .itemTooltip
+	{
+		display:inline-block;
+		#display:inline;
+		position:absolute;
+		width:245px;
+		text-align:left;
+		margin-left:30px;
+		margin-top:-10px;
+		z-index:1000;
+	}
+	
+	body .itemTooltip .tooltipItemIcon
+	{
+		position:absolute;
+		background-position:center center;
+		background-repeat:no-repeat;
+		width:70px;
+		height:70px;
+		margin-top:-72px;
+		margin-left:10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		background-color:#1f1f1f;
+	}
+	
+	body .itemTooltip .tooltipTop
+	{
+		background-image:url('/img/vendor/tt_top.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:245px;
+		height:8px;
+	}
+	
+	body .itemTooltip .tooltipTitlepoor,
+		body .itemTooltip .tooltipTitlefair,
+		body .itemTooltip .tooltipTitlesuperior,
+		body .itemTooltip .tooltipTitlemasterwork
+	{
+		background-image:url('/img/vendor/tt_arrow.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:225px;
+		#width:245px;
+		padding-left:20px;
+		height:23px;
+		color:#ffffff;
+		text-transform:capitalize;
+		text-shadow:#000000 1px 1px 1px;
+		font-size:14px;
+		font-weight:bold;
+	}
+	
+	body .itemTooltip .tooltipTitlefair
+	{
+		color:#30fe00;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	body .itemTooltip .tooltipTitlesuperior
+	{
+		color:#046ee6;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	body .itemTooltip .tooltipTitlemasterwork
+	{
+		color:#a200ff;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	body .itemTooltip .tooltipDetails
+	{
+		background-image:url('/img/vendor/tt_mid.png');
+		background-repeat:repeat-y;
+		background-position:left top;
+		width:215px;
+		#width:245px;
+		padding-left:20px;
+		padding-right:10px;
+		color:#dfdfdf;
+		text-align:justify;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	body .itemTooltip .tooltipDetails .toolTipSlotAndArmorContainer
+	{
+		padding-top:3px;
+		text-transform:capitalize;
+		height:15px;
+		vertical-align:top;
+	}
+	
+	body .itemTooltip .tooltipDetails .toolTipSlotAndArmorContainer .tooltipSlot
+	{
+		display:inline-block;
+		#display:inline;
+		width:130px;
+	}
+	
+	body .itemTooltip .tooltipDetails .toolTipSlotAndArmorContainer .tooltipArmorType,
+		body .itemTooltip .tooltipDetails .toolTipSlotAndArmorContainer .tooltipArmorTypeRestricted
+	{
+		display:inline-block;
+		#display:inline;
+		width:85px;
+		text-align:right;
+	}
+	
+	body .itemTooltip .tooltipDetails .toolTipSlotAndArmorContainer .tooltipArmorTypeRestricted
+	{
+		color:#8b1519;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipBonusDamage
+	{
+		padding-top:3px;
+		text-transform:capitalize;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipBonusAttack
+	{
+		padding-top:3px;
+		text-transform:capitalize;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipBonusDefense
+	{
+		padding-top:3px;
+		text-transform:capitalize;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipBonusResistance
+	{
+		padding-top:3px;
+		text-transform:capitalize;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipBonusArmor
+	{
+		padding-top:3px;
+		text-transform:capitalize;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipBonusPotency
+	{
+		padding-top:3px;
+		text-transform:capitalize;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipBonusStrength
+	{
+		padding-top:3px;
+		text-transform:capitalize;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipBonusHP
+	{
+		padding-top:3px;
+		text-transform:capitalize;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipAssociatedBuff
+	{
+		padding-top:6px;
+		text-transform:capitalize;
+		color:lime;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipItemLevelRequired,
+		body .itemTooltip .tooltipDetails .tooltipItemLevelRequiredRestricted
+	{
+		padding-top:6px;
+		text-transform:capitalize;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipItemLevelRequiredRestricted
+	{
+		color:#8b1519;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipItemLevel
+	{
+		padding-top:3px;
+		text-transform:capitalize;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipItemHappinessRequired,
+		body .itemTooltip .tooltipDetails .tooltipItemHappinessRequiredRestricted
+	{
+		padding-top:6px;
+		text-transform:capitalize;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipItemHappinessRequiredRestricted
+	{
+		color:#8b1519;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipItemHappiness
+	{
+		padding-top:3px;
+		text-transform:capitalize;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipItemDescription
+	{
+		padding-top:10px;
+		color:#fff29a;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipItemSellPrice
+	{
+		padding-top:10px;
+		color:#fff29a;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipItemSellPrice .polenCrude
+	{
+		background-image:url('/img/bags/polen_crude.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:21px;
+		padding-top:1px;
+		height:17px;
+		#height:20px;
+		display:inline-block;
+		margin-left:5px;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipItemSellPrice .polenRegular
+	{
+		background-image:url('/img/bags/polen_regular.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:21px;
+		padding-top:1px;
+		height:19px;
+		#height:20px;
+		display:inline-block;
+		margin-left:5px;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipItemSellPrice .polenRefined
+	{
+		background-image:url('/img/bags/polen_refined.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:21px;
+		padding-top:1px;
+		height:19px;
+		#height:20px;
+		display:inline-block;
+		margin-left:5px;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	body .itemTooltip .tooltipDetails .tooltipItemSellPrice .amber
+	{
+		background-image:url('/img/bags/amber2.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:23px;
+		padding-top:1px;
+		height:19px;
+		#height:20px;
+		display:inline-block;
+		margin-right:10px;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	body .itemTooltip .tooltipBottom
+	{
+		background-image:url('/img/vendor/tt_bot.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:245px;
+		height:8px;
+	}
+	
+	/*
+		Buff Tooltip
+	*/
+	
+	body .buffTooltip
+	{
+		display:inline-block;
+		#display:inline;
+		position:absolute;
+		width:245px;
+		text-align:left;
+		margin-left:30px;
+		margin-top:-10px;
+		z-index:1000;
+	}
+	
+	body .buffTooltip .tooltipItemIcon
+	{
+		position:absolute;
+		background-position:center center;
+		background-repeat:no-repeat;
+		width:38px;
+		height:38px;
+		margin-top:-40px;
+		margin-left:10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		background-color:#1f1f1f;
+	}
+	
+	body .buffTooltip .tooltipTitle
+	{
+		background-image:url('/img/vendor/tt_arrow.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:225px;
+		#width:245px;
+		padding-left:20px;
+		height:23px;
+		color:#30fe00;
+		text-transform:capitalize;
+		text-shadow:#000000 1px 1px 1px;
+		font-size:14px;
+		font-weight:bold;
+	}
+	
+	body .buffTooltip .tooltipTop
+	{
+		background-image:url('/img/vendor/tt_top.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:245px;
+		height:8px;
+	}
+	
+	body .buffTooltip .tooltipDetails
+	{
+		background-image:url('/img/vendor/tt_mid.png');
+		background-repeat:repeat-y;
+		background-position:left top;
+		width:215px;
+		#width:245px;
+		padding-left:20px;
+		padding-right:10px;
+		color:#dfdfdf;
+		text-align:justify;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	body .buffTooltip .tooltipDetails .tooltipTalentPoints
+	{
+		margin-bottom:10px;
+	}
+	
+	body .buffTooltip .tooltipDetails .tooltipBuffDescription
+	{
+		
+	}
+	
+	body .buffTooltip .tooltipBottom
+	{
+		background-image:url('/img/vendor/tt_bot.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:245px;
+		height:8px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

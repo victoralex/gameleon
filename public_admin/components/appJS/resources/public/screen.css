@@ -1,0 +1,52 @@
+	
+	/*
+		Debug window
+	*/
+	
+	.debugWindowComponent
+	{
+		position:absolute;
+		left:10px;
+		top:400px;
+		filter:alpha(opacity=50);
+		opacity:0.5;
+		-moz-opacity:0.5;
+		width:300px;
+		height:400px;
+		background-color:#000000;
+		color:#ffffff;
+		padding:5px;
+		overflow:auto;
+		 -moz-border-radius: 10px;
+		 -webkit-border-radius: 10px;
+		 border: 1px solid #afafaf;
+	}
+	
+	.debugWindowComponent.visible
+	{
+		display:inline-block;
+		#display:block;
+	}
+	
+	.debugWindowComponent.visible .row
+	{
+		text-align:left;
+	}
+	
+	.debugWindowComponent.visible .row .date
+	{
+		color:#9f9f9f;
+		margin-right:5px;
+	}
+	
+	.debugWindowComponent.visible .row .error
+	{
+		color:red;
+		margin-right:5px;
+	}
+	
+	.debugWindowComponent.hidden
+	{
+		display:none;
+	}
+	

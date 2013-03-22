@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spellEffect name="RummageJunk" type="imageFramesNoLoopWithSound"><frames maxFrames="4"/><sound soundName="RummageJunk.mp3"/></spellEffect>

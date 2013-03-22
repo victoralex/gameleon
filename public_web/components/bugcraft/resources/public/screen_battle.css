@@ -1,0 +1,1430 @@
+
+	/*
+		bugcraft Battle CSS Screen Template
+	*/
+	
+	@font-face
+	{
+		 font-family: "koreanCalligraphy";
+		 src: url( '/ttf/koreanCalligraphy.ttf' );
+	}
+	
+	@font-face
+	{
+		 font-family: "aliquam";
+		 src: url( '/ttf/aliquam.ttf' );
+	}
+	
+	@font-face
+	{
+		 font-family: "frizQuadrata";
+		 src: url( '/ttf/frizQuadrata.ttf' );
+	}
+	
+	@font-face
+	{
+		 font-family: "folkard";
+		 src: url( '/ttf/folkard.ttf' );
+	}
+	
+	@font-face
+	{
+		 font-family: "helveticaworldRegular";
+		 src: url( '/ttf/helveticaworld-regular.ttf' );
+	}
+	
+	@font-face
+	{
+		 font-family: "helveticaworldBold";
+		 src: url( '/ttf/helveticaworld-bold.ttf' );
+	}
+	
+	.component.bugcraft .battlePage
+	{
+		
+	}
+	
+	.component.bugcraft .battlePage .canvas
+	{
+		position:absolute;
+		top:0px;
+		left:0px;
+	  	z-index:-1;
+	}
+	
+	.component.bugcraft .battlePage .canvasUsable
+	{
+		position:absolute;
+		top:0px;
+		left:0px;
+	  	z-index:-1;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .battlePage .canvasFoe
+	{
+		position:absolute;
+		top:0px;
+		left:0px;
+	  	z-index:-1;
+		cursor:url('/img/cursors/cursor1_red_glow.png'), auto;
+	}
+	
+	.component.bugcraft .battlePage .canvasFriend
+	{
+		position:absolute;
+		top:0px;
+		left:0px;
+	  	z-index:-1;
+		cursor:url('/img/cursors/cursor1_green_glow.png'), auto;
+	}
+	
+	.component.bugcraft .battlePage .canvasNeutral
+	{
+		position:absolute;
+		top:0px;
+		left:0px;
+	  	z-index:-1;
+		cursor:url('/img/cursors/cursor1_yellow_glow.png'), auto;
+	}
+	
+	.component.bugcraft .battlePage .map
+	{
+		position: absolute;
+		overflow: hidden;
+		top:0px;
+		left:0px;
+		z-index: -1;
+	}
+	
+	.component.bugcraft .battlePage .map .drag
+	{
+		padding: 0px;
+		margin: 0px;
+		position: absolute;
+	}
+	
+	.component.bugcraft .battlePage .map .drag .tile
+	{
+		display: inline-block;
+		padding: 0px;
+		margin: 0px;
+		position:absolute;
+	}
+	
+	.component.bugcraft .battlePage .map .drag .tileHidden
+	{
+		visibility: hidden;
+	}
+	
+	/*
+		Chat specific
+	*/
+	
+	.component.bugcraft .battlePage .chatContainer
+	{
+		padding: 0px;
+		margin: 0px;
+		position: absolute;
+		bottom: 10px;
+		left: 10px;
+		width: 300px;
+		height:150px;
+		background-color: #afafaf;
+		overflow: hidden;
+		opacity:0.5;
+		-moz-opacity:.5;
+		text-align:left;
+	}
+	
+	.component.bugcraft .battlePage .chatMessageContainer
+	{
+		overflow: hidden;
+		width: 300px;
+		position: absolute;
+		top: 100px;
+		display: inline-block;
+	}
+	
+	.component.bugcraft .battlePage .chatInput
+	{
+		padding: 0px;
+		margin: 0px;
+		width: 250px;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+	}
+	
+	.component.bugcraft .battlePage .chatMessageContainer .chatMessage
+	{
+	
+	}
+	
+	.component.bugcraft .battlePage .chatMessageContainer .chatMessage .channel
+	{
+		color: red;
+		display:inline-block;
+	}
+	
+	.component.bugcraft .battlePage .chatMessageContainer .chatMessage .sender
+	{
+		color: darkgreen;
+		display:inline-block;
+	}
+	
+	.component.bugcraft .battlePage .chatMessageContainer .chatMessage .message
+	{
+		display:inline-block;
+	}
+	
+	/*
+		Messages specific
+	*/
+	
+	.component.bugcraft .battlePage .messagesContainer
+	{
+		position:absolute;
+		top: 200px;
+		font-family:georgia;
+		text-align:center;
+		margin-left:50px;
+	}
+	
+	.component.bugcraft .battlePage .messagesContainer .information
+	{
+		text-align:center;
+		width:780px;
+		margin-bottom:5px;
+	}
+	
+	.component.bugcraft .battlePage .messagesContainer .information .text
+	{
+		color:#8faa16;
+		margin-top:-23px;
+		margin-left:2px;
+		font-size:20px;
+	}
+	
+	.component.bugcraft .battlePage .messagesContainer .information .shadow
+	{
+		color:#000000;
+		font-size:20px;
+	}
+	
+	.component.bugcraft .battlePage .messagesContainer .raidWarning
+	{
+	
+	}
+	
+	.component.bugcraft .battlePage .messagesContainer .error
+	{
+		text-align:center;
+		width:780px;
+		margin-bottom:5px;
+	}
+	
+	.component.bugcraft .battlePage .messagesContainer .error .text
+	{
+		color:#cc6a5d;
+		margin-top:-23px;
+		margin-left:2px;
+		font-size:20px;
+	}
+	
+	.component.bugcraft .battlePage .messagesContainer .error .shadow
+	{
+		color:#000000;
+		font-size:20px;
+	}
+	
+	/*
+		Casting bar
+	*/
+	
+	.component.bugcraft .battlePage .barCastTime, .component.bugcraft .battlePage .barCastTimeInterrupted
+	{
+		position:fixed;
+		background-image:url('/img/cast_bar_empty.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:175px;
+		height:14px;
+		text-align:left;
+		bottom:125px;
+		margin-left:340px;
+	}
+	
+	.component.bugcraft .battlePage .barCastTime .filling, .component.bugcraft .battlePage .barCastTimeInterrupted .filling
+	{
+		background-image:url('/img/cast_bar_fill.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:8px;
+		height:14px;
+		display:inline-block;
+		#display:inline;
+		##float:left;
+		margin-top:1px;
+	}
+	
+	.component.bugcraft .battlePage .barCastTimeInterrupted .filling
+	{
+		background-image:url('/img/cast_bar_interrupted_fill.png');
+	}
+	
+	.component.bugcraft .battlePage .barCastTime .ending, .component.bugcraft .battlePage .barCastTimeInterrupted .ending
+	{
+		background-image:url('/img/cast_bar_ending.png');
+		background-repeat:no-repeat;
+		background-position:right top;
+		width:7px;
+		height:14px;
+		display:inline-block;
+		#display:inline;
+		##float:left;
+	}
+	
+	.component.bugcraft .battlePage .barCastTimeInterrupted .ending
+	{
+		background-image:url('/img/cast_bar_interrupted_ending.png');
+	}
+	
+	.component.bugcraft .battlePage .barCastTime .numbers, .component.bugcraft .battlePage .barCastTimeInterrupted .numbers
+	{
+		position:absolute;
+		text-align:center;
+		color:#000000;
+		text-shadow:#e5bf7d 1px 1px 1px;
+		height:13px;
+		#height:14px;
+		width:175px;
+		padding-top:1px;
+		font-size:10px;
+		text-transform:capitalize;
+	}
+	
+	.component.bugcraft .battlePage .barCastTimeInterrupted .numbers
+	{
+		color:#ffffff;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	/*
+		Achievements
+	*/
+	
+	.component.bugcraft .achievementsNotificationArea
+	{
+		background-image:url('/img/achievements/achievementPopup.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:650px;
+		height:150px;
+		position:fixed;
+		bottom:100px;
+		margin-left:120px;
+		text-align:left;
+	}
+	
+	.component.bugcraft .achievementsNotificationArea .achievementGlow
+	{
+		background-image:url('/img/achievements/achiev_glow.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:90px;
+		height:150px;
+		display:inline-block;
+		position:absolute;
+		margin-left:230px;
+	}
+	
+	.component.bugcraft .achievementsNotificationArea .achievementShine
+	{
+		background-image:url('/img/achievements/achiev_shine.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:850px;
+		height:350px;
+		display:inline-block;
+		position:absolute;
+		margin-left:-100px;
+		margin-top:-100px;
+	}
+	
+	.component.bugcraft .achievementsNotificationArea .achievementName
+	{
+		margin-left:220px;
+		font-size:25px;
+		color:#ffe87f;
+		width:295px;
+		text-align:center;
+		margin-top:57px;
+		font-family:folkard;
+	}
+	
+	/*
+		Bottom bar
+	*/
+	
+	.component.bugcraft .bottomActionBar
+	{
+		background-image:url('/img/buff_zone.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:718px;
+		#width:758px;
+		height:46px;
+		#height:96px;
+		position:fixed;
+		padding-top:50px;
+		padding-left:40px;
+		text-align:left;
+		bottom:0px;
+		margin-left:72.5px;
+	}
+	
+	.component.bugcraft .bottomActionBar .buffs
+	{
+		display:inline-block;
+		#display:inline;
+		text-align:left;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .bottomActionBar .buffs .buffObject, .component.bugcraft .bottomActionBar .buffs .buffObjectEmpty
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/buff.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		height:36px;
+		width:37px;
+		margin-right:2px;
+		text-decoration:none;
+		color:#ffffff;
+		text-align:left;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .bottomActionBar .buffs .buffObject .buffCooldownBubble
+	{
+		position:absolute;
+		height:35px;
+		#height:38px;
+		width:57px;
+		background-image:url('/img/spellBook/cooldown.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		margin-top:-38px;
+		margin-left:-10px;
+		text-align:center;
+		font-family:Georgia;
+		font-size:14px;
+		padding-top:3px;
+		color:#ffffff;
+	}
+	
+	.component.bugcraft .bottomActionBar .buffs .buffObject .buffCooldownBubbleHidden
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .bottomActionBar .buffs .buffObject .buffIcon, .component.bugcraft .bottomActionBar .buffs .buffObjectEmpty .buffIcon
+	{
+		display:inline-block;
+		#display:inline;
+		margin-left:3px;
+		margin-top:3px;
+		height:30px;
+		width:30px;
+	}
+	
+	.component.bugcraft .bottomActionBar .buffs .buffObject .buffNumber, .component.bugcraft .bottomActionBar .buffs .buffObjectEmpty .buffNumber
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/buff_number.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		height:16px;
+		width:16px;
+		margin-left:23px;
+		margin-top:20px;
+		position:absolute;
+		text-align:center;
+	}
+	
+	.component.bugcraft .bottomActionBar .buffs .buffObjectEmpty .buffNumber
+	{
+		background-image:none;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu
+	{
+		display:inline-block;
+		#display:inline;
+		width:296px;
+		#width:300px;
+		text-align:right;
+		padding-left:4px;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemProfile
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/profile_inactive.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemProfile:hover
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/profile_active.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemQuests
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/quests_inactive.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemQuests:hover
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/quests_active.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemSpellBook
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/spellbook_inactive.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemSpellBook:hover
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/spellbook_active.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemTalentTree
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/talents_inactive.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemTalentTree:hover
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/talents_active.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemBestVendor
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/amberStore_inactive.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemBestVendor:hover
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/amberStore_active.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemBags
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/bags_inactive.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemBags:hover
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/bags_active.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemSystem
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/settings_inactive.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemSystem:hover
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/settings_active.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemTicketSystem
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/ticket2_inactive.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemTicketSystem:hover
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/ticket2_active.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemBattlegroundQueue
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/battleground_inactive.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemBattlegroundQueue:hover
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/battleground_active.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		margin-left:1px;
+	}
+	
+	.component.bugcraft .bottomActionBar .menu .menuItemBattlegroundQueue .overlay
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/actionBar/battleground_blink.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:36px;
+		height:36px;
+		opacity:0;
+		-moz-opacity:0;
+	}
+	
+	body .tempDragableBuff
+	{
+		position:absolute;
+		width:36px;
+		height:36px;
+		background-repeat:no-repeat;
+		background-position:left top;
+		z-index:1000;
+		-moz-box-shadow: 2px 2px 2px rgba( 0, 0, 0, 0.5 );
+		-webkit-box-shadow: 2px 2px 2px rgba( 0, 0, 0, 0.5 );
+		box-shadow: 2px 2px 2px rgba( 0, 0, 0, 0.5 );
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+	
+	/*
+		Latency
+	*/
+	
+	.component.bugcraft .lagNotification
+	{
+		position:absolute;
+		right:0px;
+		top:0px;
+		color:#ffffff;
+	}
+	
+	/*
+		Left (main) character
+	*/
+	
+	.component.bugcraft .top .mainContent
+	{
+		text-align:left;
+		padding-top:5px;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter
+	{
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .description
+	{
+		background-image:url('/img/name_bg.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:180px;
+		#width:185px;
+		height:25px;
+		#height:35px;
+		padding-left:5px;
+		padding-top:10px;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .description .name
+	{
+		font-size:14px;
+		color:#76400a;
+		text-shadow:#e5bf7d 1px 1px 1px;
+		text-transform:capitalize;
+		font-weight:bold;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .description .class, .component.bugcraft .top .mainContent .leftCharacter .description .race
+	{
+		display:none;
+		font-size:10px;
+		color:#76400a;
+		text-shadow:#e5bf7d 1px 1px 1px;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile
+	{
+		margin-top:5px;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .inCombat
+	{
+		background-image:url('/img/combatPortraitGlow.png');
+		background-repeat:no-repeat;
+		background-position:center center;
+		width:115px;
+		height:105px;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .inCombatHidden
+	{
+		width:115px;
+		height:105px;
+		display:inline-block;
+		#display:inline;
+		visibility:hidden;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .icon
+	{
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:115px;
+		height:105px;
+		/*position:absolute;*/
+		margin-left:-117px;
+		text-align:center;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .icon .level
+	{
+		background-image:url('/img/battle/yellow.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:28px;
+		height:28px;
+		margin-top:80px;
+		text-align:center;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .icon .level .number
+	{
+		color:#ffffff;
+		font-weight:bold;
+		font-size:14px;
+		position:absolute;
+		margin-top:5px;
+		width:28px;
+		text-align:center;
+		font-family:georgia;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .icon .level .numberShadow
+	{
+		color:#622a08;
+		font-weight:bold;
+		font-size:14px;
+		position:absolute;
+		margin-left:0px;
+		margin-top:4px;
+		width:27px;
+		text-align:center;
+		font-family:georgia;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats
+	{
+		display:inline-block;
+		#display:inline;
+		text-align:right;
+		width:195px;
+		margin-left:-15px;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats .barExperience
+	{
+		background-image:url('/img/xp_bar_empty.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:195px;
+		height:14px;
+		display:inline-block;
+		#display:inline;
+		text-align:left;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats .barExperience .filling
+	{
+		background-image:url('/img/xp_fill.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:8px;
+		height:14px;
+		display:inline-block;
+		#display:inline;
+		##float:left;
+		margin-top:1px;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats .barExperience .ending
+	{
+		background-image:url('/img/xp_fill.png');
+		background-repeat:no-repeat;
+		background-position:right top;
+		width:8px;
+		height:14px;
+		display:inline-block;
+		#display:inline;
+		##float:left;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats .barExperience .numbers
+	{
+		position:absolute;
+		text-align:center;
+		color:#000000;
+		height:13px;
+		#height:14px;
+		width:195px;
+		padding-top:1px;
+		font-size:10px;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats .barHealth
+	{
+		background-image:url('/img/health_bar_empty.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:175px;
+		height:14px;
+		display:inline-block;
+		#display:inline;
+		margin-top:5px;
+		text-align:left;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats .barHealth .filling
+	{
+		margin-top:1px;
+		background-image:url('/img/health_fill.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:8px;
+		height:13px;
+		display:inline-block;
+		#display:inline;
+		##float:left;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats .barHealth .ending
+	{
+		margin-top:1px;
+		background-image:url('/img/health_fill_ending.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:8px;
+		height:13px;
+		display:inline-block;
+		#display:inline;
+		##float:left;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats .barHealth .numbers
+	{
+		position:absolute;
+		text-align:center;
+		color:#000000;
+		height:13px;
+		#height:14px;
+		width:175px;
+		padding-top:1px;
+		font-size:10px;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats .barEnergy
+	{
+		background-image:url('/img/energy_bar_empty.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:175px;
+		height:14px;
+		display:inline-block;
+		#display:inline;
+		margin-top:5px;
+		text-align:left;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats .barEnergy .filling
+	{
+		margin-top:1px;
+		background-image:url('/img/energy_fill.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:8px;
+		height:13px;
+		display:inline-block;
+		#display:inline;
+		##float:left;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats .barEnergy .ending
+	{
+		margin-top:1px;
+		background-image:url('/img/energy_fill_ending.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:8px;
+		height:13px;
+		display:inline-block;
+		#display:inline;
+		##float:left;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats .barEnergy .numbers
+	{
+		position:absolute;
+		text-align:center;
+		color:#000000;
+		height:13px;
+		#height:14px;
+		width:175px;
+		padding-top:1px;
+		font-size:10px;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats .buffs
+	{
+		display:inline-block;
+		#display:inline;
+		width:175px;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats .buffs .activeBuffs, .component.bugcraft .top .mainContent .leftCharacter .profile .stats .buffs .passiveBuffs
+	{
+		margin-top:5px;
+		width:175px;
+		text-align:left;
+		height:20px;
+		display:inline-block;
+	}
+	
+	.component.bugcraft .top .mainContent .leftCharacter .profile .stats .buffs .activeBuffs .buff, .component.bugcraft .top .mainContent .leftCharacter .profile .stats .buffs .passiveBuffs .buff
+	{
+		display:inline-block;
+		#display:inline;
+		margin-right:5px;
+		width:20px;
+		height:20px;
+	}
+	
+	/*
+		Right (target) character
+	*/
+	
+	.component.bugcraft .top .mainContent .rightCharacter
+	{
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+		text-align:right;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter.hidden
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .description
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/name_bg.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:175px;
+		#width:185px;
+		height:25px;
+		#height:35px;
+		padding-right:10px;
+		padding-top:10px;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .description .name
+	{
+		font-size:14px;
+		color:#76400a;
+		text-shadow:#e5bf7d 1px 1px 1px;
+		text-transform:capitalize;
+		font-weight:bold;
+		text-align:right;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .description .class
+	{
+		display:none;
+		font-size:10px;
+		width:35px;
+		height:25px;
+		color:#ffffff;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .description .race
+	{
+		display:none;
+		font-size:10px;
+		width:40px;
+		height:25px;
+		color:#ffffff;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile
+	{
+		margin-top:5px;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .icon
+	{
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:115px;
+		height:105px;
+		text-align:center;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .icon .level.levelEasiest, .component.bugcraft .top .mainContent .rightCharacter .profile .icon .level.levelEasy, .component.bugcraft .top .mainContent .rightCharacter .profile .icon .level.levelSame, .component.bugcraft .top .mainContent .rightCharacter .profile .icon .level.levelHard, .component.bugcraft .top .mainContent .rightCharacter .profile .icon .level.levelHardest, .component.bugcraft .top .mainContent .rightCharacter .profile .icon .level.levelNoChallenge
+	{
+		background-image:url('/img/battle/greenish.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:28px;
+		height:28px;
+		margin-top:80px;
+		text-align:center;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .icon .level.levelEasy
+	{
+		background-image:url('/img/battle/green.png');
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .icon .level.levelSame
+	{
+		background-image:url('/img/battle/yellow.png');
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .icon .level.levelHard
+	{
+		background-image:url('/img/battle/orange.png');
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .icon .level.levelNoChallenge
+	{
+		background-image:url('/img/battle/gray.png');
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .icon .level.levelHardest
+	{
+		background-image:url('/img/battle/red.png');
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .icon .level.levelHardest .number
+	{
+		color:#622a08;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .icon .level.levelHardest .numberShadow
+	{
+		color:#ffffff;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .icon .level .number
+	{
+		color:#ffffff;
+		font-weight:bold;
+		font-size:14px;
+		position:absolute;
+		margin-top:5px;
+		width:28px;
+		text-align:center;
+		font-family:georgia;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .icon .level .numberShadow
+	{
+		color:#622a08;
+		font-weight:bold;
+		font-size:14px;
+		position:absolute;
+		margin-left:0px;
+		margin-top:4px;
+		width:27px;
+		text-align:center;
+		font-family:georgia;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .stats
+	{
+		display:inline-block;
+		#display:inline;
+		text-align:right;
+		width:195px;
+		margin-left:-15px;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .stats .barHealth
+	{
+		background-image:url('/img/health_bar_empty.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:175px;
+		height:14px;
+		display:inline-block;
+		#display:inline;
+		margin-top:5px;
+		text-align:left;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .stats .barHealth .filling
+	{
+		margin-top:1px;
+		background-image:url('/img/health_fill.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:8px;
+		height:13px;
+		display:inline-block;
+		#display:inline;
+		##float:left;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .stats .barHealth .ending
+	{
+		margin-top:1px;
+		background-image:url('/img/health_fill_ending.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:8px;
+		height:13px;
+		display:inline-block;
+		#display:inline;
+		##float:left;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .stats .barHealth .numbers
+	{
+		position:absolute;
+		text-align:center;
+		color:#000000;
+		height:13px;
+		#height:14px;
+		width:175px;
+		padding-top:1px;
+		font-size:10px;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .stats .buffs .activeBuffs, .component.bugcraft .top .mainContent .rightCharacter .profile .stats .buffs .passiveBuffs
+	{
+		margin-top:5px;
+		width:175px;
+		text-align:left;
+		height:20px;
+		display:inline-block;
+	}
+	
+	.component.bugcraft .top .mainContent .rightCharacter .profile .stats .buffs .activeBuffs .buff, .component.bugcraft .top .mainContent .rightCharacter .profile .stats .buffs .passiveBuffs .buff
+	{
+		display:inline-block;
+		#display:inline;
+		margin-right:5px;
+		width:20px;
+		height:20px;
+	}
+	
+	/*
+		Map area
+	*/
+	
+	.component.bugcraft .top .mainContent .mapArea
+	{
+		display:inline-block;
+		#display:inline;
+		margin-left:160px;
+		width:134px;
+		text-align:right;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .top .mainContent .mapArea.hidden
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .top .mainContent .mapArea .mapName
+	{
+		background-image:url('/img/map_bg.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:99px;
+		height:35px;
+		margin-left:17.5px;
+		text-align:left;
+	}
+	
+	.component.bugcraft .top .mainContent .mapArea .mapName .text
+	{
+		color:#e5bf7d;
+		font-size:12px;
+		margin-top:10px;
+		position:absolute;
+		text-align:center;
+		width:99px;
+	}
+	
+	.component.bugcraft .top .mainContent .mapArea .mapName .shadow
+	{
+		font-size:12px;
+		color:#76400a;
+		position:absolute;
+		margin-top:11px;
+		margin-left:1px;
+		text-align:center;
+		width:98px;
+	}
+	
+	.component.bugcraft .top .mainContent .mapArea .minimap
+	{
+		background-image:url('/img/map.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:134px;
+		height:144px;
+	}
+	
+	/*
+		Points
+	*/
+	
+	.component.bugcraft .top .mainContent .zonePoints
+	{
+		display:inline-block;
+		#display:inline;
+		width:165px;
+		text-align:center;
+		height:96px;
+		margin-top:30px;
+	}
+	
+	.component.bugcraft .top .mainContent .zonePointsHidden
+	{
+		display:inline-block;
+		#display:inline;
+		width:165px;
+		visibility:hidden;
+	}
+	
+	.component.bugcraft .top .mainContent .zonePoints .factionAnterium
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/battle/anterium_score.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:86px;
+		#width:96px;
+		height:33px;
+		#height:48px;
+		color:#ffffff;
+		text-align:right;
+		padding-right:10px;
+		padding-top:15px;
+		font-family:koreanCalligraphy;
+		font-size:20px;
+	}
+	
+	.component.bugcraft .top .mainContent .zonePoints .factionHegemony
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/battle/hegemony_score.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:86px;
+		#width:96px;
+		height:33px;
+		#height:48px;
+		color:#ffffff;
+		text-align:left;
+		padding-left:10px;
+		padding-top:15px;
+		font-family:koreanCalligraphy;
+		font-size:20px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

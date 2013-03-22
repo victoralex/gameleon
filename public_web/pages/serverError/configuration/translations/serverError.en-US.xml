@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="en-US">
+	
+	<component name="headerMeta">
+		<field name="pageName"><![CDATA[BugTopia - The Epic Story]]></field>
+		<field name="description"><![CDATA[Harendar is a world rife with conflict, history and colorful characters. The struggle to harness natural resources to fuel their two empires has driven the Anterium and Hegemony to war. Read more about the story and lore in the world of BugTopia.]]></field>
+		<field name="keywords"><![CDATA[]]></field>
+		<field name="contentType"><![CDATA[]]></field>
+		<field name="author"><![CDATA[eMotion Concept]]></field>
+	</component>
+	
+<component name="serverError">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component><component name="content">
+		<field name="errorMessage"><![CDATA[Oops! It seems that we've run into a small problem. The content could not be read, but have no worry: the error has been logged and we'll correct this as soon as possible.]]></field>
+	</component><component name="siteMenu">
+		<entry id="1"><![CDATA[Home]]></entry>
+		<entry id="2"><![CDATA[About Us]]></entry>
+		<entry id="3"><![CDATA[Terms of Business]]></entry>
+		<entry id="4"><![CDATA[Quote Wizard]]></entry>
+		<entry id="5"><![CDATA[Privacy]]></entry>
+		<entry id="6"><![CDATA[Contact]]></entry>
+	</component><component name="footerCopyright">
+		<field name="copyright1"><![CDATA[Copyright &copy; eMotion Concept Ltd.]]></field>
+		<field name="termsOfBusiness"><![CDATA[Terms of Business]]></field>
+		<field name="termsOfUse"><![CDATA[Terms of Use]]></field>
+		<field name="developer"><![CDATA[Designed by eMotion Concept]]></field>
+	</component><component name="appJS">
+		<scenario for="incompatibleBrowser">
+			<field name="message"><p>OOps! Looks like the browser you're using is <b>too old</b> to see the bugs!</p><p>Please try one of the BugTopia friendly browsers below</p></field>
+			<field name="getFirefox">Get Mozilla Firefox</field>
+			<field name="getChrome">Get Google Chrome</field>
+		</scenario>
+	</component><component name="helperInclude">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component></translation>

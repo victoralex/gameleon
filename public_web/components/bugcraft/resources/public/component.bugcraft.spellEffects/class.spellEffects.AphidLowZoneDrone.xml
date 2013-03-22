@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spellEffect name="AphidLowZoneDrone" type="imageFramesLoopWithSoundLoop"><frames maxFrames="1"/><sound maxDelay="6" minDelay="4" soundName="aphid drone zone2.mp3"/></spellEffect>

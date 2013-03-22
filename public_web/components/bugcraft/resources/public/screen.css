@@ -1,0 +1,470 @@
+
+	/*
+		bugcraft CSS Screen Template
+	*/
+	
+	.component.bugcraft
+	{
+		width:900px;
+		text-align:center;
+		cursor:url('/img/cursors/cursor1.png'), auto;
+	}
+	
+	.component.bugcraft .middle
+	{
+		width:900px;
+		text-align:center;
+		position:absolute;
+	}
+	
+	.component.bugcraft .hidden
+	{
+		display:none;
+	}
+	
+	/*
+		Notification Area
+	*/
+	
+	.component.bugcraft .popupNotificationArea
+	{
+		position:absolute;
+		z-index:2;
+		margin-left:125px;
+		margin-top:135px;
+	}
+	
+	.component.bugcraft .popupNotificationArea .battlegroundNotificationArea
+	{
+		background-image:url('/img/lookingForBattleground/battleground_popup.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:470px;
+		#width:500px;
+		height:129px;
+		#height:174px;
+		padding-top:40px;
+		padding-left:15px;
+		padding-right:15px;
+	}
+	
+	.component.bugcraft .popupNotificationArea .battlegroundNotificationArea .battlegroundNotificationText
+	{
+		font-family:Georgia;
+		font-size:20px;
+		width:430px;
+		margin-left:20px;
+	}
+	
+	.component.bugcraft .popupNotificationArea .battlegroundNotificationArea .buttonAccept
+	{
+		padding-top:6px;
+		margin-top:20px;
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/lookingForBattleground/btn.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:149px;
+		height:24px;
+		#height:30px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		font-family:Arial;
+		font-size:14px;
+		color:#dfdfdf;
+	}
+	
+	.component.bugcraft .popupNotificationArea .battlegroundNotificationArea .buttonAccept:hover
+	{
+		color:#ffffff;
+	}
+	
+	.component.bugcraft .popupNotificationArea .battlegroundNotificationArea .buttonDeny
+	{
+		padding-top:6px;
+		margin-top:20px;
+		margin-left:20px;
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/lookingForBattleground/btn.png');
+		background-repeat:no-repeat;
+		background-position:bottom left;
+		width:149px;
+		height:24px;
+		#height:30px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		font-family:Arial;
+		font-size:14px;
+		color:#dfdfdf;
+	}
+	
+	.component.bugcraft .popupNotificationArea .battlegroundNotificationArea .buttonDeny:hover
+	{
+		background-position:top left;
+		color:#ffffff;
+	}
+	
+	.component.bugcraft .popupNotificationArea .logoutNotificationArea
+	{
+		background-image:url('/img/lookingForBattleground/battleground_popup.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:500px;
+		height:174px;
+	}
+	
+	/*
+		Login
+	*/
+	
+	.component.bugcraft .login
+	{
+		width:755px;
+		height:600px;
+		text-align:center;
+	}
+	
+	.component.bugcraft .login .logo
+	{
+		margin-left:305px;
+		margin-top:250px;
+		background-image:url('/img/bugicon.png');
+		background-repeat:no-repeat;
+		background-position:center center;
+		width:145px;
+		height:144px;
+	}
+	
+	.component.bugcraft .login .loaderContainer
+	{
+		margin-left:305px;
+		margin-top:10px;
+		text-align:center;
+		background-image:url('/img/loaderBackground.png');
+		background-repeat:no-repeat;
+		background-position:center center;
+		width:145px;
+		height:40px;
+	}
+	
+	.component.bugcraft .login .loaderContainer .loader
+	{
+		margin-top:4px;
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/loader.gif');
+		background-repeat:no-repeat;
+		background-position:center center;
+		width:32px;
+		height:32px;
+	}
+	
+	.component.bugcraft .top
+	{
+		width:755px;
+		top:0px;
+		text-align:left;
+		position:fixed;
+		margin-left:72.5px;
+	}
+	
+	/*
+		Menu
+	*/
+	
+	.component.bugcraft .top .menu
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/menu_bg.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:442px;
+		#width:462px;
+		height:30px;
+		#height:33px;
+		padding-top:3px;
+		padding-left:20px;
+		text-align:left;
+		position:absolute;
+		margin-left:146.5px;
+		z-index:1000;
+	}
+	
+	.component.bugcraft .top .menu.hidden
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .top .menu .menuItem
+	{
+		display:inline-block;
+		#display:inline;
+		width:60px;
+		height:15px;
+	}
+	
+	.component.bugcraft .top .menu .menuItem.menuItemSelected a.shadow:link, .component.bugcraft .top .menu .menuItem.menuItemSelected a.shadow:visited
+	{
+		color:#000000;
+	}
+	
+	.component.bugcraft .top .menu .menuItem.hidden
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .top .menu .menuItem a:link, .component.bugcraft .top .menu .menuItem a:visited
+	{
+		text-decoration:none;
+		font-size:12px;
+		position:absolute;
+		color:#e5bf7d;
+	}
+	
+	.component.bugcraft .top .menu .menuItem a:hover
+	{
+		
+	}
+	
+	.component.bugcraft .top .menu .menuItem a.shadow:link, .component.bugcraft .top .menu .menuItem a.shadow:visited
+	{
+		text-decoration:none;
+		font-size:12px;
+		position:absolute;
+		margin-left:1px;
+		margin-top:1px;
+		color:#76400a;
+	}
+	
+	.component.bugcraft .top .menu .menuItem a.shadow:hover
+	{
+		color:#000000;
+	}
+	
+	.component.bugcraft .top .menuLink
+	{
+		background-image:url('/img/menu.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:81px;
+		height:21px;
+		#height:24px;
+		padding-top:3px;
+		position:absolute;
+		margin-left:337px;
+		z-index:2;
+		display:none;
+	}
+	
+	.component.bugcraft .top .menuLink.hidden
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .top .menuLink .menuItem
+	{
+		display:inline-block;
+		#display:inline;
+		width:58px;
+		height:15px;
+		margin-left:23px;
+	}
+	
+	.component.bugcraft .top .menuLink .menuItem a:link, .component.bugcraft .top .menuLink .menuItem a:visited
+	{
+		text-decoration:none;
+		font-size:12px;
+		position:absolute;
+		color:#e5bf7d;
+	}
+	
+	.component.bugcraft .top .menuLink .menuItem a:hover
+	{
+		
+	}
+	
+	.component.bugcraft .top .menuLink .menuItem a.shadow:link, .component.bugcraft .top .menuLink .menuItem a.shadow:visited
+	{
+		text-decoration:none;
+		font-size:12px;
+		position:absolute;
+		margin-left:1px;
+		margin-top:1px;
+		color:#76400a;
+	}
+	
+	.component.bugcraft .top .menuLink .menuItem a.shadow:hover
+	{
+		color:#000000;
+	}
+	
+	/*
+		-----
+		Tabs
+		-----
+	*/
+	
+	.component.bugcraft .middle .tabs
+	{
+		width:725px;
+		#width:755px;
+		text-align:right;
+		padding-right:30px;
+	}
+	
+	.component.bugcraft .middle .tabs .tab
+	{
+		display:inline-block;
+		#display:inline;
+		margin-left:5px;
+		#margin-left:0px;
+		##margin-left:0px;
+	}
+	
+	.component.bugcraft .middle .tabs .tab.hidden
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .middle .tabs .tab:link, .component.bugcraft .middle .tabs .tab:visited
+	{
+		text-decoration:none;
+	}
+	
+	.component.bugcraft .middle .tabs .tab:hover
+	{
+		
+	}
+	
+	.component.bugcraft .middle .tabs .tab .tabLeft
+	{
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+		background-image:url('/img/tab_off_left.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:15px;
+		height:44px;
+		##float:left;
+	}
+	
+	.component.bugcraft .middle .tabs .tab .tabMiddle
+	{
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+		background-image:url('/img/tab_off_mid.png');
+		background-repeat:repeat-x;
+		background-position:left top;
+		height:34px;
+		#height:44px;
+		padding-top:10px;
+		##float:left;
+		text-decoration:none;
+		color:#f6f6ec;
+		font-weight:bold;
+		padding-left:5px;
+		padding-right:5px;
+	}
+	
+	.component.bugcraft .middle .tabs .tab .tabRight
+	{
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+		background-image:url('/img/tab_off_right.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:15px;
+		height:44px;
+		##float:left;
+	}
+	
+	.component.bugcraft .middle .tabs .tab.tabSelected, .component.bugcraft .middle .tabs .tab:hover
+	{
+		
+	}
+	
+	.component.bugcraft .middle .tabs .tab.tabSelected .tabLeft, .component.bugcraft .middle .tabs .tab:hover .tabLeft
+	{
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+		background-image:url('/img/tab_on_left.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:15px;
+		height:44px;
+	}
+	
+	.component.bugcraft .middle .tabs .tab.tabSelected .tabMiddle, .component.bugcraft .middle .tabs .tab:hover .tabMiddle
+	{
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+		background-image:url('/img/tab_on_mid.png');
+		background-repeat:repeat-x;
+		background-position:left top;
+		height:34px;
+		#height:44px;
+		padding-top:10px;
+	}
+	
+	.component.bugcraft .middle .tabs .tab.tabSelected .tabRight, .component.bugcraft .middle .tabs .tab:hover .tabRight
+	{
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+		background-image:url('/img/tab_on_right.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:15px;
+		height:44px;
+	}
+	
+	/*
+		Main Area
+	*/
+	
+	.component.bugcraft .middle .main
+	{
+		position:relative;
+		margin-top:-20px;
+		background-image:url('/img/pergament.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:758px;
+		height:794px;
+		text-align:left;
+		z-index:2;
+	}
+	
+	.component.bugcraft .middle .main .hidden
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .middle .main .visible
+	{
+		display:block;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

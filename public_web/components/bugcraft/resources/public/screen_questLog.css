@@ -1,0 +1,601 @@
+	
+	/*
+		Quest Log
+	*/
+	
+	@font-face
+	{
+		font-family: Tahoma;
+		src: url('/ttf/tahoma.ttf');
+	}
+	
+	@font-face
+	{
+		font-family: Georgia;
+		src: url('/ttf/georgia.ttf');
+	}
+	
+	@font-face
+	{
+		font-family: OldEnglishText;
+		src: url('/ttf/oldEnglishText.ttf');
+	}
+	
+	.component.bugcraft .questLogProgress
+	{
+		position:absolute;
+		right: 20px;
+		top:200px;
+		width:200px;
+		font-family:Georgia;
+		color:#f1f1f1;
+		font-size:16px;
+		text-align:left;
+		text-shadow: #1f1f1f 1px 1px 1px;
+	}
+	
+	.component.bugcraft .questLogProgress .questLogProgressTitle
+	{
+		
+	}
+	
+	.component.bugcraft .questLogProgress .questsContainer
+	{
+		
+	}
+	
+	.component.bugcraft .questLogProgress .questsContainer .questContainer
+	{
+		width:200px;
+		margin-top:5px;
+		/*text-align:right;*/
+	}
+	
+	.component.bugcraft .questLogProgress .questsContainer .questContainer .questName
+	{
+		font-weight:bold;
+		color:#bf1208;
+		text-shadow: #0f0f0f 1px 1px 1px;
+		width:200px;
+		text-align:left;
+		margin-bottom:2px;
+	}
+	
+	.component.bugcraft .questLogProgress .questsContainer .questContainer .questCondition, .component.bugcraft .questLogProgress .questsContainer .questContainer .questConditionSolved
+	{
+		list-style-type:georgian;
+		display:list-item;
+	}
+	
+	.component.bugcraft .questLogProgress .questsContainer .questContainer .questCondition .conditionName, .component.bugcraft .questLogProgress .questsContainer .questContainer .questConditionSolved .conditionName
+	{
+		margin-left:5px;
+	}
+	
+	.component.bugcraft .questLogProgress .questsContainer .questContainer .questCondition .conditionCurrentValue, .component.bugcraft .questLogProgress .questsContainer .questContainer .questConditionSolved .conditionCurrentValue
+	{
+		
+	}
+	
+	.component.bugcraft .questLogProgress .questsContainer .questContainer .questCondition .conditionTargetValue, .component.bugcraft .questLogProgress .questsContainer .questContainer .questConditionSolved .conditionTargetValue
+	{
+		
+	}
+	
+	.component.bugcraft .questLogProgress .questsContainer .questContainer .questConditionSolved
+	{
+		color:#afafaf;
+		text-shadow: #0f0f0f 1px 1px 1px;
+	}
+	
+	/*
+		Quest log
+	*/
+	.component.bugcraft .questLog
+	{
+		background-image:url('/img/backgroundScroll.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:656px;
+		#width:689px;
+		height:678px;
+		display:block;
+		margin-top:120px;
+		padding-left:33px;
+		text-align:left;
+		position:absolute;
+		-moz-transform-origin: top left;
+		-webkit-transform-origin: top left;
+		-o-transform-origin: top left;
+		-ms-transform-origin: top left;
+		transform-origin: top left;
+		margin-left:110px;
+	}
+	
+	.component.bugcraft .questLog .closeButton
+	{
+		background-image:url('/img/questLog/close.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:16px;
+		height:16px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		margin-left:595px;
+		margin-top:64px;
+	}
+	
+	.component.bugcraft .questLog .closeButton:hover
+	{
+		background-position:left bottom;
+	}
+	
+	.component.bugcraft .questLog .questLogListContainer
+	{
+		background-image:url('/img/questLog/top_shadows_dirt.png'), url('/img/questLog/bg_queue_artwork.png');
+		background-repeat:no-repeat;
+		background-position:left top, left top;
+		height:161px;
+	}
+	
+	.component.bugcraft .questLog .questLogListContainer .questLogListItemsContainer
+	{
+		display:inline-block;
+		#display:inline;
+		width:560px;
+		height:161px;
+		overflow:hidden;
+		vertical-align:top;
+		position:relative;
+	}
+	
+	.component.bugcraft .questLog .questLogListContainer .questLogListItemsContainer .questListItems
+	{
+		vertical-align:top;
+		position:absolute;
+	}
+	
+	.component.bugcraft .questLog .questLogListContainer .questLogListItemsContainer .questListItems .questListItem
+	{
+		margin-left:20px;
+		font-family:Georgia;
+		font-size:14px;
+		padding-top:10px;
+		padding-bottom:10px;
+		color:#52331e;
+		padding-left:15px;
+		padding-right:15px;
+		margin-top:5px;
+		margin-bottom:5px;
+		width:480px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		letter-spacing:1px;
+	}
+	
+	.component.bugcraft .questLog .questLogListContainer .questLogListItemsContainer .questListItems .questListItem:hover
+	{
+		background-color:#f3da8a;
+		color:#bf1208;
+		opacity:0.5;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .questLog .questLogListContainer .questLogListItemsContainer .questListItems .questListItemSelected
+	{
+		background-color:#f3da8a;
+		margin-left:20px;
+		font-family:Georgia;
+		font-size:14px;
+		padding-top:10px;
+		padding-bottom:10px;
+		color:#bf1208;
+		padding-left:15px;
+		padding-right:15px;
+		margin-top:5px;
+		margin-bottom:5px;
+		width:480px;
+		opacity:0.5;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		letter-spacing:1px;
+	}
+	
+	.component.bugcraft .questLog .questLogListContainer .questLogListControls
+	{
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .questLog .questLogListContainer .questLogListControls .questLogListControlUp
+	{
+		margin-top:10px;
+		background-image:url('/img/questLog/top_arrow.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:15px;
+		height:19px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .questLog .questLogListContainer .questLogListControls .questLogListControlDown
+	{
+		margin-top:105px;
+		background-image:url('/img/questLog/bot_arrow.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:15px;
+		height:19px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .questLog .questInformation
+	{
+		background-image:url('/img/questLog/bot_shadows_dirt.png');
+		background-repeat:no-repeat;
+		background-position:left bottom;
+		width:592px;
+		#width:617px;
+		height:230px;
+		text-align:left;
+		padding-top:15px;
+		padding-bottom:15px;
+		padding-left:25px;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questData
+	{
+		display:inline-block;
+		#display:inline;
+		width:330px;
+		height:169px;
+		vertical-align:top;
+		overflow:hidden;
+		position:absolute;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questData .Scroller-Container
+	{
+		position:absolute;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questData .questName
+	{
+		font-family:Georgia;
+		font-size:18px;
+		color:#52331e;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questData .questObjectivesTitle
+	{
+		margin-top:10px;
+		font-family:Georgia;
+		font-size:18px;
+		color:#52331e;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questData .questDescription
+	{
+		margin-top:5px;
+		font-family:Georgia;
+		font-size:12px;
+		color:#52331e;
+		line-height:20px;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questData .questObjectives
+	{
+		margin-top:5px;
+		font-family:Georgia;
+		font-size:12px;
+		color:#52331e;
+		line-height:20px;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questData .questConditions
+	{
+		border-top:1px dotted #afafaf;
+		padding-top:7px;
+		margin-top:7px;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questData .questConditions .questCondition, .component.bugcraft .questLog .questInformation .questData .questConditions .questConditionSolved
+	{
+		display:inline-block;
+		#display:inline;
+		margin-right:10px;
+		font-size:14px;
+		font-family:Georgia;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questData .questConditions .questCondition .conditionName, .component.bugcraft .questLog .questInformation .questData .questConditions .questConditionSolved .conditionName
+	{
+		margin-right:5px;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questData .questConditions .questCondition .conditionCurrentValue, .component.bugcraft .questLog .questInformation .questData .questConditions .questConditionSolved .conditionCurrentValue
+	{
+		
+	}
+	
+	.component.bugcraft .questLog .questInformation .questData .questConditions .questCondition .conditionTargetValue, .component.bugcraft .questLog .questInformation .questData .questConditions .questConditionSolved .conditionTargetValue
+	{
+		
+	}
+	
+	.component.bugcraft .questLog .questInformation .questData .questConditions .questConditionSolved
+	{
+		color:#afafaf;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questsListControls
+	{
+		margin-left:330px;
+		width:10px;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questsListControls .Scrollbar-Up
+	{
+		margin-top:10px;
+		background-image:url('/img/questGiver/top_arrow.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:15px;
+		height:19px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questsListControls .Scrollbar-Track
+	{
+		position:absolute;
+		width:15px;
+		height:119px;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questsListControls .Scrollbar-Track .Scrollbar-Handle
+	{
+		position:absolute;
+		width:12px;
+		height:12px;
+		border:1px dotted #52331e;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questsListControls .Scrollbar-Down
+	{
+		margin-top:119px;
+		background-image:url('/img/questGiver/bot_arrow.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:15px;
+		height:19px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questSpoils
+	{
+		margin-left:10px;
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questSpoils .questResources
+	{
+		display:inline-block;
+		#display:inline;
+		width:112px;
+		border-right:1px solid #f1d291;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questSpoils .questResources .spoilTitle
+	{
+		font-family:Georgia;
+		font-size:16px;
+		width:112px;
+		text-align:center;
+		padding-bottom:10px;
+		color:#52331e;
+		border-bottom:1px solid #f1d291;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questSpoils .questResources .spoilDetail
+	{
+		background-image:url('/img/questLog/win_bg.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:112px;
+		height:88px;
+		#height:98px;
+		padding-top:10px;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questSpoils .questResources .spoilDetail .spoilAmber
+	{
+		background-image:url('/img/questLog/amber.png');
+		background-repeat:no-repeat;
+		background-position:60px 0px;
+		height:33px;
+		#height:40px;
+		font-size:16px;
+		color:#52331e;
+		padding-top:7px;
+		padding-right:58px;
+		text-align:right;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questSpoils .questResources .spoilDetail .spoilPolen
+	{
+		background-image:url('/img/questLog/polenwithbag.png');
+		background-repeat:no-repeat;
+		background-position:60px 0px;
+		height:33px;
+		#height:40px;
+		font-size:16px;
+		color:#52331e;
+		padding-top:7px;
+		padding-right:58px;
+		text-align:right;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questSpoils .questCharacter
+	{
+		display:inline-block;
+		#display:inline;
+		width:112px;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questSpoils .questCharacter .spoilTitle
+	{
+		font-family:Georgia;
+		font-size:16px;
+		width:112px;
+		text-align:center;
+		padding-bottom:10px;
+		color:#52331e;
+		border-bottom:1px solid #f1d291;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questSpoils .questCharacter .spoilDetail
+	{
+		background-image:url('/img/questLog/loss_bg.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:112px;
+		height:88px;
+		#height:98px;
+		padding-top:10px;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questSpoils .questCharacter .spoilDetail .spoilXP
+	{
+		background-image:url('/img/questLog/xp_icon_notitle.png');
+		background-repeat:no-repeat;
+		background-position:57px -3px;
+		height:33px;
+		#height:40px;
+		font-size:16px;
+		color:#52331e;
+		padding-top:7px;
+		padding-right:58px;
+		text-align:right;
+	}
+	
+	.component.bugcraft .questLog .questInformation .questSpoils .questCharacter .spoilDetail .spoilGlory
+	{
+		background-image:url('/img/questLog/glory.png');
+		background-repeat:no-repeat;
+		background-position:60px 0px;
+		height:33px;
+		#height:40px;
+		font-size:16px;
+		color:#52331e;
+		padding-top:7px;
+		padding-right:58px;
+		text-align:right;
+	}
+	
+	.component.bugcraft .questLog .questOptions
+	{
+		margin-top:-45px;
+		text-align:left;
+	}
+	
+	.component.bugcraft .questLog .questOptions .questAbandon
+	{
+		margin-left:238px;
+		display:inline-block;
+		#display:inline;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		width:149px;
+		height:23px;
+		#height:30px;
+		background-image: url('/img/questLog/btn.png');
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		text-align:center;
+		padding-top:7px;
+		font-size:14px;
+		color:#dfdfdf;
+	}
+	
+	.component.bugcraft .questLog .questOptions .questAbandon:hover
+	{
+		color:#ffffff;
+		background-position: left top;
+	}
+	
+	.component.bugcraft .questLog .questLogNoQuests
+	{
+		height:146px;
+		#height:246px;
+		background-image:url('/img/questLog/empyquest2.png');
+		background-repeat:no-repeat;
+		background-position:0px 0px;
+		text-align:center;
+		font-size:20px;
+		font-family:Georgia;
+		padding-top:100px;
+		padding-right:30px;
+		color:#7f7f7f;
+		text-shadow: #afafaf 1px 1px 1px;
+	}
+	
+	.component.bugcraft .questLog .windowTitle
+	{
+		margin-top:67px;
+		display:inline-block;
+		#display:inline;
+		font-family:OldEnglishText;
+		font-size:20px;
+		width:320px;
+		text-align:center;
+		margin-left:150px;
+		color:#5f4221;
+		text-shadow:#E5BF7D 1px 1px 1px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

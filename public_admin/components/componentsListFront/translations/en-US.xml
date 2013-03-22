@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="en-US">
+	
+	<component name="componentsListFront">
+		<pages>
+			<page name="contentManagement"><![CDATA[Static Content]]></page>
+			<page name="courses"><![CDATA[Courses]]></page>
+			<page name="news"><![CDATA[News]]></page>
+			<page name="newsletter"><![CDATA[Newsletter]]></page>
+			<page name="recruitment"><![CDATA[Recruitment]]></page>
+			<page name="translationEditor"><![CDATA[Translations]]></page>
+		</pages>
+	</component>
+	
+</translation>

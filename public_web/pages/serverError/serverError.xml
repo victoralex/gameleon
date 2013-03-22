@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/pages/serverError/serverError.xsl"?>
+<application xmlns:site="http://site.emotionconcept.ro" xmlns:component="http://component.emotionconcept.ro" lang="" cdn="">
+	
+	<components>
+		
+		<site:meta>
+			
+			<component:headerMeta/>
+			<component:headerStyle/>
+			<component:appJS/>
+			
+		</site:meta>
+		
+		<site:layout>
+			
+			<site:header>
+				
+				<component:helperOptimize/>
+				<component:helperInclude/>
+				
+			</site:header>
+			<site:body>
+				
+				<component:serverError/>
+				
+			</site:body>
+			<site:footer>
+				
+				<component:appJS/>
+				
+			</site:footer>
+			
+		</site:layout>
+		
+	</components>
+	
+	<values>
+		<components><component name="serverError"><field name="errorID" value=""/></component><component name="content"/><component name="headerMeta"><field name="errorID" value=""/></component><component name="headerStyle"><field name="errorID" value=""/></component><component name="appJS"/><component name="helperOptimize"><field name="errorID" value=""/></component><component name="helperInclude"><field name="errorID" value=""/></component></components>
+	</values>
+	
+</application>

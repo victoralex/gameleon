@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin><name><![CDATA[npcBombardierBeetle]]></name><frames><stance name="walk" framesAmount="4"/><stance name="idle" framesAmount="2"/><stance name="attackMelee" framesAmount="1"/></frames><events/></skin>

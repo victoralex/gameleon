@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc id="917"><events><event name="show"><effect><name><![CDATA[ShipDroneNormal]]></name></effect></event></events></npc>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="en-US">
+	
+	<component name="headerMeta">
+		<field name="pageName"><![CDATA[Ascent - Web Front]]></field>
+		<field name="description"><![CDATA[Site description]]></field>
+		<field name="keywords"><![CDATA[Public Liability Insurance, Public Liability Insurance Ireland, Publicliability.ie, Liability Insurance Quotes, Liability Insurance Broker, Broker Public Liability, Business Liability Insurance, Business Public Liability, Class Insurance, Classes Insurance, Tutor Insurance, Tutor Liability Insurance, Construction Liability Insurance, Construction Insurance, Accountant Insurance, Accountant Liability Insurance, Financial Liability Insurance, Financial Insurance, Tradesman Liability Insurance, Tradesman Insurance, BER Liability Insurance, BER Insurance, IT Contractor Liability Insurance, IT Contractor Insurance, Contractor Insurance, Contractor Liability Insurance, Consultant Insurance, Consultant Liability Insurance, Engineer Insurance, Engineer Liability Insurance, Designer Insurance, Legal Liability Insurance, Surveyor Liability Insurance, Occupation Liability Insurance, Cheap Public Liability Insurance, Burke Insurance Public Liability, Online Public Liability Insurance, Employers Liability Insurance, Employersliability.ie, Online Quotation, Irish Brokers Association, Insurance Ireland, Quinn, Allianz, FBD, AXA, Hibernian Aviva, Aviva, 123.ie]]></field>
+		<field name="contentType"><![CDATA[content type]]></field>
+	<field name="author"><![CDATA[eMotion Concept]]></field></component>
+	
+<component name="helperInclude">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component></translation>

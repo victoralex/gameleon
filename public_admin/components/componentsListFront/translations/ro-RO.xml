@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="ro-RO">
+	
+	<component name="componentsListFront">
+		<pages>
+			<page name="contentManagement"><![CDATA[Continut Static]]></page>
+			<page name="courses"><![CDATA[Cursuri]]></page>
+			<page name="news"><![CDATA[Stiri]]></page>
+			<page name="newsletter"><![CDATA[Newsletter]]></page>
+			<page name="recruitment"><![CDATA[Recrutare]]></page>
+			<page name="translationEditor"><![CDATA[Traduceri]]></page>
+		</pages>
+	</component>
+	
+</translation>

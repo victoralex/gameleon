@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="en-US">
+	
+	<component name="rssFeedFront">
+		<field name="leftText">Latest Info:</field>
+	</component>
+	
+	<component name="headerMeta">
+		
+		<field name="title">Site Administration</field>
+		<field name="description">Citrus fruit wholesaler.</field>
+		
+	</component>
+	
+<component name="footerCopyright">
+		<custom>
+			<field name="copyright"><![CDATA[Copyright (c) 2009 eMotion Concept. All rights reserved.]]></field>
+		</custom>
+		<menu>
+			<entry id="1"><![CDATA[terms of use]]></entry>
+			<entry id="2"><![CDATA[privacy policy]]></entry>
+			<entry id="3"><![CDATA[powered by Ascent]]></entry>
+		</menu>
+	</component><component name="componentsListFront">
+		<pages>
+			<page name="contentManagement"><![CDATA[Static Content]]></page>
+			<page name="courses"><![CDATA[Courses]]></page>
+			<page name="news"><![CDATA[News]]></page>
+			<page name="newsletter"><![CDATA[Newsletter]]></page>
+			<page name="recruitment"><![CDATA[Recruitment]]></page>
+			<page name="translationEditor"><![CDATA[Translations]]></page>
+		</pages>
+	</component></translation>

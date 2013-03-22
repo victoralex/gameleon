@@ -1,0 +1,279 @@
+
+	/*
+		lootChoose CSS Screen Template
+	*/
+	
+	.component.bugcraft .lootChoose
+	{
+		position:absolute;
+		top:180px;
+		left: 30px;
+		background-image:url('/img/lootChoose/background.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:218px;
+		height:300px;
+	}
+	
+	.component.bugcraft .lootChoose .lootHeader
+	{
+		margin-top:15px;
+	}
+	
+	.component.bugcraft .lootChoose .lootHeader .title
+	{
+		display:inline-block;
+		#display:inline;
+		width:140px;
+		#width:150px;
+		padding-left:10px;
+		text-align:left;
+		font-size:20px;
+		color:#E5BF7D;
+		font-family:OldEnglishText;
+		text-shadow:#5F4221 1px 1px 1px;
+	}
+	
+	.component.bugcraft .lootChoose .lootHeader .closeButton
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/lootChoose/close.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:16px;
+		height:16px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		margin-left:5px;
+	}
+	
+	.component.bugcraft .lootChoose .lootHeader .closeButton:hover
+	{
+		background-position:left bottom;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer
+	{
+		margin-top:10px;
+		text-align:left;
+		margin-left:20px;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotFull,
+		.component.bugcraft .lootChoose .lootContainer .slotEmpty,
+		.component.bugcraft .lootChoose .lootContainer .slotDisabled
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/vendor/buffLarge.png'), url('/img/vendor/itemContainer.png');
+		background-repeat:no-repeat;
+		background-position:top left, top left;
+		width:185px;
+		height:50px;
+		margin-bottom:5px;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotEmpty
+	{
+		background-image:url('/img/vendor/buffLarge_empty3.png'), url('/img/vendor/itemContainer.png');
+		margin-bottom:7px;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotEmpty .slotItemDescription
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotDisabled
+	{
+		background-image:url('/img/vendor/buffLarge_forbidden.png'), url('/img/vendor/itemContainerForbidden.png');
+		margin-bottom:7px;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotFull,
+		.component.bugcraft .lootChoose .lootContainer .slotDisabled
+	{
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotFull .slotItemIcon,
+		.component.bugcraft .lootChoose .lootContainer .slotDisabled .slotItemIcon
+	{
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:50px;
+		height:48px;
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotFull .slotItemIcon .slotItemAmount,
+		.component.bugcraft .lootChoose .lootContainer .slotDisabled .slotItemIcon .slotItemAmount
+	{
+		background-image:url('/img/vendor/itemsAmount.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:16px;
+		height:15px;
+		#height:16px;
+		padding-top:1px;
+		margin-left:36px;
+		margin-top:34px;
+		color:#ffffff;
+		text-align:center;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotFull .slotItemDescription,
+		.component.bugcraft .lootChoose .lootContainer .slotDisabled .slotItemDescription
+	{
+		vertical-align:top;
+		display:inline-block;
+		#display:inline;
+		height:50px;
+		padding-left:5px;
+		width:130px;
+		color:#2f2f2f;
+		text-shadow:#E5BF7D 1px 1px 1px;
+		font-weight:bold;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotFull .slotItemDescription .slotItemName,
+		.component.bugcraft .lootChoose .lootContainer .slotDisabled .slotItemDescription .slotItemName
+	{
+		height:24px;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotFull .slotItemDescription .slotItemNamesuperior,
+		.component.bugcraft .lootChoose .lootContainer .slotDisabled .slotItemDescription .slotItemNamesuperior
+	{
+		height:24px;
+		color:#046ee6;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotFull .slotItemDescription .slotItemNamemasterwork,
+		.component.bugcraft .lootChoose .lootContainer .slotDisabled .slotItemDescription .slotItemNamemasterwork
+	{
+		height:24px;
+		color:#a200ff;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotFull .slotItemDescription .slotItemNamefair,
+		.component.bugcraft .lootChoose .lootContainer .slotDisabled .slotItemDescription .slotItemNamefair
+	{
+		height:24px;
+		color:#30fe00;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotFull .slotItemDescription .slotItemNamepoor,
+		.component.bugcraft .lootChoose .lootContainer .slotDisabled .slotItemDescription .slotItemNamepoor
+	{
+		height:24px;
+		color:#ffffff;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotFull .slotItemDescription .slotItemCost,
+		.component.bugcraft .lootChoose .lootContainer .slotDisabled .slotItemDescription .slotItemCost
+	{
+		margin-top:5px;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotFull .slotItemDescription .slotItemCost .polenCrude,
+		.component.bugcraft .lootChoose .lootContainer .slotDisabled .slotItemDescription .slotItemCost .polenCrude
+	{
+		background-image:url('/img/vendor/polen_crude.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:20px;
+		padding-top:3px;
+		height:17px;
+		#height:20px;
+		display:inline-block;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotFull .slotItemDescription .slotItemCost .polenRegular,
+		.component.bugcraft .lootChoose .lootContainer .slotDisabled .slotItemDescription .slotItemCost .polenRegular
+	{
+		background-image:url('/img/vendor/polen_regular.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:20px;
+		padding-top:3px;
+		height:17px;
+		#height:20px;
+		display:inline-block;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotFull .slotItemDescription .slotItemCost .polenRefined,
+		.component.bugcraft .lootChoose .lootContainer .slotDisabled .slotItemDescription .slotItemCost .polenRefined
+	{
+		background-image:url('/img/vendor/polen_refined.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:20px;
+		padding-top:3px;
+		height:17px;
+		#height:20px;
+		display:inline-block;
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slotFull .slotItemDescription .slotItemCost .amber,
+		.component.bugcraft .lootChoose .lootContainer .slotDisabled .slotItemDescription .slotItemCost .amber
+	{
+		background-image:url('/img/vendor/amber2.png');
+		background-repeat:no-repeat;
+		background-position:top right;
+		padding-right:20px;
+		padding-top:3px;
+		height:17px;
+		#height:20px;
+		display:inline-block;
+	}
+	
+	
+	.component.bugcraft .lootChoose .lootContainer .slot_full:hover
+	{
+		background-image:url('/img/lootChoose/buffLarge_hover.png');
+	}
+	
+	.component.bugcraft .lootChoose .lootContainer .slot_full img
+	{
+		margin:1px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

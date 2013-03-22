@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin><name><![CDATA[SpaceMarine]]></name><frames><stance name="walk" framesAmount="6"/><stance name="idle" framesAmount="1"/><stance name="attackMelee" framesAmount="15"/></frames><events/></skin>

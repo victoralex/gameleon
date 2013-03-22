@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc id="343"><events><event name="use"><effect><name><![CDATA[AmpTransmit2]]></name></effect></event></events></npc>

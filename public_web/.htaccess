@@ -1,0 +1,30 @@
+Options -Indexes +FollowSymLinks
+ErrorDocument 404 /index.php?component=serverError&errorCode=404
+FileETag MTime Size
+
+<IfModule mod_rewrite.c>
+
+    RewriteEngine on
+	
+	# allow links like /experiments or /experiments/
+    RewriteRule ^([a-zA-Z0-9]+)/?$ /index.php?page=$1 [L]
+	
+	# /component.php?component=componentName&event=eventName&id=idCode
+    RewriteRule ^c/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)(/([0-9]+))?/?$ /component.php?component=$1&event=$2&id=$4 [L]
+	
+	# /experiments/experimentComponent/eventName
+    RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ /index.php?page=$1&component=$2&event=$3 [L]
+	
+	# /expriments/experimentComponent/eventName/showTemplate
+    RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ /index.php?page=$1&component=$2&event=$3&show=$4 [L]
+    
+	# test if it is not file
+    RewriteCond %{REQUEST_FILENAME} !-f
+	
+	# test if it is not directory
+    RewriteCond %{REQUEST_FILENAME} !-d
+    
+	# all php and html files are redirected
+    RewriteRule ^(.*)(\.php|\.html|\.htm)$ /index.php?component=serverError&requestedPage=$1 [L]
+    
+</IfModule>

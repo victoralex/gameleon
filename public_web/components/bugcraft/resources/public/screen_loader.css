@@ -1,0 +1,177 @@
+
+	/*
+		bugcraft Battle CSS Screen Template
+	*/
+	
+	@font-face
+	{
+		 font-family: "koreanCalligraphy";
+		 src: url( '/ttf/koreanCalligraphy.ttf' );
+	}
+	
+	.component.bugcraft .loaderPageConnect, .component.bugcraft .loaderPage, .component.bugcraft .loaderPageDisconnected
+	{
+		background-image:url('/img/loader/bg.jpg');
+		background-repeat:no-repeat;
+		background-position:top center;
+		background-color:#ba8037;
+		width:100%;
+		height:100%;
+		position:fixed;
+		left:0px;
+		top:0px;
+		z-index:1000;
+		background-size: 100%;
+		text-align:center;
+		-moz-transform-origin: top left;
+		-webkit-transform-origin: top left;
+		-o-transform-origin: top left;
+		-ms-transform-origin: top left;
+		transform-origin: top left;
+	}
+	
+	.component.bugcraft .loaderPageConnect
+	{
+		background-image:url('/img/loader/bgConnecting.jpg');
+	}
+	
+	.component.bugcraft .loaderPageConnect .elementsContainer
+	{
+		background-repeat:no-repeat;
+		background-position:top center;
+		background-size: 100%;
+		margin-top:200px;
+		display:inline-block;
+		width:800px;
+		height:552px;
+	}
+	
+	.component.bugcraft .loaderPageConnect .elementsContainer .loaderText
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .loaderPageConnect .elementsContainer .loaderBar
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .loaderPageConnect .elementsContainer .quote
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .loaderPageDisconnected
+	{
+		background-image:url('/img/loader/bgDisconnected.jpg');
+	}
+	
+	.component.bugcraft .loaderPageDisconnected .elementsContainer
+	{
+		background-repeat:no-repeat;
+		background-position:top center;
+		background-size: 100%;
+		margin-top:200px;
+		display:inline-block;
+		width:800px;
+		height:552px;
+	}
+	
+	.component.bugcraft .loaderPageDisconnected .elementsContainer .loaderText
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .loaderPageDisconnected .elementsContainer .loaderBar
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .loaderPageDisconnected .elementsContainer .quote
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .loaderPage .elementsContainer
+	{
+		margin-top:400px;
+		display:inline-block;
+		width:443px;
+	}
+	
+	.component.bugcraft .loaderPage .elementsContainer .loaderText
+	{
+		width:443px;
+		font-family:georgia;
+		font-size:20px;
+		color:#6b5e3c;
+		text-transform:capitalize;
+	}
+	
+	.component.bugcraft .loaderPage .elementsContainer .loaderBar
+	{
+		margin-top:10px;
+		background-image:url('/img/loader/left_bar.png'), url('/img/loader/bg_bar.png');
+		background-repeat:no-repeat;
+		background-position:15px 11px, top left;
+		width:443px;
+		height:56px;
+	}
+	
+	.component.bugcraft .loaderPage .elementsContainer .loaderBar .progressBar
+	{
+		background-image:url('/img/loader/right_ba.png');
+		background-repeat:no-repeat;
+		background-position:center right;
+		margin-left:30px;
+		height:56px;
+		width:25px;
+	}
+	
+	.component.bugcraft .loaderPage .elementsContainer .quote
+	{
+		margin-top:10px;
+		display:inline-block;
+		background-image:url('/img/loader/left_g.png'), url('/img/loader/right_g.png');
+		background-repeat:no-repeat;
+		background-position:top left, top right;
+		padding-left:35px;
+		padding-right:35px;
+		padding-top:7px;
+		font-family:georgia;
+		font-size:12px;
+		width:300px;
+		color:#6b5e3c;
+		min-height:100px;
+	}
+	
+	.component.bugcraft .loaderPage .elementsContainer .quote p
+	{
+		margin:0px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

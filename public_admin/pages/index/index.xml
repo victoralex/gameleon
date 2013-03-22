@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pages/index/index.xsl"?>
+<application xmlns:site="http://site.emotionconcept.ro" xmlns:component="http://component.emotionconcept.ro" lang="">
+	
+	<components>
+		
+		<site:meta>
+			
+			<component:headerMeta/>
+			<component:headerStyle/>
+			<component:appJS/>
+			
+		</site:meta>
+		
+		<site:layout>
+			
+			<site:header>
+				
+				<component:customerLogo/>
+				<component:helperOptimize/>
+				
+			</site:header>
+			<site:body>
+				
+				<component:componentsListFront>
+					<pages>
+						<page name="contentManagement"/>
+						<page name="news"/>
+						<page name="translationEditor"/>
+					</pages>
+				</component:componentsListFront>
+				<component:rssFeedFront/>
+				
+			</site:body>
+			<site:footer>
+				
+				<component:footerCopyright>
+					
+					<menu id="root">
+						<entry id="1" page="content" contentID="9"/>
+						<entry id="2" page="content" contentID="10"/>
+						<entry id="3" type="external" url="http://www.emotionconcept.eu"/>
+					</menu>
+					
+				</component:footerCopyright>
+				<component:appJS/>
+				
+			</site:footer>
+			
+		</site:layout>
+		
+	</components>
+	
+	<values>
+		<components>
+			<component name="footerCopyright"/><component name="headerMeta"/><component name="rssFeedFront"/><component name="componentsListFront"/>
+		<component name="headerStyle"/><component name="appJS"/><component name="helperOptimize"/></components>
+	</values>
+	
+</application>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pages/serverError/serverError.xsl"?>
+<application xmlns:site="http://site.emotionconcept.ro" xmlns:component="http://component.emotionconcept.ro" lang="">
+	
+	<components>
+		
+		<site:meta>
+			
+			<component:headerMeta/>
+			<component:headerStyle/>
+			<component:appJS/>
+			
+		</site:meta>
+		
+		<site:layout>
+			
+			<site:header>
+				
+				<component:customerLogo/>
+				<component:helperOptimize/>
+				
+			</site:header>
+			<site:body>
+				
+				<component:rssFeedFront/>
+				
+			</site:body>
+			<site:footer>
+				
+				<component:appJS/>
+				
+			</site:footer>
+			
+		</site:layout>
+		
+	</components>
+	
+	<values>
+		<components>
+			
+		<component name="headerMeta"/><component name="rssFeedFront"/><component name="headerStyle"/><component name="appJS"/><component name="helperOptimize"/></components>
+	</values>
+	
+</application>

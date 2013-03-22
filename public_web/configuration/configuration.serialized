@@ -1,0 +1,69 @@
+O:8:"stdClass":2:{s:4:"type";s:16:"SimpleXMLElement";s:4:"data";s:1372:"<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	
+	<loginURL>login.gameleon.co</loginURL>
+	
+	<siteURL>s518.r.gameleon.co</siteURL>
+	<siteProtocol>http</siteProtocol>
+	<sitePort>80</sitePort>
+	
+	<areas current="public_web">
+		<area>public_web</area>
+		<area>public_admin</area>
+	</areas>
+	
+	<compatibleBrowsers>
+		<!--
+		<browser>
+			<name>Opera</name>
+			<version>11</version>
+		</browser>
+		-->
+		<browser>
+			<name>Explorer</name>
+			<version>10</version>
+		</browser>
+		<browser>
+			<name>Safari</name>
+			<version>5</version>
+		</browser>
+		<browser>
+			<name>Firefox</name>
+			<version>10</version>
+		</browser>
+		<browser>
+			<name>Chrome</name>
+			<version>16</version>
+		</browser>
+	</compatibleBrowsers>
+	
+	<facebook>
+		<appURL>http://apps.facebook.com/bugtopia/</appURL>
+		<appID>224734744217425</appID>
+		<permissions>publish_stream</permissions>
+	</facebook>
+	
+	<debug>
+		<logToServer>true</logToServer>
+		<catchJSErrors>false</catchJSErrors>
+	</debug>
+	
+	<cdn>
+		<location code="US"><url>http://cdn.s518.r.gameleon.co</url></location>
+		<location code="RO"><url>http://cdn.s518.r.gameleon.co</url></location>
+	</cdn>
+	
+	<localization>
+		
+		<location code="en-US">
+			<dateFormat>d mmm yyyy hh:nn</dateFormat>
+		</location>
+		
+		<location code="ro-RO">
+			<dateFormat>d mmm yyyy hh:nn</dateFormat>
+		</location>
+				
+	</localization>
+	
+</configuration>
+";}

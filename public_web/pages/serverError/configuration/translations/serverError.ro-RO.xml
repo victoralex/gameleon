@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="ro-RO">
+	
+	<component name="headerMeta">
+		<field name="pageName"><![CDATA[Ascent - Dezvoltare Web]]></field>
+		<field name="description"><![CDATA[Site description]]></field>
+		<field name="keywords"><![CDATA[keyword1, keyword2, keyword3]]></field>
+		<field name="contentType"><![CDATA[content type]]></field>
+		<field name="author"><![CDATA[eMotion Concept]]></field>
+	</component>
+	
+<component name="serverError">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component><component name="content">
+		<field name="errorMessage"><![CDATA[Oops! Se pare ca am dat peste o mica problema in timp ce am citit date de la server. Am notat eroarea si o vom rezolva rapid.]]></field>
+	</component><component name="siteMenu">
+		<entry id="1"><![CDATA[Despre]]></entry>
+		<entry id="2"><![CDATA[Produse]]></entry>
+		<entry id="3"><![CDATA[Portofoliu]]></entry>
+		<entry id="4"><![CDATA[TechSpecs]]></entry>
+		<entry id="5"><![CDATA[Cariere]]></entry>
+		<entry id="6"><![CDATA[News]]></entry>
+		<entry id="7"><![CDATA[Contact]]></entry>
+	</component><component name="footerCopyright">
+		<custom>
+			<field name="copyright"><![CDATA[Copyright (c) 2009 ODS. All rights reserved.]]></field>
+		</custom>
+		<menu>
+			<entry id="1">Termeni de Utilizare</entry>
+			<entry id="2">Politica de Confidentialitate</entry>
+			<entry id="3">designed by eMotion Concept</entry>
+		</menu>
+	</component><component name="appJS"/><component name="helperInclude">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component></translation>

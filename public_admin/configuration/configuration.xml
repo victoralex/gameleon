@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	
+	<siteURL>admin.bugcraft.emotionconcept.ro</siteURL>
+	<siteProtocol>http</siteProtocol>
+	<sitePort>80</sitePort>
+	
+	<dateFormat>d mmm yyyy hh:nn</dateFormat>
+	
+	<areas>
+		<area>public_web</area>
+		<area>public_admin</area>
+	</areas>
+	
+	<languages>
+		<language code="en-US" />
+		<language code="ro-RO" />
+	</languages>
+	
+</configuration>

@@ -1,0 +1,309 @@
+
+	/*
+		Looking for battleground
+	*/
+	
+	@font-face
+	{
+		font-family: Tahoma;
+		src: url('/ttf/tahoma.ttf');
+	}
+	
+	@font-face
+	{
+		font-family: Georgia;
+		src: url('/ttf/georgia.ttf');
+	}
+	
+	@font-face
+	{
+		font-family: OldEnglishText;
+		src: url('/ttf/oldEnglishText.ttf');
+	}
+	
+	.component.bugcraft .battlegroundStatistics
+	{
+		background-image:url('/img/backgroundScroll.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:656px;
+		#width:689px;
+		height:678px;
+		display:block;
+		margin-top:120px;
+		padding-left:33px;
+		text-align:left;
+		position:absolute;
+		margin-left:35px;
+		-moz-transform-origin: top left;
+		-webkit-transform-origin: top left;
+		-o-transform-origin: top left;
+		-ms-transform-origin: top left;
+		transform-origin: top left;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .closeButton
+	{
+		background-image:url('/img/battlegroundStatistics/close.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:16px;
+		height:16px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		margin-left:595px;
+		margin-top:64px;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .closeButton:hover
+	{
+		background-position:left bottom;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer
+	{
+		background-image:url('/img/battlegroundStatistics/shadows_dirt_top.png'), url('/img/battlegroundStatistics/shadows_dirt_bottom.png');
+		background-repeat:no-repeat;
+		background-position:0px 40px, left bottom;
+		height:350px;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundsStatisticsHeader
+	{
+		margin-left:15px;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundsStatisticsHeader .tableHeader,
+		.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundsStatisticsHeader .tableHeaderClassIcon,
+		.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundsStatisticsHeader .tableHeaderPlayerName
+	{
+		display:inline-block;
+		#display:inline;
+		width:53px;
+		margin-right:5px;
+		vertical-align:top;
+		font-weight:bold;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundsStatisticsHeader .tableHeaderClassIcon
+	{
+		width:30px;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundsStatisticsHeader .tableHeaderPlayerName
+	{
+		width:80px;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsItemsContainer
+	{
+		display:inline-block;
+		#display:inline;
+		width:600px;
+		height:310px;
+		overflow:hidden;
+		vertical-align:top;
+		margin-top:10px;
+		overflow:hidden;
+		position:relative;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsItemsContainer .battlegroundListItems
+	{
+		vertical-align:top;
+		position:absolute;
+		margin-left:15px;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsItemsContainer .battlegroundListItems .battlegroundListItem
+	{
+		padding-top:3px;
+		padding-bottom:3px;
+		color:#52331e;
+		border-bottom:1px solid #f1d291;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsItemsContainer .battlegroundListItems .battlegroundListItem:hover
+	{
+		background-color:#f3da8a;
+		color:#bf1208;
+		opacity:0.5;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsItemsContainer .battlegroundListItems .battlegroundListItem .tableRow,
+		.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsItemsContainer .battlegroundListItems .battlegroundListItem .tableRowClassIcon,
+		.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsItemsContainer .battlegroundListItems .battlegroundListItem .tableRowPlayerName
+	{
+		display:inline-block;
+		#display:inline;
+		width:53px;
+		margin-right:5px;
+		vertical-align:top;
+		padding-top:5px;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsItemsContainer .battlegroundListItems .battlegroundListItem .tableRowClassIconsoldier,
+		.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsItemsContainer .battlegroundListItems .battlegroundListItem .tableRowClassIconscout,
+		.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsItemsContainer .battlegroundListItems .battlegroundListItem .tableRowClassIconnoble
+	{
+		width:35px;
+		height:25px;
+		#display:inline;
+		display:inline-block;
+		background-image:url('/img/battlegroundStatistics/soldier.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsItemsContainer .battlegroundListItems .battlegroundListItem .tableRowClassIconScout
+	{
+		background-image:url('/img/battlegroundStatistics/scout.png');
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsItemsContainer .battlegroundListItems .battlegroundListItem .tableRowClassIconNoble
+	{
+		background-image:url('/img/battlegroundStatistics/noble.png');
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsItemsContainer .battlegroundListItems .battlegroundListItem .tableRowPlayerName
+	{
+		width:80px;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsControls
+	{
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsControls .battlegroundStatisticsControlUp
+	{
+		margin-top:15px;
+		background-image:url('/img/battlegroundStatistics/top_arrow.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:15px;
+		height:19px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsContainer .battlegroundStatisticsControls .battlegroundStatisticsControlDown
+	{
+		margin-top:260px;
+		background-image:url('/img/battlegroundStatistics/bot_arrow.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:15px;
+		height:19px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsAverages
+	{
+		width:570px;
+		#width:600px;
+		padding-left:20px;
+		padding-right:10px;
+		margin-top:5px;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsAverages .anteriumPlayers
+	{
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsAverages .hegemonyPlayers
+	{
+		display:inline-block;
+		#display:inline;
+		margin-left:10px;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsAverages .battlegroundDuration
+	{
+		display:inline-block;
+		#display:inline;
+		margin-left:210px;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundStatisticsAverages .playersAmount
+	{
+		font-weight:bold;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundOptions
+	{
+		margin-top:23px;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundOptions .battlegroundEnqueue
+	{
+		margin-left:235px;
+		display:inline-block;
+		#display:inline;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		width:149px;
+		height:23px;
+		#height:30px;
+		background-image: url('/img/battlegroundStatistics/btn.png');
+		background-repeat: no-repeat;
+		background-position: left top;
+		text-align:center;
+		padding-top:7px;
+		font-size:14px;
+		color:#dfdfdf;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .battlegroundOptions .battlegroundEnqueue:hover
+	{
+		color:#ffffff;
+	}
+	
+	.component.bugcraft .battlegroundStatistics .windowTitle
+	{
+		margin-top:47px;
+		display:inline-block;
+		#display:inline;
+		font-family:OldEnglishText;
+		font-size:20px;
+		width:320px;
+		text-align:center;
+		margin-left:150px;
+		color:#5f4221;
+		text-shadow:#E5BF7D 1px 1px 1px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

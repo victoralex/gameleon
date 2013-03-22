@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spellEffect name="AphidDeath" type="imageFramesNoLoopWithSound"><frames maxFrames="6"/><sound soundName="AphidDeath.mp3"/></spellEffect>

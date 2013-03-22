@@ -1,0 +1,227 @@
+
+	/*
+		componentsListFront CSS Screen Template
+	*/
+	
+	.componentsListFront
+	{
+		background-color:transparent;
+		text-align:left;
+		background-image:url('/components/componentsListFront/resources/public/img/big_box.png');
+		background-repeat:no-repeat;
+		background-position:top center;
+		width:778px;
+		height:329px;
+	}
+	
+	.componentsListFront .components
+	{
+		height:265px;
+		width:708px;
+		padding-left:40px;
+		padding-right:35px;
+		padding-top:35px;
+	}
+	
+	.componentsListFront .components .descriptions
+	{
+		height:190px;
+	}
+	
+	.componentsListFront .components .buttons
+	{
+		height:65px;
+		width:708px;
+		text-align:center;
+	}
+	
+	.componentsListFront .components .buttons .component
+	{
+		width:80px;
+		height:65px;
+		display:inline-block;
+		#float:left;
+	}
+	
+	.componentsListFront .components .buttons .component .iconOut_news
+	{
+		margin-left:16px;
+		#margin-left:0px;
+		background-image:url('/components/componentsListFront/resources/public/img/iconOut_news.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:48px;
+		height:48px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.componentsListFront .components .buttons .component .iconOver_news
+	{
+		margin-left:16px;
+		#margin-left:0px;
+		background-image:url('/components/componentsListFront/resources/public/img/iconOver_news.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:48px;
+		height:48px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.componentsListFront .components .buttons .component .iconOut_contentManagement
+	{
+		margin-left:16px;
+		#margin-left:0px;
+		background-image:url('/components/componentsListFront/resources/public/img/iconOut_contentManagement.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:48px;
+		height:48px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.componentsListFront .components .buttons .component .iconOver_contentManagement
+	{
+		margin-left:16px;
+		#margin-left:0px;
+		background-image:url('/components/componentsListFront/resources/public/img/iconOver_contentManagement.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:48px;
+		height:48px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.componentsListFront .components .buttons .component .iconOver_translationEditor
+	{
+		margin-left:16px;
+		#margin-left:0px;
+		background-image:url('/components/componentsListFront/resources/public/img/iconOver_translationEditor.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:48px;
+		height:48px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.componentsListFront .components .buttons .component .iconOut_translationEditor
+	{
+		margin-left:16px;
+		#margin-left:0px;
+		background-image:url('/components/componentsListFront/resources/public/img/iconOut_translationEditor.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:48px;
+		height:48px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.componentsListFront .components .buttons .component .iconOut_newsletter
+	{
+		margin-left:16px;
+		#margin-left:0px;
+		background-image:url('/components/componentsListFront/resources/public/img/iconOut_newsletter.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:48px;
+		height:48px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.componentsListFront .components .buttons .component .iconOver_newsletter
+	{
+		margin-left:16px;
+		#margin-left:0px;
+		background-image:url('/components/componentsListFront/resources/public/img/iconOver_newsletter.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:48px;
+		height:48px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.componentsListFront .components .buttons .component .iconOut_recruitment
+	{
+		margin-left:16px;
+		#margin-left:0px;
+		background-image:url('/components/componentsListFront/resources/public/img/iconOut_recruitment.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:48px;
+		height:48px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.componentsListFront .components .buttons .component .iconOver_recruitment
+	{
+		margin-left:16px;
+		#margin-left:0px;
+		background-image:url('/components/componentsListFront/resources/public/img/iconOver_recruitment.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:48px;
+		height:48px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+
+	.componentsListFront .components .buttons .component A:link, .componentsListFront .components .component A:visited
+	{
+		color:#afafaf;
+		text-decoration:none;
+	}
+	
+	.componentsListFront .components .buttons .component A:hover
+	{
+		color:#efefef;
+	}
+	
+	.componentsListFront .paginationButtons
+	{
+		height:29px;
+		width:778px;
+		text-align:center;
+	}
+	
+	.componentsListFront .paginationButtons
+	{
+		text-align:center;
+	}
+	
+	.componentsListFront .paginationButtons .over
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/components/componentsListFront/resources/public/img/circle_hover.png');
+		background-repeat:no-repeat;
+		background-position:center center;
+		width:9px;
+		height:9px;
+		cursor:pointer;
+		#cursor:hand;
+		margin-left:5px;
+		margin-right:5px;
+	}
+	
+	.componentsListFront .paginationButtons .out
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/components/componentsListFront/resources/public/img/circle_normal.png');
+		background-repeat:no-repeat;
+		background-position:center center;
+		width:9px;
+		height:9px;
+		cursor:pointer;
+		#cursor:hand;
+		margin-left:5px;
+		margin-right:5px;
+	}

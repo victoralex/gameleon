@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="en-US">
+	
+	<component name="footerCopyright">
+		<custom>
+			<field name="copyright"><![CDATA[Copyright (c) 2009 eMotion Concept. All rights reserved.]]></field>
+		</custom>
+		<menu>
+			<entry id="1"><![CDATA[terms of use]]></entry>
+			<entry id="2"><![CDATA[privacy policy]]></entry>
+			<entry id="3"><![CDATA[powered by Ascent]]></entry>
+		</menu>
+	</component>
+	
+</translation>

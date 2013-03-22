@@ -1,0 +1,1076 @@
+	
+	/*
+		Select characters
+	*/
+	
+	.component.bugcraft .selectCharacterPage
+	{
+		-moz-transform-origin: top left;
+		-webkit-transform-origin: top left;
+		-o-transform-origin: top left;
+		-ms-transform-origin: top left;
+		transform-origin: top left;
+		text-align:center;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect
+	{
+		display:inline-block;
+		#display:inline;
+		width: 758px;
+		margin-top:80px;
+		margin-bottom:100px;
+		text-align: left;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect h1 
+	{
+		margin:0px;
+		padding:0px;
+		margin-left:80px;
+		font-family: Georgia;
+		font-size: 20px;
+		color: #9D1F1F;
+		text-shadow:#1f1f1f 1px 1px 1px;
+	}
+	
+	/*
+		Characters List
+	*/
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList
+	{
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+		overflow: hidden;
+		background-repeat: no-repeat;
+		margin-left: 30px;
+		margin-right:35px;
+		width: 350px;
+		height: 500px;
+		text-align: left;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer
+	{
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+		overflow: hidden;
+		margin-top:10px;
+		height: 465px;
+		text-align: left;
+		
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list
+	{
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+		margin-bottom: 10px;
+		
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry
+	{
+		background-repeat:no-repeat;
+		background-position:center right;
+		padding-bottom:10px;
+		padding-top:10px;
+		opacity:0.75;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		width:350px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry.anteriumCharacter
+	{
+		background-image:url('/img/selectCharacter/name_glow_anterium.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry.hegemonyCharacter
+	{
+		background-image:url('/img/selectCharacter/name_glow_hegemony.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry.hover
+	{
+		opacity:1;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry.hover .information .nameContainer .name
+	{
+		color:#7ac3b2;
+		text-shadow:#1f1f1f 1px 1px 1px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry .iconbee
+	{
+		background-image:url('/object_skins/playerBee/portrait_friend.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:115px;
+		height:105px;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry .iconladybug
+	{
+		background-image:url('/object_skins/playerLadybug/portrait_friend.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:115px;
+		height:105px;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry .iconmantis
+	{
+		background-image:url('/object_skins/playerMantis/portrait_friend.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:115px;
+		height:105px;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry .iconant
+	{
+		background-image:url('/object_skins/playerAnt/portrait_friend.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:115px;
+		height:105px;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry .iconfireant
+	{
+		background-image:url('/object_skins/playerFireant/portrait_friend.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:115px;
+		height:105px;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry .iconbutterfly
+	{
+		background-image:url('/object_skins/playerButterfly/portrait_friend.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:115px;
+		height:105px;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry .levelContainer
+	{
+		background-image:url('/img/green.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:28px;
+		height:24px;
+		#height:28px;
+		text-align:center;
+		font-size:16px;
+		color:#ffffff;
+		text-shadow:#000000 1px 1px 1px;
+		padding-top:4px;
+		margin-top:70px;
+		margin-left:70px;
+		font-family:georgia;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry .information
+	{
+		display:inline-block;
+		#display:inline;
+		margin-left:8px;
+		vertical-align:top;
+		margin-top:20px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry .information .zoneContainer
+	{
+		font-weight:bold;
+		margin-bottom:3px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry .information .nameContainer
+	{
+		
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry .information .nameContainer .name
+	{
+		display:inline-block;
+		 #display:inline;
+		font-size:20px;
+		margin-bottom:5px;
+		width:100px;
+		text-shadow:#1f1f1f 1px 1px 1px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry .information .nameContainer .nameShadow
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry .information .race
+	{
+		font-style:italic;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .listContainer .list .characterEntry .information .class
+	{
+		margin-left:3px;
+		font-style:italic;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .navigation
+	{
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+		margin-top:10px;
+		margin-left: 10px;
+		margin-right:10px;
+		height: 15px;
+		width: 335px;
+		text-align: right;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .navigation .upButton
+	{
+		display:inline-block;
+		 #display:inline;
+		vertical-align:top;
+		background-image:url('/img/selectCharacter/arrow_up.png');
+		background-repeat:no-repeat;
+		background-position:right bottom;
+		width:20px;
+		height:15px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .navigation .upButton:hover
+	{
+		background-image:url('/img/selectCharacter/arrow_up_clicked.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .navigation .downButton
+	{
+		display:inline-block;
+		 #display:inline;
+		vertical-align:top;
+		background-image:url('/img/selectCharacter/arrow_down.png');
+		background-repeat:no-repeat;
+		background-position:right bottom;
+		width:20px;
+		height:15px;
+		#height:11px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .charactersList .navigation .downButton:hover
+	{
+		background-image:url('/img/selectCharacter/arrow_down_clicked.png');
+	}
+	
+	/*
+		Selected Character Container
+	*/
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .selectedCharacter
+	{
+		display:inline-block;
+		 #display:inline;
+		vertical-align:bottom;
+		width: 250px;
+		text-align: left;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .selectedCharacter .selectedCharacterImage
+	{	
+		display:inline-block;
+		#display:inline;
+		background-repeat:no-repeat;
+		background-position:center;
+		vertical-align:top;
+		width: 250px;
+		text-align: left;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .selectedCharacter .imagebee
+	{	
+		display:inline-block;
+		 #display:inline;
+		vertical-align:top;
+		background-image:url('/img/newCharacter/bee_normal.png');
+		background-repeat:no-repeat;
+		background-position:bottom center;
+		width: 250px;
+		height: 400px;
+		text-align: left;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .selectedCharacter .imageladybug
+	{	
+		display:inline-block;
+		 #display:inline;
+		vertical-align:top;
+		background-image:url('/img/newCharacter/ladybug_normal.png');
+		background-repeat:no-repeat;
+		background-position:bottom center;
+		width: 250px;
+		height: 400px;
+		text-align: left;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .selectedCharacter .imagemantis
+	{	
+		display:inline-block;
+		 #display:inline;
+		vertical-align:top;
+		background-image:url('/img/newCharacter/mantis_normal.png');
+		background-repeat:no-repeat;
+		background-position:bottom center;
+		width: 250px;
+		height: 400px;
+		text-align: left;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .selectedCharacter .imageant
+	{	
+		display:inline-block;
+		 #display:inline;
+		vertical-align:top;
+		background-image:url('/img/newCharacter/ant_normal.png');
+		background-repeat:no-repeat;
+		background-position:bottom center;
+		width: 250px;
+		height: 400px;
+		text-align: left;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .selectedCharacter .imagefireant
+	{	
+		display:inline-block;
+		 #display:inline;
+		vertical-align:top;
+		background-image:url('/img/newCharacter/fireant_normal.png');
+		background-repeat:no-repeat;
+		background-position:bottom center;
+		width: 250px;
+		height: 400px;
+		text-align: left;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .selectedCharacter .imagebutterfly
+	{	
+		display:inline-block;
+		 #display:inline;
+		vertical-align:top;
+		background-image:url('/img/newCharacter/butterfly_normal.png');
+		background-repeat:no-repeat;
+		background-position:bottom center;
+		width: 250px;
+		height: 400px;
+		text-align: left;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .selectedCharacter .selectedCharacterNameContainer
+	{
+		display:inline-block;
+		 #display:inline;
+		vertical-align:top;
+		width: 376px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .selectedCharacter .selectedCharacterNameContainer .name
+	{
+		background-image:url('/img/selectCharacter/char_name.png');
+		background-repeat:no-repeat;
+		background-position:bottom center;
+		display:inline-block;
+		 #display:inline;
+		width: 250px;
+		text-align:center;
+		font-size:20px;
+		color:#52331e;
+		font-family: Georgia;
+		text-shadow:#f1f1f1 1px 1px 1px;
+		height:35px;
+		#height:50px;
+		padding-top:15px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .options
+	{
+		margin-left:60px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .options .goBack
+	{
+		display:inline-block;
+		 #display:inline;
+		background-image:url('/img/selectCharacter/back.png');
+		background-repeat:no-repeat;
+		background-position:left bottom;
+		width:68px;
+		height:68px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .options .deleteCharacter
+	{
+		margin-left:90px;
+		display:inline-block;
+		 #display:inline;
+		background-image:url('/img/selectCharacter/cross.png');
+		background-repeat:no-repeat;
+		background-position:left bottom;
+		width:68px;
+		height:68px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .options .newCharacter
+	{
+		display:inline-block;
+		 #display:inline;
+		background-image:url('/img/selectCharacter/plus.png');
+		background-repeat:no-repeat;
+		background-position:left bottom;
+		width:68px;
+		height:68px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .selectCharacterPage .characterSelect .characters .options .loginCharacter
+	{
+		margin-left:155px;
+		display:inline-block;
+		 #display:inline;
+		background-image:url('/img/selectCharacter/buton_ok_verde.png');
+		background-repeat:no-repeat;
+		background-position:left bottom;
+		width:68px;
+		height:68px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	/*
+		-------------------
+		New Character
+		-------------------
+	*/
+	
+	.component.bugcraft .selectCharacterPage
+	{
+		
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter
+	{
+		text-align:left;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .factions
+	{
+		width:900px;
+		height:600px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .factions a:link, .component.bugcraft .selectCharacterPage .newCharacter .factions a:visited
+	{
+		display:inline-block;
+		#display:inline;
+	}
+	
+	/*anterium*/
+	.component.bugcraft .selectCharacterPage .newCharacter .factions a.member1
+	{
+		background-image:url('/img/newCharacter/ant_normal.png');
+		width:288px;
+		height:637px;
+		position:absolute;
+		margin-top:-20px;
+		margin-left:-10px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .factions a.member1:hover, .component.bugcraft .selectCharacterPage .newCharacter .factions a.member1Hover
+	{
+		background-image:url('/img/newCharacter/ant_aura.png');
+		width:288px;
+		height:637px;
+		position:absolute;
+		margin-top:-20px;
+		margin-left:-10px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .factions a.member2
+	{
+		background-image:url('/img/newCharacter/fireant_normal.png');
+		width:305px;
+		height:558px;
+		position:absolute;
+		margin-left:200px;
+		margin-top:5px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .factions a.member2:hover, .component.bugcraft .selectCharacterPage .newCharacter .factions a.member2Hover
+	{
+		background-image:url('/img/newCharacter/fireant_aura.png');
+		width:305px;
+		height:558px;
+		position:absolute;
+		margin-left:200px;
+		margin-top:5px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .factions a.member3
+	{
+		background-image:url('/img/newCharacter/butterfly_normal.png');
+		width:238px;
+		height:560px;
+		position:absolute;
+		margin-top:-94px;
+		margin-left:105px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .factions a.member3:hover, .component.bugcraft .selectCharacterPage .newCharacter .factions a.member3Hover
+	{
+		background-image:url('/img/newCharacter/butterfly_aura.png');
+		width:238px;
+		height:560px;
+		position:absolute;
+		margin-top:-94px;
+		margin-left:105px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	/*hegemony*/
+	.component.bugcraft .selectCharacterPage .newCharacter .factions a.member4
+	{
+		background-image:url('/img/newCharacter/bee_normal.png');
+		width:221px;
+		height:531px;
+		position:absolute;
+		margin-top:-40px;
+		margin-left:660px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .factions a.member4:hover, .component.bugcraft .selectCharacterPage .newCharacter .factions a.member4Hover
+	{
+		background-image:url('/img/newCharacter/bee_aura.png');
+		width:221px;
+		height:531px;
+		position:absolute;
+		margin-top:-40px;
+		margin-left:660px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .factions a.member5
+	{
+		background-image:url('/img/newCharacter/ladybug_normal.png');
+		width:263px;
+		height:639px;
+		position:absolute;
+		margin-top:-25px;
+		margin-left:684px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .factions a.member5:hover, .component.bugcraft .selectCharacterPage .newCharacter .factions a.member5Hover
+	{
+		background-image:url('/img/newCharacter/ladybug_aura.png');
+		width:263px;
+		height:639px;
+		position:absolute;
+		margin-top:-25px;
+		margin-left:684px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .factions a.member6
+	{
+		background-image:url('/img/newCharacter/mantis_normal.png');
+		width:275px;
+		height:608px;
+		position:absolute;
+		margin-top:-32px;
+		margin-left:493px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .factions a.member6:hover, .component.bugcraft .selectCharacterPage .newCharacter .factions a.member6Hover
+	{
+		background-image:url('/img/newCharacter/mantis_aura.png');
+		width:275px;
+		height:608px;
+		position:absolute;
+		margin-top:-32px;
+		margin-left:493px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	/*
+		form input
+	*/
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .form
+	{
+		text-align:center;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .form .goBackButton
+	{
+		background-image:url('/img/newCharacter/buton_back.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:68px;
+		height:68px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .form .input
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/newCharacter/chenar.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:240px;
+		height:68px;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .form .input input
+	{
+		display:inline-block;
+		#display:inline;
+		border:0px solid;
+		border-color:rgba(0,0,0,0);
+		background-color:rgba(0,0,0,0);
+		width:194px;
+		font-size:18px;
+		color:#ffffff;
+		font-family: Georgia;
+		text-align:center;
+		margin-top:23px;
+		margin-left:3px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .form .createCharacterButtonEnabled, .component.bugcraft .selectCharacterPage .newCharacter .form .createCharacterButtonDisabled
+	{
+		background-image:url('/img/newCharacter/buton_ok_gri.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:68px;
+		height:68px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .form .createCharacterButtonEnabled
+	{
+		background-image:url('/img/newCharacter/buton_ok_verde.png');
+	}
+	
+	/*class description*/
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription
+	{
+		width:900px;
+		text-align:center;
+		margin-bottom:100px;
+		font-family:arial;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description
+	{
+		
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description.hidden
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/newCharacter/pergament1.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:319px;
+		#width:389px;
+		height:390px;
+		#height:450px;
+		vertical-align:top;
+		text-align:left;
+		padding:35px;
+		padding-top:25px;
+		color:#644119;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea h1
+	{
+		margin:0px;
+		padding:0px;
+		font-weight:normal;
+		font-family:"Palatino Linotype", Georgia;
+		font-size:22px;
+		margin-left:5px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureSoldier1,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureSoldier2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureSoldier3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureScout1,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureScout2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureScout3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureNoble1,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureNoble2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureNoble3
+	{
+		margin-bottom:10px;
+		background-image:url('/img/newCharacter/soldier1.png');
+		background-repeat:no-repeat;
+		background-position:0px 10px;
+		padding-left:80px;
+		min-height:85px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureSoldier2
+	{
+		background-image:url('/img/newCharacter/soldier2.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureSoldier3
+	{
+		background-image:url('/img/newCharacter/soldier3.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureScout1
+	{
+		background-image:url('/img/newCharacter/scout1.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureScout2
+	{
+		background-image:url('/img/newCharacter/scout2.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureScout3
+	{
+		background-image:url('/img/newCharacter/scout3.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureNoble1
+	{
+		background-image:url('/img/newCharacter/noble1.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureNoble2
+	{
+		background-image:url('/img/newCharacter/noble2.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureNoble3
+	{
+		background-image:url('/img/newCharacter/noble3.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureSoldier1 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureSoldier2 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureSoldier3 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureScout1 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureScout2 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureScout3 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureNoble1 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureNoble2 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureNoble3 h2
+	{
+		margin:0px;
+		padding:0px;
+		padding-top:5px;
+		font-size:18px;
+		font-weight:normal;
+		color:#341F12;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureSoldier1 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureSoldier2 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureSoldier3 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureScout1 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureScout2 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureScout3 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureNoble1 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureNoble2 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureNoble3 h3
+	{
+		margin:0px;
+		padding:0px;
+		font-size:12px;
+		font-weight:normal;
+		position:relative;
+		margin-top:-4px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureSoldier1 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureSoldier2 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureSoldier3 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureScout1 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureScout2 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureScout3 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureNoble1 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureNoble2 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .leftArea .featureNoble3 p
+	{
+		margin:0px;
+		padding:0px;
+		margin-top:5px;
+		font-size:11px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/newCharacter/pergament2.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:314px;
+		#width:389px;
+		height:390px;
+		#height:450px;
+		vertical-align:top;
+		text-align:left;
+		padding:35px;
+		padding-left:40px;
+		padding-top:25px;
+		color:#644119;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .raceDescription
+	{
+		color:#341F12;
+		margin-bottom:5px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .raceDescription h1
+	{
+		margin:0px;
+		padding:0px;
+		text-align:right;
+		font-size:40px;
+		color:#52331E;
+		font-weight:normal;
+		font-family:"Palatino Linotype", Georgia;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .raceDescription p
+	{
+		margin:0px;
+		margin-bottom:5px;
+		padding:0px;
+		font-size:13px;
+		color:#52331E;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialFireant1,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialFireant2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialAnt1,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialAnt2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialLadybug1,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialLadybug2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialMantis1,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialMantis2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialButterfly1,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialButterfly2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialBee1,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialBee2
+	{
+		margin-bottom:10px;
+		background-image:url('/img/newCharacter/fireant1.png');
+		background-repeat:no-repeat;
+		background-position:0px 10px;
+		padding-left:80px;
+		min-height:85px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialFireant2
+	{
+		background-image:url('/img/newCharacter/fireant2.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialAnt1
+	{
+		background-image:url('/img/newCharacter/ant1.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialAnt2
+	{
+		background-image:url('/img/newCharacter/ant2.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialLadybug1
+	{
+		background-image:url('/img/newCharacter/ladybug1.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialLadybug2
+	{
+		background-image:url('/img/newCharacter/ladybug2.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialMantis1
+	{
+		background-image:url('/img/newCharacter/mantis1.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialMantis2
+	{
+		background-image:url('/img/newCharacter/mantis2.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialButterfly1
+	{
+		background-image:url('/img/newCharacter/butterfly1.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialButterfly2
+	{
+		background-image:url('/img/newCharacter/butterfly2.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialBee1
+	{
+		background-image:url('/img/newCharacter/bee1.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialBee2
+	{
+		background-image:url('/img/newCharacter/bee2.png');
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialFireant1 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialFireant2 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialAnt1 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialAnt2 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialLadybug1 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialLadybug2 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialMantis1 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialMantis2 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialButterfly1 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialButterfly2 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialBee1 h2,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialBee2 h2
+	{
+		margin:0px;
+		padding:0px;
+		padding-top:5px;
+		font-size:18px;
+		font-weight:normal;
+		color:#341F12;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialFireant1 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialFireant2 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialAnt1 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialAnt2 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialLadybug1 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialLadybug2 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialMantis1 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialMantis2 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialButterfly1 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialButterfly2 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialBee1 h3,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialBee2 h3
+	{
+		margin:0px;
+		padding:0px;
+		font-size:12px;
+		font-weight:normal;
+		position:relative;
+		margin-top:-8px;
+	}
+	
+	.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialFireant1 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialFireant2 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialAnt1 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialAnt2 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialLadybug1 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialLadybug2 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialMantis1 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialMantis2 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialButterfly1 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialButterfly2 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialBee1 p,
+		.component.bugcraft .selectCharacterPage .newCharacter .classDescription .description .rightArea .racialBee2 p
+	{
+		margin:0px;
+		padding:0px;
+		margin-top:5px;
+		font-size:11px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

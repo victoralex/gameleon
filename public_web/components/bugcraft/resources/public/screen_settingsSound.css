@@ -1,0 +1,163 @@
+
+	/*
+		Looking for battleground
+	*/
+	
+	.component.bugcraft .settingsSound
+	{
+		background-image:url('/img/backgroundScroll.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:656px;
+		#width:689px;
+		height:678px;
+		display:block;
+		margin-top:120px;
+		padding-left:33px;
+		text-align:left;
+		position:absolute;
+		margin-left:35px;
+		-moz-transform-origin: top left;
+		-webkit-transform-origin: top left;
+		-o-transform-origin: top left;
+		-ms-transform-origin: top left;
+		transform-origin: top left;
+	}
+	
+	.component.bugcraft .settingsSound .closeButton
+	{
+		background-image:url('/img/settingsSound/close.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:16px;
+		height:16px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+		#cursor:hand;
+		margin-left:595px;
+		margin-top:64px;
+	}
+	
+	.component.bugcraft .settingsSound .closeButton:hover
+	{
+		background-position:left bottom;
+	}
+	
+	.component.bugcraft .settingsSound .options
+	{
+		margin-left:20px;
+	}
+	
+	.component.bugcraft .settingsSound .options .option
+	{
+		height:40px;
+	}
+	
+	.component.bugcraft .settingsSound .options .option .optionDescriptiveText
+	{
+		display:inline-block;
+		#display:inline;
+		width:200px;
+		padding-top:8px;
+		height:22px;
+		vertical-align:top;
+		font-size:14px;
+		text-shadow:#E5BF7D 1px 1px 1px;
+	}
+	
+	.component.bugcraft .settingsSound .options .option .optionSlider
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/settingsSound/left.png');
+		background-repeat:no-repeat;
+		background-position:center left;
+		height:30px;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .settingsSound .options .option .optionSlider .sliderLeft
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/settingsSound/sliderCornerLeft.png');
+		background-repeat:no-repeat;
+		background-position:center left;
+		height:30px;
+		width:4px;
+	}
+	
+	.component.bugcraft .settingsSound .options .option .optionSlider .sliderMiddle
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/settingsSound/sliderRepeater.png');
+		background-repeat:repeat-x;
+		background-position:center left;
+		height:30px;
+		width:300px;
+	}
+	
+	.component.bugcraft .settingsSound .options .option .optionSlider .sliderMiddle .optionSliderButton
+	{
+		position:absolute;
+		display:inline-block;
+		background-image:url('/img/settingsSound/sliderButton.png');
+		background-repeat:no-repeat;
+		width:30px;
+		height:30px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .settingsSound .options .option .optionSlider .sliderRight
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/settingsSound/sliderCornerRight.png');
+		background-repeat:no-repeat;
+		background-position:center left;
+		height:30px;
+		width:4px;
+	}
+	
+	.component.bugcraft .settingsSound .windowTitle
+	{
+		margin-top:47px;
+		display:inline-block;
+		#display:inline;
+		font-family:OldEnglishText;
+		font-size:20px;
+		width:320px;
+		text-align:center;
+		margin-left:150px;
+		color:#5f4221;
+		text-shadow:#E5BF7D 1px 1px 1px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spellEffect name="EggDrone" type="imageFramesLoopWithSoundLoop"><frames maxFrames="1"/><sound maxDelay="2" minDelay="1" soundName="EggDrone.mp3"/></spellEffect>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc id="951"><events><event name="use"><effect><name><![CDATA[RummageMetal]]></name></effect></event></events></npc>

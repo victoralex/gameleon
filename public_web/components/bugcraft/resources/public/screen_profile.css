@@ -1,0 +1,429 @@
+
+	/*
+		Profile CSS Screen Template
+	*/
+	
+	.component.bugcraft .pageProfile
+	{
+		background-image:url('/img/profile/background.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:679px;
+		#width:689px;
+		height:500px;
+		display:block;
+		margin-top:120px;
+		padding-left:10px;
+		text-align:left;
+		position:absolute;
+		margin-left:35px;
+		-moz-transform-origin: top left;
+		-webkit-transform-origin: top left;
+		-o-transform-origin: top left;
+		-ms-transform-origin: top left;
+		transform-origin: top left;
+	}
+	
+	.component.bugcraft .pageProfile .closeButton
+	{
+		background-image:url('/img/profile/close.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:16px;
+		height:16px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		margin-left:640px;
+		margin-top:20px;
+	}
+	
+	.component.bugcraft .pageProfile .closeButton:hover
+	{
+		background-position:left bottom;
+	}
+	
+	.component.bugcraft .pageProfile .character
+	{
+		margin-left:5px;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData
+	{
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterName
+	{
+		font-family:folkard;
+		font-size:28px;
+		width:385px;
+		text-align:center;
+		color:#E5BF7D;
+		text-shadow:#4f4f4f 1px 1px 1px;
+		/*margin-bottom:5px;*/
+		text-transform:capitalize;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar
+	{
+		vertical-align:top;
+		display:inline-block;
+		#display:inline;
+		background-repeat:no-repeat;
+		background-position:24px 25px;
+		width:385px;
+		height:395px;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .invisible
+	{
+		visibility:hidden;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemHead
+	{
+		background-image:url('/img/profile/itemPlaceHolderHead.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:84px;
+		height:80px;
+		margin-left:150px;
+		opacity:0.85;
+		filter:progid:DXImageTransform.Microsoft.Alpha(opacity=85);
+		-moz-opacity:0.85;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemHeadSelected
+	{
+		background-image:url('/img/profile/itemPlaceHolderHeadSelected.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:77px;
+		#width:84px;
+		height:75px;
+		#height:80px;
+		margin-left:150px;
+		padding-left:7px;
+		padding-top:5px;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemHeadSelected img
+	{
+		position:absolute;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemBracersLeft
+	{
+		background-image:url('/img/profile/itemPlaceHolderLeftHand.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:79px;
+		height:83px;
+		margin-left:33px;
+		margin-top:-9px;
+		display:inline-block;
+		#display:inline;
+		opacity:0.85;
+		filter:progid:DXImageTransform.Microsoft.Alpha(opacity=85);
+		-moz-opacity:0.85;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemBracersLeftSelected
+	{
+		background-image:url('/img/profile/itemPlaceHolderLeftHandSelected.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:79px;
+		height:83px;
+		margin-left:33px;
+		margin-top:-9px;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemBracersLeftSelected img
+	{
+		position:absolute;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemBracersRight
+	{
+		background-image:url('/img/profile/itemPlaceHolderRightHand.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:79px;
+		height:83px;
+		margin-left:170px;
+		margin-top:-9px;
+		display:inline-block;
+		#display:inline;
+		opacity:0.85;
+		filter:progid:DXImageTransform.Microsoft.Alpha(opacity=85);
+		-moz-opacity:0.85;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemBracersRightSelected
+	{
+		background-image:url('/img/profile/itemPlaceHolderRightHandSelected.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:79px;
+		height:83px;
+		margin-left:170px;
+		margin-top:-9px;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemBracersRightSelected img
+	{
+		position:absolute;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemMainHand
+	{
+		background-image:url('/img/profile/itemPlaceHolderLeftRing.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:80px;
+		height:84px;
+		margin-left:37px;
+		margin-top:91px;
+		display:inline-block;
+		#display:inline;
+		opacity:0.85;
+		filter:progid:DXImageTransform.Microsoft.Alpha(opacity=85);
+		-moz-opacity:0.85;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemMainHandSelected
+	{
+		background-image:url('/img/profile/itemPlaceHolderLeftRingSelected.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:80px;
+		height:84px;
+		margin-left:37px;
+		margin-top:91px;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemMainHandSelected img
+	{
+		position:absolute;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemOffHand
+	{
+		background-image:url('/img/profile/itemPlaceHolderRightRing.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:80px;
+		height:84px;
+		margin-left:160px;
+		margin-top:91px;
+		display:inline-block;
+		#display:inline;
+		opacity:0.85;
+		filter:progid:DXImageTransform.Microsoft.Alpha(opacity=85);
+		-moz-opacity:0.85;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemOffHandSelected
+	{
+		background-image:url('/img/profile/itemPlaceHolderRightRingSelected.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:80px;
+		height:84px;
+		margin-left:160px;
+		margin-top:91px;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemOffHandSelected img
+	{
+		position:absolute;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemChest
+	{
+		position:absolute;
+		background-image:url('/img/profile/itemPlaceHolderChest.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:80px;
+		height:84px;
+		margin-left:225px;
+		##margin-left:227px;
+		margin-top:46px;
+		opacity:0.85;
+		filter:progid:DXImageTransform.Microsoft.Alpha(opacity=85);
+		-moz-opacity:0.85;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemChestSelected
+	{
+		position:absolute;
+		background-image:url('/img/profile/itemPlaceHolderChestSelected.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:80px;
+		height:84px;
+		margin-left:225px;
+		##margin-left:227px;
+		margin-top:46px;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemChestSelected img
+	{
+		position:absolute;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemFeet
+	{
+		background-image:url('/img/profile/itemPlaceHolderFeet.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:84px;
+		height:80px;
+		margin-left:150px;
+		margin-top:-18px;
+		opacity:0.85;
+		filter:progid:DXImageTransform.Microsoft.Alpha(opacity=85);
+		-moz-opacity:0.85;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemFeetSelected
+	{
+		background-image:url('/img/profile/itemPlaceHolderFeetSelected.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:84px;
+		height:80px;
+		margin-left:150px;
+		margin-top:-18px;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterData .characterAvatar .itemFeetSelected img
+	{
+		position:absolute;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterNumeric
+	{
+		background-image: url('/img/profile/shadows_dirt_left.png'), url('/img/profile/shadows_dirt_right.png');
+		background-repeat: no-repeat, no-repeat;
+		background-position: left top, right top;
+		display:inline-block;
+		#display:inline;
+		height:395px;
+		padding-left:15px;
+		padding-right:15px;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterNumeric .characterStats
+	{
+		vertical-align:top;
+		width:220px;
+		margin-top:40px;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterNumeric .characterStats .statGroup
+	{
+		margin-bottom:10px;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterNumeric .characterStats .statGroup .statGroupTitle
+	{
+		background-image:url('/img/profile/arrow.png'), url('/img/profile/rep_bg_top.png');
+		background-repeat:no-repeat, no-repeat;
+		background-position:8px 6px, left top;
+		padding-top:2px;
+		padding-left:19px;
+		font-size:14px;
+		color:#E5BF7D;
+		text-shadow:#000000 1px 1px 1px;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterNumeric .characterStats .statGroup .statGroupData
+	{
+		background-image:url('/img/profile/rep_bg_bottom.png');
+		background-repeat:no-repeat;
+		background-position:bottom left;
+		padding-left:18px;
+		padding-bottom:8px;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterNumeric .characterStats .statGroup .statGroupData .statGroupDetailContainer
+	{
+		padding-top:5px;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterNumeric .characterStats .statGroup .statGroupData .statGroupDetailContainer .statGroupDetailName
+	{
+		display:inline-block;
+		#display:inline;
+		color:#E5BF7D;
+		text-shadow:#000000 1px 1px 1px;
+		width:122px;
+	}
+	
+	.component.bugcraft .pageProfile .character .characterNumeric .characterStats .statGroup .statGroupData .statGroupDetailContainer .statGroupDetailValue
+	{
+		width:75px;
+		display:inline-block;
+		#display:inline;
+		color:#E5BF7D;
+		text-shadow:#000000 1px 1px 1px;
+		text-align:right;
+		padding-right:5px;
+	}
+	
+	body .inventoryDraggedItem
+	{
+		position:absolute;
+		z-index:10000;
+		cursor: url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,301 @@
+	
+	/*
+		SpellBook
+	*/
+	
+	.component.bugcraft .spellBook
+	{
+		margin-top:25px;
+		width:800px;
+		height:678px;
+		text-align:center;
+		padding-top:100px;
+		position:absolute;
+		vertical-align:top;
+		-moz-transform-origin: top left;
+		-webkit-transform-origin: top left;
+		-o-transform-origin: top left;
+		-ms-transform-origin: top left;
+		transform-origin: top left;
+	}
+	
+	.component.bugcraft .spellBook .main
+	{
+		background-image:url('/img/backgroundScroll.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:635px;
+		#width:689px;
+		height:578px;
+		#height:678px;
+		text-align:left;
+		z-index:2;
+		display:block;
+		vertical-align:top;
+		position:relative; /* required for z-index */
+		z-index:2;
+		padding-top:95px;
+		padding-left:50px;
+		display:inline-block;
+		#display:inline;
+	}
+	
+	.component.bugcraft .spellBook .main .closeButton
+	{
+		position:absolute;
+		background-image:url('/img/spellBook/close.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:16px;
+		height:16px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		margin-top:-31px;
+		margin-left:576px;
+	}
+	
+	.component.bugcraft .spellBook .main .closeButton:hover
+	{
+		background-position:left bottom;
+	}
+	
+	.component.bugcraft .spellBook .main .buffs
+	{
+		display:block;
+		height:380px;
+	}
+	
+	.component.bugcraft .spellBook .main .buffs .buffObject
+	{
+		background-repeat:no-repeat;
+		background-position:2px 2px;
+		width:300px;
+		display:inline-block;
+		margin-bottom:10px;
+	}
+	
+	.component.bugcraft .spellBook .main .buffs .buffObject .buffCooldownBubble
+	{
+		position:absolute;
+		height:38px;
+		width:57px;
+		background-image:url('/img/spellBook/cooldown.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		margin-left:220px;
+		text-align:center;
+		font-family:Georgia;
+		font-size:14px;
+		color:#ffffff;
+	}
+	
+	.component.bugcraft .spellBook .main .buffs .buffObject .buffCooldownBubbleHidden
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .spellBook .main .buffs .buffObject .buffIcon
+	{
+		background-image:url('/img/spellBook/spell_talent_default.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:249px;
+		#width:289px;
+		display:inline-block;
+		margin-left:1px;
+		margin-top:1px;
+		margin-right:10px;
+		padding-left:40px;
+		font-family:Tahoma;
+		font-size:12px;
+		color:#741a18;
+		vertical-align:top;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .spellBook .main .buffs .buffObject .buffIcon:hover
+	{
+		background-image:url('/img/spellBook/spell_talent_selected.png');
+		background-position:left top;
+	}
+	
+	.component.bugcraft .spellBook .main .buffs .buffObject .buffIcon .row1
+	{
+		height:17px;
+	}
+	
+	.component.bugcraft .spellBook .main .buffs .buffObject .buffIcon .row1 .buffName
+	{
+		font-size:14px;
+		float:left;
+	}
+	
+	.component.bugcraft .spellBook .main .buffs .buffObject .buffIcon .row1 .buffType
+	{
+		font-weight:bold;
+		float:right;
+	}
+	
+	.component.bugcraft .spellBook .main .buffs .buffObject .buffIcon .buffCooldown
+	{
+		margin-top:5px;
+	}
+	
+	.component.bugcraft .spellBook .main .buffs .buffObject .buffIcon .buffDescription
+	{
+		margin-top:5px;
+		color:#52331e;
+	}
+	
+	.component.bugcraft .spellBook .main .buffs .buffsContainer
+	{
+		display:block;
+	}
+	
+	.component.bugcraft .spellBook .main .buffs .buffsContainer .buffsContainerPage
+	{
+		display:block;
+	}
+	
+	.component.bugcraft .spellBook .main .buffs .buffsContainer .buffsContainerPageHidden
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .spellBook .main .buffs .buffsContainerHidden
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .spellBook .main .spellBookBottomContainer
+	{
+		margin-top:52px;
+		width:589px;
+		#width:614px;
+		text-align:center;
+		vertical-align:top;
+		padding-right:25px;
+	}
+	
+	.component.bugcraft .spellBook .main .spellBookBottomContainer .leftArrow
+	{
+		background-image:url('/img/spellBook/previous.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:20px;
+		height:17px;
+		display:inline-block;
+		#display:inline;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .spellBook .main .spellBookBottomContainer .leftArrow:hover
+	{
+		background-position:left bottom;
+	}
+	
+	.component.bugcraft .spellBook .main .spellBookBottomContainer .windowTitle
+	{
+		padding-top:27px;
+		display:inline-block;
+		#display:inline;
+		font-family:OldEnglishText;
+		font-size:20px;
+		width:350px;
+		color:#5f4221;
+		text-shadow:#E5BF7D 1px 1px 1px;
+	}
+	
+	.component.bugcraft .spellBook .main .spellBookBottomContainer .rightArrow
+	{
+		background-image:url('/img/spellBook/next.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:20px;
+		height:17px;
+		display:inline-block;
+		#display:inline;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .spellBook .main .spellBookBottomContainer .rightArrow:hover
+	{
+		background-position:left bottom;
+	}
+	
+	.component.bugcraft .spellBook .specialisations
+	{
+		background-image:url('/img/spellBook/leather.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:53px;
+		#width:105px;
+		height:302px;
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+		margin-left:-35px;
+		margin-top:100px;
+		padding-left:38px;
+		padding-right:14px;
+	}
+	
+	.component.bugcraft .spellBook .specialisations .placeHolder, .component.bugcraft .spellBook .specialisations .placeHolderSelected
+	{
+		background-image:url('/img/spellBook/spell_category.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:52px;
+		height:52px;
+		margin-top:35px;
+	}
+	
+	.component.bugcraft .spellBook .specialisations .placeHolder .overlay
+	{
+		background-image:url('/img/spellBook/spell_category.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:52px;
+		height:52px;
+	}
+	
+	.component.bugcraft .spellBook .specialisations .placeHolder .overlay:hover, .component.bugcraft .spellBook .specialisations .placeHolderSelected .overlay
+	{
+		background-image:url('/img/spellBook/spell_category.png');
+		background-repeat:no-repeat;
+		background-position:left bottom;
+		width:52px;
+		height:52px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

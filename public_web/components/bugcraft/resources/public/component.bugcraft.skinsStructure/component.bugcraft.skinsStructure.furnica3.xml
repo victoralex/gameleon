@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin><name><![CDATA[furnica3]]></name><frames><stance name="walk" framesAmount="0"/><stance name="idle" framesAmount="1"/><stance name="attackMelee" framesAmount="0"/></frames><events><event name="use"><effect><name><![CDATA[RiverFlow]]></name></effect></event><event name="show"><effect><name><![CDATA[RiverWaves]]></name></effect></event><event name="hide"><effect><name><![CDATA[OceanWaves]]></name></effect></event></events></skin>

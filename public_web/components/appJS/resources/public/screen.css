@@ -1,0 +1,216 @@
+	
+	/*
+		--------------
+		Debug window
+		--------------
+	*/
+	
+	.ascentDebugWindowScreen
+	{
+		position:absolute;
+		left:10px;
+		top:400px;
+		filter:alpha(opacity=50);
+		opacity:0.5;
+		-moz-opacity:0.5;
+		color:#ffffff;
+		 z-index:100000;
+	}
+	
+	.ascentDebugWindowScreen.visible
+	{
+		display:inline-block;
+		#display:block;
+	}
+	
+	.ascentDebugWindowScreen.visible .content
+	{
+		display:inline-block;
+		#display:block;
+		overflow:auto;
+		 -moz-border-radius: 10px;
+		 -webkit-border-radius: 10px;
+		border: 1px solid #afafaf;
+		padding:5px;
+		height:370px;
+		width:300px;
+		background-color:#000000;
+	}
+	
+	.ascentDebugWindowScreen.visible .content .row
+	{
+		text-align:left;
+	}
+	
+	.ascentDebugWindowScreen.visible .content .row .date
+	{
+		color:#9f9f9f;
+		margin-right:5px;
+	}
+	
+	.ascentDebugWindowScreen.visible .content .row .error
+	{
+		color:red;
+		margin-right:5px;
+	}
+	
+	.ascentDebugWindowScreen.visible .commandLineContainer
+	{
+		width:300px;
+		height:26px;
+		background-color:#000000;
+		 -moz-border-radius: 10px;
+		 -webkit-border-radius: 10px;
+		padding:5px;
+		border: 1px solid #afafaf;
+		margin-top:4px;
+	}
+	
+	.ascentDebugWindowScreen.visible .commandLineContainer .commandLine
+	{
+		width:288px;
+		background-color:#000000;
+		color:#ffffff;
+		border:none;
+	}
+	
+	.ascentDebugWindowScreen.hidden
+	{
+		display:none;
+	}
+	
+	/*
+		----------------------------
+		Incompatible Browser Screen
+		----------------------------
+	*/
+	
+	.ascentBrowserIncompatibleScreen
+	{
+		background-color:#000000;
+		position:absolute;
+		left:0px;
+		top:0px;
+		width:100%;
+		height:100%;
+		z-index:100000;
+		text-align:center;
+		overflow:hidden;
+	}
+	
+	.ascentBrowserIncompatibleScreenHidden
+	{
+		display:none;
+	}
+	
+	.ascentBrowserIncompatibleScreen .backgroundContainer
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('[rootURL]/components/appJS/resources/public/img/incompatible_browser.jpg');
+		background-repeat:no-repeat;
+		background-position:center center;
+		padding-top:500px;
+		width:1280px;
+		height:524px;
+		#height:1024px;
+		text-align:center;
+	}
+	
+	.ascentBrowserIncompatibleScreen .backgroundContainer .centerContainer
+	{
+		display:inline-block;
+		#display:inline;
+		width:500px;
+	}
+	
+	.ascentBrowserIncompatibleScreen .backgroundContainer .centerContainer .incompatibleMessage
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('[rootURL]/components/appJS/resources/public/img/commas.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		color:#635622;
+		padding-left:25px;
+		padding-right:25px;
+		margin-top:43px;
+		padding-top:5px;
+		font-size:14px;
+		width:350px;
+		#width:400px;
+	}
+	
+	.ascentBrowserIncompatibleScreen .backgroundContainer .centerContainer .incompatibleMessage p
+	{
+		margin:0px;
+		padding:0px;
+		padding-bottom:5px;
+	}
+	
+	.ascentBrowserIncompatibleScreen .backgroundContainer .centerContainer .compatibleBrowsers
+	{
+		
+	}
+	
+	.ascentBrowserIncompatibleScreen .backgroundContainer .centerContainer .compatibleBrowsers a.firefox
+	{
+		display:inline-block;
+		#display:inline;
+		background-image:url('[rootURL]/components/appJS/resources/public/img/mozilla.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:120px;
+		height:120px;
+	}
+	
+	.ascentBrowserIncompatibleScreen .backgroundContainer .centerContainer .compatibleBrowsers a.chrome
+	{
+		margin-left:20px;
+		display:inline-block;
+		#display:inline;
+		background-image:url('[rootURL]/components/appJS/resources/public/img/chrome.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:120px;
+		height:120px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

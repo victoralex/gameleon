@@ -1,0 +1,97 @@
+	
+	*
+	{
+		vertical-align:top;
+		color:#282828;
+		text-align:left;
+		padding-left:2px;
+	}
+	
+	* P
+	{
+		margin:0px;
+		margin-bottom:5px;
+	}
+	
+	* SPAN
+	{
+		
+	}
+	
+	* BLOCKQUOTE
+	{
+		background-image:url('/components/content/resources/public/img/ghilimele.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		padding-top:10px;
+		padding-left:10px;
+		text-indent:30px;
+		color:#9f3535;
+	}
+	
+	* B, * STRONG
+	{
+		
+	}
+	
+	* A:link, * A:visited
+	{
+		color:#59a6ee;
+		text-decoration:none;
+	}
+	
+	* A:hover
+	{
+		color:#59a6ee;
+		text-decoration:underline;
+	}
+	
+	* UL
+	{
+		margin:0px;
+		margin-top:2px;
+		margin-bottom:2px;
+		margin-left:20px;
+	}
+	
+	* UL LI
+	{
+		list-style-type:circle;
+		list-style-position:outside;
+	}
+	
+	* .bigTitle
+	{
+		margin-top:15px;
+		margin-bottom:15px;
+		color:#9d2727;
+	}
+	
+	* .iconPDF
+	{
+		background-image:url('/components/content/resources/public/img/iconPDF.jpg');
+		background-repeat:no-repeat;
+		background-position:top left;
+		padding-left:18px;
+	}
+	
+	* .iconDOCx
+	{
+		background-image:url('/components/content/resources/public/img/iconDOCx.jpg');
+		background-repeat:no-repeat;
+		background-position:top left;
+		padding-left:18px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

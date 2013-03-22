@@ -1,0 +1,372 @@
+
+	/*
+		bugcraft Chat CSS Screen Template
+	*/
+	
+	.component.bugcraft .chatPage
+	{
+		position: absolute;
+		bottom: 10px;
+		left: 5px;
+		height:150px;
+		text-align:left;
+	}
+	
+	.component.bugcraft .chatPage .chatControls
+	{
+		width:30px;
+		display:inline-block;
+		#display:inline;
+		margin-right:5px;
+	}
+	
+	.component.bugcraft .chatPage .chatControls .chatEmotesButton
+	{
+		background-image:url('/img/chat/chat_smile.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:30px;
+		height:30px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .chatPage .chatControls .chatEmotesButton .emotesContainer
+	{
+		display:none;
+	}
+	
+	.component.bugcraft .chatPage .chatControls .chatEmotesButton:hover
+	{
+		background-image:url('/img/chat/chat_smile_selected.png');
+	}
+	
+	.component.bugcraft .chatPage .chatControls .chatEmotesButton .emotesContainer
+	{
+		display:inline-block;
+		position:absolute;
+		margin-top:-240px;
+		margin-left:20px;
+		z-index:3;
+		opacity:0.9;
+		-moz-opacity:0.9;
+		text-align:center;
+	}
+	
+	.component.bugcraft .chatPage .chatControls .chatEmotesButton .emotesContainer .emotesTop
+	{
+		background-image:url('/img/chat/bubbleTop.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:165px;
+		height:5px;
+	}
+	
+	.component.bugcraft .chatPage .chatControls .chatEmotesButton .emotesContainer .emotesMiddle
+	{
+		background-image:url('/img/chat/bubbleMiddle.png');
+		background-repeat:repeat-y;
+		background-position:top left;
+		background-size:cover;
+		width:155px;
+		#width:165px;
+		padding-left:5px;
+		padding-right:5px;
+	}
+	
+	.component.bugcraft .chatPage .chatControls .chatEmotesButton .emotesContainer .emotesMiddle .emote
+	{
+		text-align:left;
+		display:inline-block;
+		width:50px;
+		padding:2px;
+		margin-left:5px;
+		margin-right:5px;
+		color:#ffffff;
+		text-transform:lowercase;
+		text-shadow: #000000 1px 1px 1px;
+	}
+	
+	.component.bugcraft .chatPage .chatControls .chatEmotesButton .emotesContainer .emotesMiddle .emote:hover
+	{
+		color:#741A18;
+		text-shadow: #afafaf 1px 1px 1px;
+	}
+	
+	.component.bugcraft .chatPage .chatControls .chatEmotesButton .emotesContainer .emotesBottom
+	{
+		background-image:url('/img/chat/bubbleBottom.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:165px;
+		height:5px;
+	}
+	
+	.component.bugcraft .chatPage .chatControls .chatUpButton
+	{
+		background-image:url('/img/chat/chat_buttonup.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:30px;
+		height:30px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .chatPage .chatControls .chatUpButton:hover
+	{
+		background-image:url('/img/chat/chat_buttonup_selected.png');
+	}
+	
+	.component.bugcraft .chatPage .chatControls .chatDownButton
+	{
+		margin-top:5px;
+		background-image:url('/img/chat/chat_buttondown.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:30px;
+		height:30px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .chatPage .chatControls .chatDownButton:hover
+	{
+		background-image:url('/img/chat/chat_buttondown_selected.png');
+	}
+	
+	.component.bugcraft .chatPage .chatControls .chatOptionsButton
+	{
+		background-image:url('/img/chat/chat_tools.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:30px;
+		height:30px;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+		#cursor:hand;
+	}
+	
+	.component.bugcraft .chatPage .chatControls .chatOptionsButton:hover
+	{
+		background-image:url('/img/chat/chat_tools_selected.png');
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer
+	{
+		width:295px;
+		display:inline-block;
+		#display:inline;
+		/*border:2px solid transparent;*/
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatBackgroundContainer
+	{
+		position:absolute;
+		height:100%;
+		display:block;
+		border:2px solid #255b1f;
+		background-color:#3e4c27;
+		z-index:1;
+		opacity:0;
+		-moz-opacity:0;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer
+	{
+		z-index:2;
+		position:relative;
+		overflow: hidden;
+		width: 100%;
+		height:135px;
+		vertical-align:top;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer
+	{
+		vertical-align:top;
+		position:relative;
+		width: 100%;
+		vertical-align:bottom;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer div
+	{
+		vertical-align:bottom;
+		text-shadow: black 1px 1px 1px;
+	}
+	
+	/*
+		Special notices
+	*/
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageTypeNotice
+	{
+		color:#f9f8b6;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageTypeEmote
+	{
+		color:#ffcc00;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageTypeError
+	{
+		color:#d50115;
+	}
+	
+	/*
+		Color coding considering source channel type
+	*/
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelsay,
+		.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelbattleground,
+		.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelguild,
+		.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelparty,
+		.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelyell,
+		.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelwhisper,
+		.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelstandard,
+		.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelNPC
+	{
+		color:#f1f1f1;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelsay
+	{
+		color:#ffffff;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelbattleground
+	{
+		color:#ff6c00;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelguild
+	{
+		color:#02fb25;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelparty
+	{
+		color:#02fb25;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelyell
+	{
+		color:#f94c00;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelwhisper
+	{
+		color:#f77171;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelgeneral
+	{
+		color:#f5f5f5;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer .messageChannelNPC
+	{
+		color:#fff29a;
+	}
+	
+	/*
+		Chat embedded objects
+	*/
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer div .chatChannelName
+	{
+		
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer div .chatObjectplayer
+	{
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer div .chatObjectitempoor
+	{
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer div .chatObjectitemfair
+	{
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+		color:#30fe00;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer div .chatObjectitemsuperior
+	{
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+		color:#046ee6;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer div .chatObjectitemmasterwork
+	{
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+		color:#a200ff;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer div .chatObjectquest
+	{
+		
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatMessagesContainer .chatFloatingContainer div .chatObjectbuff
+	{
+		cursor:url('/img/cursors/bughandcursor.png'), auto;
+		color:#fcc92e;
+	}
+	
+	.component.bugcraft .chatPage .chatWindowContainer .chatInput
+	{
+		color:#ffdbdb;
+		text-shadow: #000101 1px 1px 1px;
+		padding: 0px;
+		margin: 0px;
+		border:none;
+		background-image:url('/img/chat/chatBarSolid.png');
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:top left;
+		width: 100%;
+		height:17px;
+		z-index:3;
+		position:relative;
+		opacity:0.5;
+		-moz-opacity:0.5;
+		margin-left:2px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

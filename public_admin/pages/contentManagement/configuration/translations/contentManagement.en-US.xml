@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="en-US">
+	
+	<component name="headerMeta">
+		<field name="title">Site Administration</field>
+		<field name="description">Citrus fruit wholesaler.</field>
+	</component>
+	
+<component name="footerCopyright">
+		<custom>
+			<field name="copyright"><![CDATA[Copyright (c) 2009 eMotion Concept. All rights reserved.]]></field>
+		</custom>
+		<menu>
+			<entry id="1"><![CDATA[terms of use]]></entry>
+			<entry id="2"><![CDATA[privacy policy]]></entry>
+			<entry id="3"><![CDATA[powered by Ascent]]></entry>
+		</menu>
+	</component><component name="rssFeedFront">
+		<field name="leftText">Latest Info:</field>
+	</component><component name="contentManagement">
+		<scenario for="add">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="edit">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+		<scenario for="list">
+			<field name="title1">Text1</field>
+			<field name="title2">Text2</field>
+			<field name="title3">Text3</field>
+			<field name="title4">Text4</field>
+		</scenario>
+	</component><component name="staticContent">
+		<scenario for="add">
+			<field name="applyButton"><![CDATA[apply]]></field>
+			<field name="cancelButton"><![CDATA[cancel]]></field>
+			<field name="sendButton"><![CDATA[send]]></field>
+			<field name="publishState"><![CDATA[Availability]]></field>
+			<field name="publishStateDescription"><![CDATA[]]></field>
+			<field name="publishAccept"><![CDATA[published (publicly available)]]></field>
+			<field name="publishDeny"><![CDATA[unpublished (not available to users)]]></field>
+			<field name="button1"><![CDATA[add a new page]]></field>
+			<field name="tag"><![CDATA[tagged as]]></field>
+			<field name="tagDescription"><![CDATA[the tag is used by other components in the system, in order that they display content.]]></field>
+			<field name="pageTitle"><![CDATA[add content]]></field>
+			<field name="title"><![CDATA[new page title]]></field>
+			<field name="shortText"><![CDATA[scurta descriere]]></field>
+			<field name="shortTextDescription"><![CDATA[Write a short resume of the page content. This text will also be displayed in the newsShort component.]]></field>
+			<field name="longText"><![CDATA[detailed content]]></field>
+			<field name="longTextDescription"><![CDATA[Use advanced formatting to improve the text's visual aspect. The content will look the same way on page as it does here.]]></field>
+			<field name="readError"><![CDATA[Oops! It seems we've run into a small glitch while getting some data from the server. The error is logged and we'll solve it soon.]]></field>
+						
+			<errors>
+				<error id="601"><![CDATA[Please enter a title.]]></error>
+				<error id="602"><![CDATA[Please enter the content.]]></error>
+				<error id="603"><![CDATA[Please choose the status.]]></error>
+			</errors>
+		</scenario>
+		<scenario for="edit">
+			<field name="applyButton"><![CDATA[apply]]></field>
+			<field name="pageTitle"><![CDATA[edit page]]></field>
+			<field name="cancelButton"><![CDATA[cancel]]></field>
+			<field name="sendButton"><![CDATA[send]]></field>
+			<field name="publishState"><![CDATA[Availability]]></field>
+			<field name="publishStateDescription"><![CDATA[]]></field>
+			<field name="publishAccept"><![CDATA[published (publicly available)]]></field>
+			<field name="publishDeny"><![CDATA[unpublished (not available to users)]]></field>
+			<field name="button1"><![CDATA[add a new page]]></field>
+			<field name="tag"><![CDATA[tagged as]]></field>
+			<field name="tagDescription"><![CDATA[the tag is used by other components in the system, in order that they display content.]]></field>
+			<field name="pageTitle"><![CDATA[edit content]]></field>
+			<field name="title"><![CDATA[page title]]></field>
+			<field name="shortText"><![CDATA[short description]]></field>
+			<field name="shortTextDescription"><![CDATA[Write a short resume of the page content. This text will also be displayed in the newsShort component.]]></field>
+			<field name="longText"><![CDATA[detailed content]]></field>
+			<field name="longTextDescription"><![CDATA[Use advanced formatting to improve the text's visual aspect. The content will look the same way on page as it does here.]]></field>
+			<field name="readError"><![CDATA[Oops! It seems we've run into a small glitch while getting some data from the server. The error is logged and we'll solve it soon.]]></field>
+						
+			<errors>
+				<error id="601"><![CDATA[Please enter a title.]]></error>
+				<error id="602"><![CDATA[Please enter the content.]]></error>
+				<error id="603"><![CDATA[Please choose the status.]]></error>
+			</errors>
+		</scenario>
+		<scenario for="list">
+			<field name="filterLanguage"><![CDATA[Show content in]]></field>
+			<field name="published"><![CDATA[published]]></field>
+			<field name="unpublished"><![CDATA[unpublished]]></field>
+			<field name="button1"><![CDATA[add a new page]]></field>
+			<field name="taggedAs"><![CDATA[tagged as]]></field>
+			<field name="createDate"><![CDATA[created on]]></field>
+			<field name="editDate"><![CDATA[edited on]]></field>
+			<field name="pageTitle"><![CDATA[Static Content]]></field>
+			<field name="readError"><![CDATA[Oops! It seems we've run into a small glitch while getting some data from the server. The error is logged and we'll solve it soon.]]></field>
+			<field name="deleteLink"><![CDATA[Delete]]></field>
+			<field name="publishLink"><![CDATA[Publish]]></field>
+			<field name="unpublishLink"><![CDATA[Unpublish]]></field>
+			<field name="button1"><![CDATA[Adauga]]></field>
+			<field name="withSelected"><![CDATA[with selected]]></field>
+			<field name="globalSwitchHover"><![CDATA[Check/Uncheck All]]></field>
+			<field name="addSubPageLink"><![CDATA[Add subpage]]></field>
+		</scenario>
+	</component></translation>

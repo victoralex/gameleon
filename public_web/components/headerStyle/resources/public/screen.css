@@ -1,0 +1,260 @@
+/*
+		CSS Reset
+	*/
+	
+	h1 {
+		/*18px via YUI Fonts CSS foundation*/
+		font-size:138.5%;  
+	}
+	h2 {
+		/*16px via YUI Fonts CSS foundation*/
+		font-size:123.1%; 
+	}
+	h3 {
+		/*14px via YUI Fonts CSS foundation*/
+		font-size:108%;  
+	}
+	h1,h2,h3 {
+		/* top & bottom margin based on font size */
+		margin:1em 0;
+	}
+	h1,h2,h3,h4,h5,h6,strong {
+		/*bringing boldness back to headers and the strong element*/
+		font-weight:bold; 
+	}
+	abbr,acronym {
+		/*indicating to users that more info is available */
+		border-bottom:1px dotted #000;
+		cursor:help;
+	} 
+	em {
+		/*bringing italics back to the em element*/
+		font-style:italic;
+	}
+	blockquote,ul,ol,dl {
+		/*giving blockquotes and lists room to breath*/
+		margin:1em;
+	}
+	ol,ul,dl {
+		/*bringing lists on to the page with breathing room */
+		margin-left:2em;
+	}
+	ol li {
+		/*giving OL's LIs generated numbers*/
+		list-style: decimal outside;	
+	}
+	ul li {
+		/*giving UL's LIs generated disc markers*/
+		list-style: disc outside;
+	}
+	dl dd {
+		/*giving UL's LIs generated numbers*/
+		margin-left:1em;
+	}
+	th,td {
+		/*borders and padding to make the table readable*/
+		border:1px solid #000;
+		padding:.5em;
+	}
+	th {
+		/*distinguishing table headers from data cells*/
+		font-weight:bold;
+		text-align:center;
+	}
+	caption {
+		/*coordinated marking to match cell's padding*/
+		margin-bottom:.5em;
+		/*centered so it doesn't blend in to other content*/
+		text-align:center;
+	}
+	p,fieldset,table {
+		/*so things don't run into each other*/
+		margin-bottom:1em;
+	}
+	
+	BODY
+	{
+		margin:0px;
+		padding:0px;
+	}
+	
+	FORM
+	{
+		margin:0px;
+		padding:0px;
+	}
+	
+	/*
+		Starting Layout
+	*/
+	
+	body
+	{
+		text-align:center;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		/*background-image:url('/img/background.png');*/
+		background-repeat:no-repeat;
+		background-position:top center;
+		background-color:#000000;
+		overflow-x:hidden;
+	}
+	
+	body.incompatibleBodyBackground
+	{
+		overflow-y:hidden;
+	}
+	
+	body.alternateBodyBackground1
+	{
+		background-image:url('/img/background1.jpg');
+	}
+	
+	body.alternateBodyBackground2
+	{
+		background-image:url('/img/newCharacter/login_wallpaper_with_shadows.jpg');
+	}
+	
+	body.alternateBodyBackground3
+	{
+		background-image:url('/img/selectCharacter/background.jpg');
+	}
+	
+	img, div
+	{
+		/*behavior: url('[rootURL]/components/headerStyle/resources/public/iepngfix.htc');*/
+	}
+	
+	canvas
+	{
+		/*-webkit-transform: scale3d(2, 2, 0) translate3d(200px, 110px, 0);*/
+	}
+	
+	/*
+		Table CSS
+	*/
+	
+	.table
+	{
+		
+	}
+	
+	.table .tableRow, .table .tableRowError
+	{
+		margin-bottom:5px;
+		text-align:center;
+	}
+	
+	.table .tableRow .separatorTitle, .table .tableRowError .separatorTitle
+	{
+		font-size:16px;
+		margin:0px;
+		margin-bottom:5px;
+		margin-top:20px;
+		text-align:left;
+		width:450px;
+		text-transform:capitalize;
+		font-family:Arial, Helvetica, sans-serif;
+		color:#4f4f4f;
+		font-weight:bold;
+		display:inline-block;
+	}
+	
+	.table .tableRow .textCell, .table .tableRowError .textCell
+	{
+		display:inline-block;
+		#display:inline;
+		width:140px;
+		text-align:left;
+		vertical-align:top;
+		padding-top:4px;
+		padding-right:10px;
+		color:#4f4f4f;
+		text-transform:capitalize;
+	}
+	
+	.table .tableRowError .textCell
+	{
+		color:#C00;
+	}
+	
+	.table .tableRow .inputCell, .table .tableRowError .inputCell
+	{
+		display:inline-block;
+		#display:inline;
+		width:300px;
+		text-align:left;
+	}
+	
+	.table .tableRow .inputCell TEXTAREA, .table .tableRowError .inputCell TEXTAREA
+	{
+		width:300px;
+		height:100px;
+		overflow:auto;
+		padding:5px;
+		padding-right:0px;
+		#padding-right:5px;
+		font-size:12px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	
+	.table .tableRow .inputCell .inputRadio, .table .tableRowError .inputCell .inputRadio
+	{
+		float:left;
+	}
+	
+	.table .tableRow .inputCell LABEL, .table .tableRowError .inputCell LABEL
+	{
+		float:left;
+		margin-top:2px;
+		text-transform:capitalize;
+	}
+	
+	.table .tableRow .inputCell .inputText, .table .tableRowError .inputCell .inputText
+	{
+		width:300px;
+		padding-left:5px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	
+	.table .tableRow .inputCell .inputFile, .table .tableRowError .inputCell .inputFile
+	{
+		width:300px;
+		padding-left:5px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	
+	.table .tableRow .inputCell .inputSubmit, .table .tableRowError .inputCell .inputSubmit
+	{
+		width:150px;
+		margin-left:150px;
+		text-transform:capitalize;
+	}
+	
+	.table .tableRow .inputCell .inputFile, .table .tableRowError .inputCell .inputFile
+	{
+		width:300px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,47 @@
+
+	/*
+		login CSS Screen Template
+	*/
+	
+	.component.login
+	{
+		width:755px;
+		height:600px;
+		text-align:center;
+	}
+	
+	.component.login .logo
+	{
+		margin-left:305px;
+		margin-top:250px;
+		background-image:url('/img/bugicon.png');
+		background-repeat:no-repeat;
+		background-position:center center;
+		width:145px;
+		height:144px;
+	}
+	
+	.component.login .loaderContainer
+	{
+		margin-left:305px;
+		margin-top:10px;
+		text-align:center;
+		background-image:url('/img/loaderBackground.png');
+		background-repeat:no-repeat;
+		background-position:center center;
+		width:145px;
+		height:40px;
+	}
+	
+	.component.login .loaderContainer .loader
+	{
+		margin-top:4px;
+		display:inline-block;
+		#display:inline;
+		background-image:url('/img/loader.gif');
+		background-repeat:no-repeat;
+		background-position:center center;
+		width:32px;
+		height:32px;
+	}
+	

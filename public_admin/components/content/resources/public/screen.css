@@ -1,0 +1,535 @@
+
+	/*
+		content CSS Screen Template
+	*/
+	
+	.content
+	{
+		margin-bottom:25px;
+	}
+	
+	.content .topArea
+	{
+		background-image:url('/components/content/resources/public/img/header.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:723px;
+		height:70px;
+		display:inline-block;
+	}
+	
+	.content .topArea .title
+	{
+		font-size:20px;
+		margin-top:22px;
+		text-align:left;
+		margin-left:40px;
+		width:300px;
+		color:#e2e2e2;
+		float:left;
+		text-transform:capitalize;
+	}
+	
+	.content .topArea .menu
+	{
+		display:inline-block;
+		width:363px;
+		height:62px;
+		text-align:right;
+		margin-right:20px;
+		float:left;
+		margin-top:8px;
+	}
+	
+	.content .topArea .menu .buttonOverBack
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/content/resources/public/img/back_hover.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.content .topArea .menu .buttonOutBack
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/content/resources/public/img/back_out.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.content .topArea .menu .buttonOverAdd
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/content/resources/public/img/add_hover.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.content .topArea .menu .buttonOutAdd
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/content/resources/public/img/add_out.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.content .topArea .menu .buttonOverList
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/content/resources/public/img/list_hover.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.content .topArea .menu .buttonOutList
+	{
+		display:inline-block;
+		#float:right;
+		background-image:url('/components/content/resources/public/img/list_out.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:82px;
+		height:56px;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	/*
+		Grid
+	*/
+	
+	.content .gridArea
+	{
+		text-align:left;
+		display:inline-block;
+		width:713px;
+	}
+	
+	.content .gridArea FORM
+	{
+		margin:0px;
+		padding:0px;
+	}
+	
+	.content .gridArea .filters
+	{
+		margin-top:20px;
+		text-align:right;
+		padding-right:20px;
+		padding-bottom:5px;
+	}
+	
+	.content .gridArea .filters .filter SPAN
+	{
+		color:#efefef;
+		padding:0px;
+		margin-right:5px;
+	}
+	
+	.content .gridArea .filters .filter SELECT
+	{
+		font-size:10px;
+		margin:0px;
+		padding:0px;
+	}
+	
+	.content .gridArea .filters .filter SELECT OPTION
+	{
+		font-size:10px;
+		margin:0px;
+		padding:0px;
+	}
+	
+	.content .gridArea .top
+	{
+		background-image:url('/components/content/resources/public/img/grid_top.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:713px;
+		height:17px;
+	}
+	
+	.content .gridArea .middle
+	{
+		border-left:1px solid #444444;
+		border-right:1px solid #444444;
+		background-color:#2e2e2e;
+		width:710px;
+	}
+	
+	.content .gridArea .middle .errorRow
+	{
+		padding-top:10px;
+		padding-bottom:20px;
+		padding-left:50px;
+		padding-right:50px;
+		color:#ffffff;
+		text-align:center;
+	}
+	
+	.content .gridArea .middle .row
+	{
+		border-bottom:1px solid #444444;
+		color:#ebe7e8;
+		padding-top:15px;
+		padding-bottom:10px;
+		width:710px;
+	}
+	
+	.content .gridArea .middle .row:hover
+	{
+		background-color:#151515;
+	}
+	
+	.content .gridArea .middle .row .options
+	{
+		width:22px;
+		margin-left:20px;
+		margin-right:35px;
+		display:inline-block;
+		#float:left;
+	}
+	
+	.content .gridArea .middle .row:hover .options
+	{
+		background-color:#151515;
+	}
+	
+	.content .gridArea .middle .row .options .buttonUnchecked
+	{
+		margin-top:20px;
+		background-image:url('/components/content/resources/public/img/unchecked.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:22px;
+		height:21px;
+		margin:0px;
+		display:inline-block;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.content .gridArea .middle .row .options .buttonChecked
+	{
+		margin-top:20px;
+		background-image:url('/components/content/resources/public/img/checked.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:22px;
+		height:21px;
+		margin:0px;
+		display:inline-block;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.content .gridArea .middle .row .content, .content .gridArea .middle .row .content_1, .content .gridArea .middle .row .content_2
+	{
+		display:inline-block;
+		#float:left;
+		vertical-align:top;
+	}
+	
+	.content .gridArea .middle .row .content .text, .content .gridArea .middle .row .content_1 .text, .content .gridArea .middle .row .content_2 .text
+	{
+		display:block;
+	}
+	
+	.content .gridArea .middle .row .content .text:hover, .content .gridArea .middle .row .content_1 .text:hover, .content .gridArea .middle .row .content_2 .text:hover
+	{
+		font-weight:bold;
+	}
+	
+	.content .gridArea .middle .row .content .meta, .content .gridArea .middle .row .content_1 .meta, .content .gridArea .middle .row .content_2 .meta
+	{
+		font-size:10px;
+		margin-right:5px;
+		color:#afafaf;
+	}
+	
+	.content .gridArea .middle .row .content .meta .label, .content .gridArea .middle .row .content_1 .meta .label, .content .gridArea .middle .row .content_2 .meta .label
+	{
+		font-weight:bold;
+		margin-right:5px;
+		text-transform:capitalize;
+	}
+	
+	.content .gridArea .middle .row .content A:link, .content .gridArea .middle .row .content A:visited, .content .gridArea .middle .row .content_1 A:link, .content .gridArea .middle .row .content_1 A:visited, .content .gridArea .middle .row .content_2 A:link, .content .gridArea .middle .row .content_2 A:visited
+	{
+		color:#ffffff;
+		text-decoration:none;
+	}
+	
+	.content .gridArea .middle .row .content A:hover, .content .gridArea .middle .row .content_1 A:hover, .content .gridArea .middle .row .content_2 A:hover
+	{
+		
+	}
+	
+	.content .gridArea .middle .row .content .contentOptions, .content .gridArea .middle .row .content_1 .contentOptions, .content .gridArea .middle .row .content_2 .contentOptions
+	{
+		margin-top:5px;
+	}
+	
+	.content .gridArea .middle .row .content .contentOptions A:link, .content .gridArea .middle .row .content .contentOptions A:visited, .content .gridArea .middle .row .content_1 .contentOptions A:link, .content .gridArea .middle .row .content_1 .contentOptions A:visited, .content .gridArea .middle .row .content_2 .contentOptions A:link, .content .gridArea .middle .row .content_2 .contentOptions A:visited
+	{
+		font-size:10px;
+	}
+	
+	.content .gridArea .middle .row .content .contentOptions .addLink, .content .gridArea .middle .row .content_1 .contentOptions .addLink, .content .gridArea .middle .row .content_2 .contentOptions .addLink
+	{
+		background-image:url('/components/content/resources/public/img/add.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		padding-left:16px;
+	}
+	
+	/* Nesting levels */
+	.content .gridArea .middle .row .content_1
+	{
+		margin-left:15px;
+	}
+	
+	.content .gridArea .middle .row .content_2
+	{
+		margin-left:30px;
+	}
+	
+	/*
+		Bottom Buttons
+	*/
+	
+	.content .gridArea .bottomButtons
+	{
+		background-image:url('/components/content/resources/public/img/grid_bottom.png');
+		background-repeat:no-repeat;
+		background-position:bottom left;
+		width:682px;
+		height:49px;
+		text-align:right;
+		text-transform:capitalize;
+		color:#ffffff;
+		padding-top:5px;
+		padding-left:10px;
+		padding-right:31px;
+		display:inline-block;
+	}
+	
+	.content .gridArea .bottomButtons .submitLink
+	{
+		display:inline-block;
+		float:right;
+		background-image:url('/components/content/resources/public/img/submit.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:130px;
+		height:33px;
+		text-align:center;
+		padding-top:8px;
+		margin-top:5px;
+		margin-right:10px;
+	}
+	
+	.content .gridArea .bottomButtons .submitLink A:link, .content .gridArea .bottomButtons .submitLink A:visited
+	{
+		text-decoration:none;
+		color:#afafaf;
+	}
+	
+	.content .gridArea .bottomButtons .submitLink A:hover
+	{
+		color:#ffffff;
+	}
+	
+	/*
+		Bottom General
+	*/
+	
+	.content .gridArea .bottom
+	{
+		background-image:url('/components/content/resources/public/img/grid_bottom.png');
+		background-repeat:no-repeat;
+		background-position:bottom left;
+		width:713px;
+		height:49px;
+		display:inline-block;
+		text-transform:capitalize;
+		color:#ffffff;
+		padding-top:5px;
+		padding-left:10px;
+		padding-right:10px;
+	}
+	
+	.content .gridArea .bottom .options
+	{
+		margin-top:10px;
+		width:22px;
+		margin-left:10px;
+		margin-right:35px;
+		display:inline-block;
+		#float:left;
+	}
+	
+	.content .gridArea .bottom .options .buttonUnchecked
+	{
+		margin-top:20px;
+		background-image:url('/components/content/resources/public/img/unchecked.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:22px;
+		height:21px;
+		margin:0px;
+		display:inline-block;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.content .gridArea .bottom .options .buttonChecked
+	{
+		margin-top:20px;
+		background-image:url('/components/content/resources/public/img/checked.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		width:22px;
+		height:21px;
+		margin:0px;
+		display:inline-block;
+		cursor:pointer;
+		#cursor:hand;
+	}
+	
+	.content .gridArea .bottom .content
+	{
+		margin-top:15px;
+		display:inline-block;
+		#float:left;
+		vertical-align:top;
+	}
+	
+	.content .gridArea .bottom .content .linkContainer
+	{
+		width:200px;
+		margin-right:20px;
+		display:inline;
+	}
+	
+	.content .gridArea .bottom .content .linkContainer .delete
+	{
+		padding-left:18px;
+		background-image:url('/components/content/resources/public/img/delete_page.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+	}
+	
+	.content .gridArea .bottom .content .linkContainer .publish
+	{
+		padding-left:18px;
+		background-image:url('/components/content/resources/public/img/folder_accept.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+	}
+	
+	.content .gridArea .bottom .content .linkContainer .unpublish
+	{
+		padding-left:18px;
+		background-image:url('/components/content/resources/public/img/delete_folder.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+	}
+	
+	.content .gridArea .bottom .content A:link, .content .gridArea .bottom .content A:visited
+	{
+		color:#aaaaaa;
+		font-size:10px;
+	}
+	
+	.content .gridArea .bottom .content A:hover
+	{
+		text-decoration:none;
+	}
+	
+	/*
+		Error Block
+	*/
+	
+		.content .errorBlock
+	{
+		text-align:center;
+		display:inline-block;
+	}
+	
+	.content .errorBlock .top
+	{
+		background-image:url('/components/content/resources/public/img/sus-gir_03.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		#filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/components/content/resources/public/img/sus-gir_03.png',sizingMethod='crop');
+		#background-image:none;
+		width:493px;
+		height:22px;
+	}
+	
+	.content .errorBlock .middle
+	{
+		background-image:url('/components/content/resources/public/img/sus-gir_05.png');
+		background-repeat:no-repeat;
+		background-position:top left;
+		#filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/components/content/resources/public/img/sus-gir_05.png',sizingMethod='crop');
+		#background-image:none;
+		width:473px;
+		color:#555555;
+		font-size:12px;
+		padding-left:10px;
+		padding-right:10px;
+		font-weight:bold;
+	}
+	
+	.content .errorBlock .bottom
+	{
+		background-image:url('/components/content/resources/public/img/sus-gir_06.png');
+		background-repeat:no-repeat;
+		background-position:bottom left;
+		#filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/components/content/resources/public/img/sus-gir_06.png',sizingMethod='crop');
+		#background-image:none;
+		width:493px;
+		height:22px;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,39 @@
+	
+	/*=====================
+		Market Page
+	=======================*/
+
+	.component.bugcraft .middle .main .market
+	{
+		padding-top:50px;
+	}
+
+	.component.bugcraft .middle .main .market .auction_add
+	{
+
+		width:200px;
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+		margin-left:50px;
+		
+	}
+
+	.component.bugcraft .middle .main .market .auction_add .placeHolder
+	{
+		
+		background-color:#ffff00;
+		width:70px;
+		height:70px;
+		
+	}
+	
+	.component.bugcraft .middle .main .market .auction_items
+	{
+		width:300px;
+		display:inline-block;
+		#display:inline;
+		vertical-align:top;
+		
+	}
+	

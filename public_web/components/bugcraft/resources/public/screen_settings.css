@@ -1,0 +1,88 @@
+
+	/*
+		Settings CSS Screen
+	*/
+	
+	.component.bugcraft .settingsPage
+	{
+		background-image:url('/img/settings/menu_paper.png');
+		background-repeat:no-repeat;
+		background-position:left top;
+		width:200px;
+		height:280px;
+		#height:300px;
+		display:block;
+		position:absolute;
+		margin-top:100px;
+		margin-left:280px;
+		padding-top:20px;
+	}
+	
+	.component.bugcraft .settingsPage .windowTitle
+	{
+		font-family:oldenglishtext;
+		font-size:20px;
+		margin-bottom:10px;
+	}
+	
+	.component.bugcraft .settingsPage .button, .component.bugcraft .settingsPage .buttonSeparateGroup
+	{
+		display:inline-block;
+		#display:inline;
+		cursor:url('/img/cursors/bughandcursor.png'), auto;;
+		#cursor:hand;
+		width:149px;
+		height:23px;
+		#height:30px;
+		background-image: url('/img/lookingForBattleground/btn.png');
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		text-align:center;
+		padding-top:7px;
+		font-size:14px;
+		color:#dfdfdf;
+		margin-bottom:10px;
+	}
+	
+	.component.bugcraft .settingsPage .buttonSeparateGroup
+	{
+		background-position: left top;
+		margin-top:20px;
+		margin-bottom:0px;
+	}
+	
+	.component.bugcraft .settingsPage .button:hover, .component.bugcraft .settingsPage .buttonSeparateGroup:hover
+	{
+		color:#ffffff;
+		background-position: left top;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="ro-RO">
+	
+	<component name="news">
+	
+		<scenario for="list">
+			
+			<field name="filterLanguage"><![CDATA[Arata continutul in]]></field>
+			<field name="published"><![CDATA[publicat]]></field>
+			<field name="unpublished"><![CDATA[nepublicat]]></field>
+			<field name="button1"><![CDATA[adauga o pagina noua]]></field>
+			<field name="createDate"><![CDATA[data crearii]]></field>
+			<field name="pageTitle"><![CDATA[News]]></field>
+			<field name="readError"><![CDATA[Oops! Se pare ca am dat peste o mica problema in timp ce am citit date de la server. Am notat eroarea si o vom rezolva rapid.]]></field>
+			<field name="deleteLink"><![CDATA[Sterge]]></field>
+			<field name="publishLink"><![CDATA[Publica]]></field>
+			<field name="unpublishLink"><![CDATA[Respinge]]></field>
+			<field name="withSelected"><![CDATA[cu elementele selectate]]></field>
+			<field name="globalSwitchHover"><![CDATA[Bifeaza/Debifeaza toate stirile]]></field>
+
+		</scenario>
+		
+		<scenario for="add">
+		
+			<field name="applyButton"><![CDATA[aplica]]></field>
+			<field name="cancelButton"><![CDATA[anuleaza]]></field>
+			<field name="sendButton"><![CDATA[salveaza]]></field>
+			<field name="publishState"><![CDATA[status]]></field>
+			<field name="publishStateDescription"><![CDATA[]]></field>
+			<field name="publishAccept"><![CDATA[publicat]]></field>
+			<field name="publishDeny"><![CDATA[nepublicat]]></field>
+			<field name="button1"><![CDATA[adauga o pagina noua]]></field>
+			<field name="pageTitle"><![CDATA[adaugare de stiri]]></field>
+			<field name="title"><![CDATA[titlu]]></field>
+			<field name="shortStory"><![CDATA[scurta descriere]]></field>
+			<field name="shortStoryDescription"><![CDATA[Scrieti un rezumat foarte scurt al stirii. Acest text va fi afisat si in cadrul componentei newsShort.]]></field>
+			<field name="fullStory"><![CDATA[continut detaliat]]></field>
+			<field name="fullStoryDescription"><![CDATA[Folositi formatarea avansata pentru a infrumuseta si evidentia textul. Modul in care vedeti aici continutul este identic cu cel ce va fi pe site.]]></field>
+			<field name="readError"><![CDATA[Oops! Se pare ca am dat peste o mica problema in timp ce am citit date de la server. Am notat eroarea si o vom rezolva rapid.]]></field>
+			
+			<errors>
+				<error id="501"><![CDATA[Va rugam sa introduceti un titlu]]></error>
+				<error id="502"><![CDATA[Va rugam sa introduceti o scurta descriere]]></error>
+				<error id="503"><![CDATA[Va rugam sa introduceti continutul stirii]]></error>
+			</errors>
+			
+		</scenario>
+		
+		<scenario for="edit">
+		
+			<field name="applyButton"><![CDATA[aplica]]></field>
+			<field name="cancelButton"><![CDATA[anuleaza]]></field>
+			<field name="sendButton"><![CDATA[salveaza]]></field>
+			<field name="publishState"><![CDATA[status]]></field>
+			<field name="publishStateDescription"><![CDATA[]]></field>
+			<field name="publishAccept"><![CDATA[publicat]]></field>
+			<field name="publishDeny"><![CDATA[nepublicat]]></field>
+			<field name="button1"><![CDATA[adauga o pagina noua]]></field>
+			<field name="pageTitle"><![CDATA[editare de continut]]></field>
+			<field name="title"><![CDATA[titlu]]></field>
+			<field name="shortStory"><![CDATA[scurta descriere]]></field>
+			<field name="shortStoryDescription"><![CDATA[Scrieti un rezumat foarte scurt al paginii. Acest text va fi afisat si in cadrul componentei newsShort.]]></field>
+			<field name="fullStory"><![CDATA[continut detaliat]]></field>
+			<field name="fullStoryDescription"><![CDATA[Folositi formatarea avansata pentru a infrumuseta si evidentia textul. Modul in care vedeti aici continutul este identic cu cel ce va fi pe site.]]></field>
+			<field name="readError"><![CDATA[Oops! Se pare ca am dat peste o mica problema in timp ce am citit date de la server. Am notat eroarea si o vom rezolva rapid.]]></field>
+			
+			<errors>
+				<error id="501"><![CDATA[Va rugam sa introduceti un titlu]]></error>
+				<error id="502"><![CDATA[Va rugam sa introduceti o scurta descriere]]></error>
+				<error id="503"><![CDATA[Va rugam sa introduceti continutul stirii]]></error>
+			</errors>
+
+		</scenario>
+		
+	</component>
+	
+</translation>

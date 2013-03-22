@@ -1,0 +1,63 @@
+
+	/*
+		footerCopyright CSS Screen Template
+	*/
+	
+	.footerCopyright
+	{
+		margin-top:15px;
+		text-align:center;
+		margin-bottom:50px;
+	}
+	
+	.footerCopyright .copyright
+	{
+		display:inline-block;
+		#display:inline;
+		color:#737373;
+		margin-right:30px;
+		font-size:10px;
+		height:20px;
+	}
+	
+	.footerCopyright .menu
+	{
+		display:inline-block;
+		#display:inline;
+		list-style-type:none;
+		margin:0px;
+		padding:0px;
+		height:20px;
+	}
+	
+	.footerCopyright .menu LI
+	{
+		display:inline-block;
+		#display:inline;
+		list-style-type:none;
+		margin:0px;
+		padding:0px;
+		margin-right:10px;
+		font-size:10px;
+		padding-right:10px;
+		background-image:url('/components/footerCopyright/resources/public/img/smallLine.png');
+		background-repeat:no-repeat;
+		background-position:bottom right;
+	}
+	
+	.footerCopyright .menu :last-child
+	{
+		background-image:none;
+	}
+	
+	.footerCopyright .menu LI A:link, .footerCopyright .menu LI A:visited
+	{
+		color:#a1a1a1;
+		text-decoration:none;
+		text-transform:capitalize;
+	}
+	
+	.footerCopyright .menu LI A:hover
+	{
+		text-decoration:underline;
+	}

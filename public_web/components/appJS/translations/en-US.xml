@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="en-US">
+	
+	<component name="appJS">
+		<scenario for="incompatibleBrowser">
+			<field name="message"><p>OOps! Looks like the browser you're using is <b>too old</b> to see the bugs!</p><p>Please try one of the BugTopia friendly browsers below</p></field>
+			<field name="getFirefox">Get Mozilla Firefox</field>
+			<field name="getChrome">Get Google Chrome</field>
+		</scenario>
+	</component>
+	
+</translation>

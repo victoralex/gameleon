@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation lang="en-US">
+	
+	<component name="headerMeta">
+		<field name="title">Site Administration</field>
+		<field name="description">Citrus fruit wholesaler.</field>
+	</component>
+	
+<component name="rssFeedFront">
+		<field name="leftText">Latest Info:</field>
+	</component></translation>
